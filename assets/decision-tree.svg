@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="dt-title dt-desc">
+  <title id="dt-title">Treatment choice decision tree</title>
+  <desc id="dt-desc">Decision pathway from edentulous or terminal dentition to All-on-X, overdenture, or staged reconstruction.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#334155"/>
+    </marker>
+    <filter id="soft" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="720" height="560" fill="#f8fafc"/>
+  <rect x="230" y="16" width="260" height="52" rx="10" fill="#0f766e" filter="url(#soft)"/>
+  <text x="360" y="40" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="14" font-weight="700">Edentulous / Terminal Dentition</text>
+  <text x="360" y="56" text-anchor="middle" fill="#ccfbf1" font-family="system-ui,sans-serif" font-size="11">Goals · Bone · Soft tissue · Medical · Airway</text>
+  <line x1="360" y1="68" x2="360" y2="100" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="200" y="100" width="320" height="48" rx="8" fill="#fff" stroke="#0f766e" stroke-width="2" filter="url(#soft)"/>
+  <text x="360" y="122" text-anchor="middle" fill="#0f172a" font-family="system-ui,sans-serif" font-size="13" font-weight="600">Wants fixed teeth same day?</text>
+  <text x="360" y="138" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="11">Adequate bone for ≥4 implants + primary stability?</text>
+  <line x1="200" y1="124" x2="100" y2="124" stroke="#334155" stroke-width="2"/>
+  <line x1="100" y1="124" x2="100" y2="180" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="520" y1="124" x2="620" y2="124" stroke="#334155" stroke-width="2"/>
+  <line x1="620" y1="124" x2="620" y2="180" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="145" y="118" fill="#b45309" font-family="system-ui,sans-serif" font-size="11" font-weight="700">NO / caution</text>
+  <text x="545" y="118" fill="#0f766e" font-family="system-ui,sans-serif" font-size="11" font-weight="700">YES</text>
+  <rect x="20" y="180" width="160" height="56" rx="8" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="100" y="204" text-anchor="middle" fill="#9a3412" font-family="system-ui,sans-serif" font-size="12" font-weight="700">Overdenture</text>
+  <text x="100" y="220" text-anchor="middle" fill="#c2410c" font-family="system-ui,sans-serif" font-size="10">or staged graft + delay</text>
+  <rect x="500" y="180" width="200" height="56" rx="8" fill="#ecfdf5" stroke="#0f766e" stroke-width="2"/>
+  <text x="600" y="204" text-anchor="middle" fill="#065f46" font-family="system-ui,sans-serif" font-size="12" font-weight="700">All-on-X pathway</text>
+  <text x="600" y="220" text-anchor="middle" fill="#047857" font-family="system-ui,sans-serif" font-size="10">Plan implants · bone · soft tissue</text>
+  <line x1="600" y1="236" x2="600" y2="270" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="450" y="270" width="300" height="48" rx="8" fill="#fff" stroke="#0f766e" stroke-width="2"/>
+  <text x="600" y="292" text-anchor="middle" fill="#0f172a" font-family="system-ui,sans-serif" font-size="12" font-weight="600">Restorative space &amp; smile line?</text>
+  <text x="600" y="308" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="10">Lip support · transition zone · hygiene access</text>
+  <line x1="450" y1="294" x2="280" y2="294" stroke="#334155" stroke-width="2"/>
+  <line x1="280" y1="294" x2="280" y2="340" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="600" y1="318" x2="600" y2="340" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="180" y="340" width="200" height="70" rx="8" fill="#f0fdfa" stroke="#14b8a6" stroke-width="2"/>
+  <text x="280" y="368" text-anchor="middle" fill="#0f766e" font-family="system-ui,sans-serif" font-size="13" font-weight="700">FP1 / FP2</text>
+  <text x="280" y="386" text-anchor="middle" fill="#115e59" font-family="system-ui,sans-serif" font-size="10">Minimal pink · tooth-driven</text>
+  <text x="280" y="400" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="10">Favorable ridge + low smile</text>
+  <rect x="500" y="340" width="200" height="70" rx="8" fill="#ecfeff" stroke="#0891b2" stroke-width="2"/>
+  <text x="600" y="368" text-anchor="middle" fill="#0e7490" font-family="system-ui,sans-serif" font-size="13" font-weight="700">FP3 hybrid</text>
+  <text x="600" y="386" text-anchor="middle" fill="#155e75" font-family="system-ui,sans-serif" font-size="10">Pink acrylic/zirconia base</text>
+  <text x="600" y="400" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="10">Most All-on-X cases</text>
+  <line x1="280" y1="410" x2="280" y2="450" stroke="#334155" stroke-width="1.5"/>
+  <line x1="600" y1="410" x2="600" y2="450" stroke="#334155" stroke-width="1.5"/>
+  <line x1="280" y1="450" x2="600" y2="450" stroke="#334155" stroke-width="1.5"/>
+  <line x1="440" y1="450" x2="440" y2="470" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="290" y="470" width="300" height="70" rx="8" fill="#0f172a"/>
+  <text x="440" y="498" text-anchor="middle" fill="#f8fafc" font-family="system-ui,sans-serif" font-size="13" font-weight="700">Score: GO · CAUTION · NO</text>
+  <text x="440" y="518" text-anchor="middle" fill="#94a3b8" font-family="system-ui,sans-serif" font-size="10">Torque/ISQ · medical · parafunction · airway</text>
+  <text x="440" y="532" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="10">Document rationale before surgery day</text>
+</svg>

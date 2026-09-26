@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-labelledby="fp-title fp-desc">
+  <title id="fp-title">FP1 FP2 FP3 restorative space concept</title>
+  <desc id="fp-desc">Side-by-side comparison of Misch FP1, FP2, and FP3 prosthesis designs relative to soft tissue and bone.</desc>
+  <rect width="720" height="420" fill="#f8fafc"/>
+  <text x="360" y="28" text-anchor="middle" fill="#0f172a" font-family="system-ui,sans-serif" font-size="16" font-weight="700">Misch FP1 · FP2 · FP3 — what the prosthesis replaces</text>
+  <rect x="30" y="50" width="200" height="340" rx="12" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="30" y="50" width="200" height="36" rx="12" fill="#0f766e"/>
+  <rect x="30" y="70" width="200" height="16" fill="#0f766e"/>
+  <text x="130" y="74" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="14" font-weight="700">FP1</text>
+  <rect x="50" y="300" width="160" height="60" rx="4" fill="#d6d3d1"/>
+  <text x="130" y="335" text-anchor="middle" fill="#57534e" font-family="system-ui,sans-serif" font-size="10">Bone + soft tissue OK</text>
+  <rect x="70" y="160" width="28" height="140" rx="4" fill="#f8fafc" stroke="#0f766e" stroke-width="2"/>
+  <rect x="106" y="155" width="28" height="145" rx="4" fill="#f8fafc" stroke="#0f766e" stroke-width="2"/>
+  <rect x="142" y="160" width="28" height="140" rx="4" fill="#f8fafc" stroke="#0f766e" stroke-width="2"/>
+  <ellipse cx="84" cy="160" rx="14" ry="10" fill="#ccfbf1" stroke="#0f766e"/>
+  <ellipse cx="120" cy="155" rx="14" ry="10" fill="#ccfbf1" stroke="#0f766e"/>
+  <ellipse cx="156" cy="160" rx="14" ry="10" fill="#ccfbf1" stroke="#0f766e"/>
+  <text x="130" y="120" text-anchor="middle" fill="#0f766e" font-family="system-ui,sans-serif" font-size="11" font-weight="600">Crowns only</text>
+  <text x="130" y="138" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="10">No pink · natural papilla</text>
+  <text x="130" y="385" text-anchor="middle" fill="#475569" font-family="system-ui,sans-serif" font-size="10">~≥7–10 mm space</text>
+  <rect x="260" y="50" width="200" height="340" rx="12" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="260" y="50" width="200" height="36" rx="12" fill="#0891b2"/>
+  <rect x="260" y="70" width="200" height="16" fill="#0891b2"/>
+  <text x="360" y="74" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="14" font-weight="700">FP2</text>
+  <rect x="280" y="280" width="160" height="80" rx="4" fill="#d6d3d1"/>
+  <text x="360" y="325" text-anchor="middle" fill="#57534e" font-family="system-ui,sans-serif" font-size="10">Mild vertical loss</text>
+  <rect x="300" y="140" width="28" height="140" rx="4" fill="#f8fafc" stroke="#0891b2" stroke-width="2"/>
+  <rect x="336" y="130" width="28" height="150" rx="4" fill="#f8fafc" stroke="#0891b2" stroke-width="2"/>
+  <rect x="372" y="140" width="28" height="140" rx="4" fill="#f8fafc" stroke="#0891b2" stroke-width="2"/>
+  <ellipse cx="314" cy="140" rx="14" ry="10" fill="#cffafe" stroke="#0891b2"/>
+  <ellipse cx="350" cy="130" rx="14" ry="10" fill="#cffafe" stroke="#0891b2"/>
+  <ellipse cx="386" cy="140" rx="14" ry="10" fill="#cffafe" stroke="#0891b2"/>
+  <text x="360" y="110" text-anchor="middle" fill="#0e7490" font-family="system-ui,sans-serif" font-size="11" font-weight="600">Longer clinical crowns</text>
+  <text x="360" y="385" text-anchor="middle" fill="#475569" font-family="system-ui,sans-serif" font-size="10">Little/no pink ceramic</text>
+  <rect x="490" y="50" width="200" height="340" rx="12" fill="#fff" stroke="#e2e8f0"/>
+  <rect x="490" y="50" width="200" height="36" rx="12" fill="#1e3a5f"/>
+  <rect x="490" y="70" width="200" height="16" fill="#1e3a5f"/>
+  <text x="590" y="74" text-anchor="middle" fill="#fff" font-family="system-ui,sans-serif" font-size="14" font-weight="700">FP3</text>
+  <rect x="510" y="250" width="160" height="110" rx="4" fill="#a8a29e"/>
+  <text x="590" y="310" text-anchor="middle" fill="#44403c" font-family="system-ui,sans-serif" font-size="10">Moderate–severe atrophy</text>
+  <path d="M520,220 Q590,200 660,220 L660,255 L520,255 Z" fill="#f9a8d4" stroke="#be185d" stroke-width="1.5"/>
+  <text x="590" y="242" text-anchor="middle" fill="#9d174d" font-family="system-ui,sans-serif" font-size="9" font-weight="600">Pink base</text>
+  <rect x="530" y="120" width="28" height="100" rx="4" fill="#f8fafc" stroke="#1e3a5f" stroke-width="2"/>
+  <rect x="566" y="110" width="28" height="110" rx="4" fill="#f8fafc" stroke="#1e3a5f" stroke-width="2"/>
+  <rect x="602" y="120" width="28" height="100" rx="4" fill="#f8fafc" stroke="#1e3a5f" stroke-width="2"/>
+  <ellipse cx="544" cy="120" rx="14" ry="10" fill="#e0f2fe" stroke="#1e3a5f"/>
+  <ellipse cx="580" cy="110" rx="14" ry="10" fill="#e0f2fe" stroke="#1e3a5f"/>
+  <ellipse cx="616" cy="120" rx="14" ry="10" fill="#e0f2fe" stroke="#1e3a5f"/>
+  <text x="590" y="100" text-anchor="middle" fill="#1e3a5f" font-family="system-ui,sans-serif" font-size="11" font-weight="600">Teeth + gingiva</text>
+  <text x="590" y="385" text-anchor="middle" fill="#475569" font-family="system-ui,sans-serif" font-size="10">Typical All-on-X hybrid</text>
+</svg>
