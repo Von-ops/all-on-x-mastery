@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Week 1 Quiz · All-on-X Mastery</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html">
+        <strong>All-on-X Mastery</strong>
+        <span>Week 1 · Quiz</span>
+      </a>
+      <nav class="header-nav" aria-label="Primary">
+        <a href="index.html">Module</a>
+        <a href="study-sheet.html">Sheet</a>
+        <a href="quiz.html" aria-current="page">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">10 questions · instant feedback</span>
+      <h1>Week 1 knowledge check</h1>
+      <p>Select one answer per question, then grade. Correct choices highlight in green with explanations.</p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div id="quiz-result" class="quiz-result" role="status">
+      <div>Your score</div>
+      <div class="score-big" id="score-big">0 / 10</div>
+      <p id="score-msg" style="margin:0;color:var(--slate-300)"></p>
+    </div>
+
+    <form id="quiz-form" onsubmit="return false;">
+      <div class="quiz-q" id="q1">
+        <h3>1. Per ITI terminology, immediate loading means the prosthesis is in occlusion within:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q1" value="a" /> Same calendar day only</label>
+          <label><input type="radio" name="q1" value="b" /> One week of implant placement</label>
+          <label><input type="radio" name="q1" value="c" /> Two months (early loading)</label>
+          <label><input type="radio" name="q1" value="d" /> After confirmed radiographic osseointegration only</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="quiz-q" id="q2">
+        <h3>2. Common study inclusion criteria for immediate full-arch load often include:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q2" value="a" /> Torque ≤10 Ncm and ISQ ≤40</label>
+          <label><input type="radio" name="q2" value="b" /> No torque requirement if the patient wants fixed teeth</label>
+          <label><input type="radio" name="q2" value="c" /> Insertion torque ≥30 Ncm and ISQ ≥60 (as used in many protocols)</label>
+          <label><input type="radio" name="q2" value="d" /> ISQ must be ≥90 for every implant</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="quiz-q" id="q3">
+        <h3>3. Which Misch class typically describes an All-on-X hybrid with a pink prosthetic base?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q3" value="a" /> FP3</label>
+          <label><input type="radio" name="q3" value="b" /> FP1</label>
+          <label><input type="radio" name="q3" value="c" /> RP4 only</label>
+          <label><input type="radio" name="q3" value="d" /> FP2 exclusively</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="quiz-q" id="q4">
+        <h3>4. Which scenario is the strongest reason to score NO for immediate fixed full-arch today?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q4" value="a" /> Patient prefers not to wear a removable denture long-term</label>
+          <label><input type="radio" name="q4" value="b" /> Mild, controlled hypertension</label>
+          <label><input type="radio" name="q4" value="c" /> Low smile line with adequate bone</label>
+          <label><input type="radio" name="q4" value="d" /> Severe untreated parafunction plus inability to achieve primary stability</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="quiz-q" id="q5">
+        <h3>5. The classic All-on-4 implant arrangement is:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q5" value="a" /> Four parallel posterior implants only</label>
+          <label><input type="radio" name="q5" value="b" /> Two anterior axial and two posterior distally tilted implants</label>
+          <label><input type="radio" name="q5" value="c" /> Eight implants with mandatory bilateral sinuses</label>
+          <label><input type="radio" name="q5" value="d" /> Two zygomatic implants alone</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="quiz-q" id="q6">
+        <h3>6. When choosing FP1 vs FP3, the most important drivers are:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q6" value="a" /> Implant brand loyalty</label>
+          <label><input type="radio" name="q6" value="b" /> Whether surgery is Monday or Friday</label>
+          <label><input type="radio" name="q6" value="c" /> Restorative space, smile line/transition zone, lip support, hygiene</label>
+          <label><input type="radio" name="q6" value="d" /> Only the patient’s preference for “white teeth”</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="quiz-q" id="q7">
+        <h3>7. Long-term All-on-4 literature (e.g., Maló longitudinal series) generally shows:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q7" value="a" /> High implant survival when selection and protocols are respected</label>
+          <label><input type="radio" name="q7" value="b" /> Near-zero mechanical complications forever</label>
+          <label><input type="radio" name="q7" value="c" /> That grafting is mandatory in every maxilla</label>
+          <label><input type="radio" name="q7" value="d" /> Immediate load is unpredictable in both jaws equally without criteria</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="quiz-q" id="q8">
+        <h3>8. Simultaneous major grafting / sinus elevation with plans to immediately load a full-arch fixed provisional is generally:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q8" value="a" /> The ITI first-line recommendation for every maxilla</label>
+          <label><input type="radio" name="q8" value="b" /> A relative contraindication to immediate loading</label>
+          <label><input type="radio" name="q8" value="c" /> Required to call the case “All-on-X”</label>
+          <label><input type="radio" name="q8" value="d" /> Irrelevant to loading decisions</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="quiz-q" id="q9">
+        <h3>9. An implant overdenture is often the better path when:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q9" value="a" /> The patient demands FP1 pink-free teeth with severe atrophy</label>
+          <label><input type="radio" name="q9" value="b" /> Primary stability is excellent and goals are fixed immediate</label>
+          <label><input type="radio" name="q9" value="c" /> Bone/medical/cost/compliance favor removable retention over immediate fixed</label>
+          <label><input type="radio" name="q9" value="d" /> You have never placed a locator abutment</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="quiz-q" id="q10">
+        <h3>10. All-on-XYZ thinking means planning:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q10" value="a" /> Only implant length and brand</label>
+          <label><input type="radio" name="q10" value="b" /> Only CBCT bone volume</label>
+          <label><input type="radio" name="q10" value="c" /> Only gingival graft needs</label>
+          <label><input type="radio" name="q10" value="d" /> Implants + bone + soft tissue together from the prosthetic goal</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="btn-row">
+        <button type="button" class="btn btn-primary" id="grade-quiz">Grade quiz</button>
+        <button type="button" class="btn btn-ghost" id="reset-quiz">Reset</button>
+        <a class="btn btn-secondary" href="study-sheet.html">Study sheet</a>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p><a href="index.html">Back to Week 1 module</a></p>
+  </footer>
+  <script src="../js/quiz.js"></script>
+</body>
+</html>
