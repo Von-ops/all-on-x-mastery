@@ -10,6 +10,17 @@ Published at: **https://von-ops.github.io/all-on-x-mastery/**
 
 Safari → Share → **Add to Home Screen** for app-like access. Progress (Mark done) saves in that browser via localStorage.
 
+### Enable GitHub Pages (one-time, required)
+
+Until Pages is enabled in repo settings, that URL returns 404. Do this once as the repo owner:
+
+1. Open **https://github.com/Von-ops/all-on-x-mastery/settings/pages**
+2. Under **Build and deployment → Source**, choose either:
+   - **Deploy from a branch** → Branch: `main` → Folder: `/ (root)` → Save  
+     **or**
+   - **GitHub Actions** → then re-run the “Deploy GitHub Pages” workflow under Actions
+3. Wait 1–2 minutes, then refresh https://von-ops.github.io/all-on-x-mastery/
+
 ## Open locally
 
 ### Option A — Python server
@@ -36,7 +47,7 @@ Open `index.html` in a browser. Relative CSS/JS/SVG paths work offline. YouTube 
   js/patients.js
   assets/*.svg
   week1/
-    index.html
+    index.html          (loads full module from b64-*.txt)
     study-sheet.html
     quiz.html
 ```
