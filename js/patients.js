@@ -4,7 +4,11 @@
     p2: { answer: "go", tip: "GO (with disciplined protocol): healthy, good bone, low smile, motivated—classic All-on-X immediate-load candidate if torque/ISQ confirm and conversion is ready." },
     p3: { answer: "no", tip: "NO for immediate fixed full-arch today: severe untreated OSA + extreme bruxism + poor hygiene compliance. Treat airway / habits first; consider overdenture or staged after risk reduction." }
   };
-  document.addEventListener("DOMContentLoaded", () => {
+  function __aoxInit(fn) {
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", fn);
+    else fn();
+  }
+  __aoxInit(() => {
     document.querySelectorAll("[data-patient]").forEach((card) => {
       const id = card.getAttribute("data-patient");
       const fb = card.querySelector(".score-feedback");

@@ -30,7 +30,11 @@
     if (fill) fill.style.width = pct + "%";
     if (label) label.textContent = n + "/" + sections.length;
   }
-  document.addEventListener("DOMContentLoaded", () => {
+  function __aoxInit(fn) {
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", fn);
+    else fn();
+  }
+  __aoxInit(() => {
     document.querySelectorAll(".mark-done").forEach((btn) => {
       btn.addEventListener("click", () => {
         const section = btn.closest("[data-section]");
