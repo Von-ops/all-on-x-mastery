@@ -8,7 +8,29 @@
   <link rel="stylesheet" href="../css/styles.css" />
 </head>
 <body>
-  <p style="padding:2rem;font-family:system-ui">Temporary stub — full module upload in progress. Open study-sheet or quiz meanwhile.</p>
-  <p><a href="study-sheet.html">Study sheet</a> · <a href="quiz.html">Quiz</a> · <a href="../index.html">Home</a></p>
+  <div id="boot" style="padding:2rem;font-family:system-ui;color:#334155">Loading Week 1 module…</div>
+  <script>
+  (async () => {
+    const [a, b] = await Promise.all([
+      fetch('part1.fragment.html').then(r => { if (!r.ok) throw new Error(r.status); return r.text(); }),
+      fetch('part2.fragment.html').then(r => { if (!r.ok) throw new Error(r.status); return r.text(); }),
+    ]);
+    const boot = document.getElementById('boot');
+    if (boot) boot.remove();
+    document.body.insertAdjacentHTML('beforeend', a + b);
+    for (const src of ['../js/progress.js', '../js/patients.js']) {
+      await new Promise((resolve, reject) => {
+        const s = document.createElement('script');
+        s.src = src;
+        s.onload = resolve;
+        s.onerror = reject;
+        document.body.appendChild(s);
+      });
+    }
+  })().catch(err => {
+    const boot = document.getElementById('boot');
+    if (boot) boot.textContent = 'Failed to load module: ' + err;
+  });
+  </script>
 </body>
 </html>
