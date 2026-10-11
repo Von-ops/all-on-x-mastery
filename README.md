@@ -1,6 +1,6 @@
-# All-on-X Mastery — Week 1
+# All-on-X Mastery — Weeks 1–2
 
-Personal study site for **Kevon Rennie**: foundations & case selection for full-arch immediate load (aligned with Pikos Full Arch All-on-XYZ Level 2 + SmartOnX SDC 2.0 concepts).
+Personal study site for **Kevon Rennie**: foundations & case selection (Week 1) and surgical planning & armamentarium (Week 2) for full-arch immediate load (aligned with Pikos Full Arch All-on-XYZ Level 2 + SmartOnX SDC 2.0 concepts).
 
 **Not** a substitute for manufacturer IFUs, CE accreditation, or live mentorship.
 
@@ -50,7 +50,17 @@ Open `index.html` in a browser. Relative CSS/JS/SVG paths work offline. YouTube 
     index.html          (loads full module from b64-*.txt)
     study-sheet.html
     quiz.html
+  week2/
+    index.html          (full module)
+    study-sheet.html
+    quiz.html
 ```
+
+### JS conventions (shared scripts, per-week config)
+
+- `js/progress.js` — "Mark done" progress; storage key from `<body data-progress-key="aox-weekN-done">` (defaults to Week 1).
+- `js/patients.js` — GO/CAUTION/NO vignettes; pages may set `window.AOX_PATIENT_KEYS` before loading it (defaults to Week 1).
+- `js/quiz.js` — quiz grading; pages may set `window.AOX_QUIZ = { answers, storageKey, messages }` before loading it (defaults to Week 1).
 
 ## Week 1 outline
 
@@ -63,6 +73,22 @@ Open `index.html` in a browser. Relative CSS/JS/SVG paths work offline. YouTube 
 7. Red flags
 8. Score 3 patients
 9. Study sheet + quiz
+
+## Week 2 outline — Surgical planning & armamentarium
+
+1. Learning objectives
+2. CBCT-based planning & anatomy
+3. Restorative-driven planning & prosthetic space
+4. Bone reduction & the transition line
+5. Implant number, position & A-P spread / cantilever
+6. Multi-unit abutments & angulation
+7. Guided vs freehand (reduction / stackable guides)
+8. Primary stability targets & plan B
+9. Medical & pharmacologic risk review
+10. Sedation & anesthesia planning
+11. Armamentarium, team & pre-op workflow
+12. Case planning worksheet + 3 plan vignettes
+13. Study sheet + 12-question quiz
 
 ## License / content note
 

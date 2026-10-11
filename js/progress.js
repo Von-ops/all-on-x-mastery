@@ -1,5 +1,6 @@
 (function () {
-  const KEY = "aox-week1-done";
+  // Per-week storage key: set <body data-progress-key="aox-weekN-done">; defaults to Week 1.
+  const KEY = (document.body && document.body.getAttribute("data-progress-key")) || "aox-week1-done";
   function load() {
     try { return JSON.parse(localStorage.getItem(KEY) || "{}"); }
     catch { return {}; }

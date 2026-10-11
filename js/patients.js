@@ -1,5 +1,6 @@
 (function () {
-  const KEYS = {
+  // Pages may override with window.AOX_PATIENT_KEYS (set before this script loads); defaults to Week 1 vignettes.
+  const KEYS = window.AOX_PATIENT_KEYS || {
     p1: { answer: "caution", tip: "CAUTION is the best teaching score: uncontrolled diabetes + smoking + high smile push you toward medical optimization, possible staging, and careful FP3/transition planning—not a casual same-day GO." },
     p2: { answer: "go", tip: "GO (with disciplined protocol): healthy, good bone, low smile, motivated—classic All-on-X immediate-load candidate if torque/ISQ confirm and conversion is ready." },
     p3: { answer: "no", tip: "NO for immediate fixed full-arch today: severe untreated OSA + extreme bruxism + poor hygiene compliance. Treat airway / habits first; consider overdenture or staged after risk reduction." }

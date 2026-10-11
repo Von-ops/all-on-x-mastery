@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="ps-title ps-desc">
+  <title id="ps-title">Prosthetic space, bone reduction and transition line</title>
+  <desc id="ps-desc">Sagittal sketch of an anterior maxilla. Dashed outline shows bone removed by alveoloplasty. After reduction, the vertical restorative space from reduced bone to the incisal and occlusal plane should be roughly 15 millimeters or more for a screw-retained hybrid or zirconia prosthesis. The prosthesis to tissue transition line must sit above, that is hidden behind, the upper lip at full smile.</desc>
+  <rect width="720" height="470" fill="#f8fafc"/>
+  <text x="360" y="28" text-anchor="middle" fill="#0f172a" font-family="system-ui,sans-serif" font-size="16" font-weight="700">Restorative space, reduction &amp; the transition line (maxilla)</text>
+  <!-- bone removed (pre-reduction outline) -->
+  <path d="M60,60 L280,60 L280,250 Q255,295 210,298 Q165,292 120,250 Z" fill="#efeeec" stroke="#a8a29e" stroke-dasharray="5 4"/>
+  <text x="200" y="275" text-anchor="middle" fill="#78716c" font-family="system-ui,sans-serif" font-size="10" font-weight="700">bone removed</text>
+  <!-- reduced bone -->
+  <path d="M60,60 L280,60 L280,200 L104,200 Z" fill="#d6d3d1" stroke="#78716c"/>
+  <text x="120" y="120" fill="#57534e" font-family="system-ui,sans-serif" font-size="12" font-weight="700">Alveolar</text>
+  <text x="120" y="135" fill="#57534e" font-family="system-ui,sans-serif" font-size="12" font-weight="700">bone</text>
+  <!-- implant + MUA -->
+  <rect x="206" y="85" width="22" height="115" rx="4" fill="#94a3b8" stroke="#334155"/>
+  <rect x="208" y="200" width="18" height="14" rx="2" fill="#0f766e"/>
+  <!-- prosthesis: pink + tooth -->
+  <path d="M120,214 L300,214 Q330,216 345,262 L372,410 L268,410 Q215,340 150,262 Z" fill="#f9a8d4" stroke="#be185d" stroke-width="1.5"/>
+  <path d="M268,300 L345,290 L372,410 L288,410 Z" fill="#ffffff" stroke="#1e3a5f" stroke-width="2"/>
+  <text x="190" y="248" fill="#9d174d" font-family="system-ui,sans-serif" font-size="11" font-weight="700">Pink base</text>
+  <text x="310" y="372" fill="#1e3a5f" font-family="system-ui,sans-serif" font-size="11" font-weight="700">Tooth</text>
+  <!-- horizontal reference lines -->
+  <line x1="40" y1="200" x2="540" y2="200" stroke="#78716c" stroke-width="2"/>
+  <text x="548" y="204" fill="#57534e" font-family="system-ui,sans-serif" font-size="11" font-weight="700">Reduced bone</text>
+  <line x1="40" y1="222" x2="540" y2="222" stroke="#0f766e" stroke-width="2.5" stroke-dasharray="7 4"/>
+  <text x="548" y="226" fill="#0f766e" font-family="system-ui,sans-serif" font-size="11" font-weight="800">Transition line</text>
+  <path d="M330,286 Q440,272 540,286" fill="none" stroke="#dc2626" stroke-width="3"/>
+  <text x="548" y="284" fill="#b91c1c" font-family="system-ui,sans-serif" font-size="11" font-weight="800">Lip at full smile</text>
+  <text x="548" y="299" fill="#b91c1c" font-family="system-ui,sans-serif" font-size="10">transition must be</text>
+  <text x="548" y="312" fill="#b91c1c" font-family="system-ui,sans-serif" font-size="10">hidden above it</text>
+  <line x1="40" y1="410" x2="540" y2="410" stroke="#1e3a5f" stroke-width="2"/>
+  <text x="548" y="414" fill="#1e3a5f" font-family="system-ui,sans-serif" font-size="11" font-weight="700">Occlusal plane</text>
+  <!-- dimension -->
+  <line x1="460" y1="204" x2="460" y2="406" stroke="#0f172a" stroke-width="2.5"/>
+  <polygon points="460,204 454,218 466,218" fill="#0f172a"/>
+  <polygon points="460,406 454,392 466,392" fill="#0f172a"/>
+  <rect x="400" y="330" width="120" height="46" rx="8" fill="#fff" stroke="#0f172a"/>
+  <text x="460" y="350" text-anchor="middle" fill="#0f172a" font-family="system-ui,sans-serif" font-size="15" font-weight="800">≈15+ mm</text>
+  <text x="460" y="366" text-anchor="middle" fill="#475569" font-family="system-ui,sans-serif" font-size="10">bone → occlusal plane</text>
+  <text x="360" y="440" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="10">Schematic, not to scale. Reduce only enough to (1) gain material space and (2) hide the transition.</text>
+  <text x="360" y="455" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="10">Plan the reduction from the tooth set-up / smile — never by default.</text>
+</svg>

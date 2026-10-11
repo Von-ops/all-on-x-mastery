@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Week 2 Quiz · All-on-X Mastery</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html">
+        <strong>All-on-X Mastery</strong>
+        <span>Week 2 · Quiz</span>
+      </a>
+      <nav class="header-nav" aria-label="Primary">
+        <a href="index.html">Module</a>
+        <a href="study-sheet.html">Sheet</a>
+        <a href="quiz.html" aria-current="page">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">12 questions · instant feedback</span>
+      <h1>Week 2 knowledge check</h1>
+      <p>Select one answer per question, then grade. Correct choices highlight in green with explanations.</p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div id="quiz-result" class="quiz-result" role="status">
+      <div>Your score</div>
+      <div class="score-big" id="score-big">0 / 12</div>
+      <p id="score-msg" style="margin:0;color:var(--slate-300)"></p>
+    </div>
+
+    <form id="quiz-form" onsubmit="return false;">
+      <div class="quiz-q" id="q1">
+        <h3>1. When planning an All-on-X case, what should be finalized first?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q1" value="a" /> The implant brand and lengths</label>
+          <label><input type="radio" name="q1" value="b" /> The tooth position / set-up and smile-lip relationship</label>
+          <label><input type="radio" name="q1" value="c" /> The bone reduction depth by default</label>
+          <label><input type="radio" name="q1" value="d" /> The sedation provider</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q2">
+        <h3>2. A commonly taught minimum vertical prosthetic space for a screw-retained FP3 hybrid is about:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q2" value="a" /> 5–7 mm</label>
+          <label><input type="radio" name="q2" value="b" /> 8–10 mm</label>
+          <label><input type="radio" name="q2" value="c" /> ≈15 mm or more from reduced bone to occlusal plane</label>
+          <label><input type="radio" name="q2" value="d" /> 25 mm or more</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q3">
+        <h3>3. The two primary reasons to reduce bone in an All-on-X case are:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q3" value="a" /> To make implants shorter and to save time</label>
+          <label><input type="radio" name="q3" value="b" /> Removing all cancellous bone and avoiding sutures</label>
+          <label><input type="radio" name="q3" value="c" /> Hiding the transition line and creating material space</label>
+          <label><input type="radio" name="q3" value="d" /> Making the ridge knife-edge and increasing tissue thickness</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q4">
+        <h3>4. In Bedrossian's maxillary zone evaluation, bone available only in zones 1 and 2 (anterior + premolar) points toward:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q4" value="a" /> The tilted-implant (All-on-4 style) concept</label>
+          <label><input type="radio" name="q4" value="b" /> Axial implants in all molar sites</label>
+          <label><input type="radio" name="q4" value="c" /> Quad zygomatic implants</label>
+          <label><input type="radio" name="q4" value="d" /> No implant treatment possible</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q5">
+        <h3>5. A-P spread is measured from the line through the most anterior implants to:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q5" value="a" /> The midline of the palate</label>
+          <label><input type="radio" name="q5" value="b" /> A line through the distal edges of the most posterior implant platforms</label>
+          <label><input type="radio" name="q5" value="c" /> The retromolar pad</label>
+          <label><input type="radio" name="q5" value="d" /> The distal end of the cantilever</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q6">
+        <h3>6. With an A-P spread of 12 mm in a maxilla with soft bone, which final cantilever plan is most defensible?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q6" value="a" /> About 12–15 mm, or add posterior implants to shorten it</label>
+          <label><input type="radio" name="q6" value="b" /> 30 mm — maxilla behaves like dense mandible</label>
+          <label><input type="radio" name="q6" value="c" /> Any length, because the prosthesis is splinted</label>
+          <label><input type="radio" name="q6" value="d" /> Cantilever length doesn't matter with zirconia</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q7">
+        <h3>7. Why are posterior implants tilted in the All-on-4 concept?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q7" value="a" /> Tilted implants always have higher torque</label>
+          <label><input type="radio" name="q7" value="b" /> To engage the sinus membrane</label>
+          <label><input type="radio" name="q7" value="c" /> To make screw access exit facially</label>
+          <label><input type="radio" name="q7" value="d" /> To avoid sinus/mental foramen, increase A-P spread and shorten cantilevers without grafting</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q8">
+        <h3>8. A posterior implant is tilted ~30°. The usual multi-unit abutment choice is:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q8" value="a" /> A straight 0° MUA with a long collar</label>
+          <label><input type="radio" name="q8" value="b" /> A 30° angled MUA indexed so the screw channel exits lingual/occlusal</label>
+          <label><input type="radio" name="q8" value="c" /> A healing abutment only</label>
+          <label><input type="radio" name="q8" value="d" /> A Locator attachment</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q9">
+        <h3>9. A meta-analysis of static computer-aided implant surgery reported mean apical deviation of about 1.4 mm and 3.5°. The planning implication is:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q9" value="a" /> Guides are exact; plan right to the nerve</label>
+          <label><input type="radio" name="q9" value="b" /> Freehand is always more accurate</label>
+          <label><input type="radio" name="q9" value="c" /> Keep a safety margin of at least ~2 mm from vital structures even when guided</label>
+          <label><input type="radio" name="q9" value="d" /> Ignore the mental loop</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q10">
+        <h3>10. Three implants reach 40–50 Ncm; the fourth spins at ~10 Ncm. Your pre-written plan should allow you to:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q10" value="a" /> Load all four anyway — splinting fixes it</label>
+          <label><input type="radio" name="q10" value="b" /> Over-torque the weak implant to 80 Ncm</label>
+          <label><input type="radio" name="q10" value="c" /> Abandon the whole case and send the patient home without teeth</label>
+          <label><input type="radio" name="q10" value="d" /> Leave the weak implant out of the provisional or add an implant if spread allows — otherwise deliver a removable interim</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q11">
+        <h3>11. A 70-year-old receives monthly 120 mg denosumab for bone metastases and requests same-day fixed teeth. Best response:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q11" value="a" /> Proceed with extra antibiotics</label>
+          <label><input type="radio" name="q11" value="b" /> Elective implant surgery is generally avoided due to high MRONJ risk; coordinate with oncology</label>
+          <label><input type="radio" name="q11" value="c" /> Stop denosumab for 2 weeks yourself and proceed</label>
+          <label><input type="radio" name="q11" value="d" /> Proceed if CBCT bone looks dense</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q12">
+        <h3>12. Which pre-sedation item is most critical for a patient with suspected severe OSA planned for deep sedation?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q12" value="a" /> Choosing implant color coding</label>
+          <label><input type="radio" name="q12" value="b" /> Airway assessment (STOP-BANG, Mallampati), appropriate monitoring incl. capnography, and a qualified sedation provider — or rethinking the plan</label>
+          <label><input type="radio" name="q12" value="c" /> Ordering extra temporary cylinders</label>
+          <label><input type="radio" name="q12" value="d" /> Scheduling the case on a Friday</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="btn-row">
+        <button type="button" class="btn btn-primary" id="grade-quiz">Grade quiz</button>
+        <button type="button" class="btn btn-ghost" id="reset-quiz">Reset</button>
+        <a class="btn btn-secondary" href="study-sheet.html">Study sheet</a>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p><a href="index.html">Back to Week 2 module</a> · <a href="../index.html">Home</a></p>
+  </footer>
+  <script>
+    window.AOX_QUIZ = {
+      "storageKey": "aox-week2-quiz",
+      "answers": {
+        "q1": {
+          "correct": "b",
+          "explain": "Restorative-driven planning starts from the teeth: approve the set-up, then evaluate face/lip/smile, then space, bone, and finally implant sites. Implants serve the prosthesis, not the other way around."
+        },
+        "q2": {
+          "correct": "c",
+          "explain": "≈15+ mm is the usual teaching number for a hybrid (bar/MUA + teeth + pink bulk); many labs quote ≈12–15 mm minimum for zirconia. Get your lab's number in writing."
+        },
+        "q3": {
+          "correct": "c",
+          "explain": "Reduce only to (1) gain restorative space and (2) hide the prosthesis–tissue transition behind the lip at full smile; a flat platform is a secondary benefit. Over-reduction is irreversible."
+        },
+        "q4": {
+          "correct": "a",
+          "explain": "Zone 1 = canine to canine, zone 2 = premolar, zone 3 = molar. Bone in all three → axial implants; zones 1–2 only → tilted implants; zone 1 only → sinus graft or zygomatic (advanced/refer)."
+        },
+        "q5": {
+          "correct": "b",
+          "explain": "A-P spread runs from the anterior implant line to the line through the distal aspect of the most posterior implants. The cantilever is everything distal to that."
+        },
+        "q6": {
+          "correct": "a",
+          "explain": "The commonly taught limit (≤ ~1.5–2 × A-P spread) applies to favorable mandibular bone; maxilla/soft bone/bruxers get less. Cantilevered loads magnify forces on the distal implants (Rangert 1989)."
+        },
+        "q7": {
+          "correct": "d",
+          "explain": "Krekmanov (2000) and Maló (2003) tilted posterior implants along the sinus wall or over the mental loop to move prosthetic support distally and reduce cantilevers without grafting; marginal bone outcomes vs axial implants were not significantly different (Del Fabbro 2014)."
+        },
+        "q8": {
+          "correct": "b",
+          "explain": "Angled MUAs (commonly 17° or 30°) bring tilted implants back to a common path; rotate/index them so access is lingual/occlusal. Collar height matches tissue thickness; seat to IFU torque."
+        },
+        "q9": {
+          "correct": "c",
+          "explain": "Tahmaseb et al. (2018) found 1.2 mm entry, 1.4 mm apex and 3.5° mean deviation, worse in fully edentulous cases, and recommended a safety margin of at least 2 mm."
+        },
+        "q10": {
+          "correct": "d",
+          "explain": "Immediate-load studies commonly require ≥30–35 Ncm per implant (ISQ ≥60 as adjunct). A failed implant is excluded/replaced; if number or spread becomes inadequate, convert to a removable interim and load later. Consent includes this plan B."
+        },
+        "q11": {
+          "correct": "b",
+          "explain": "Oncologic-dose antiresorptives carry much higher MRONJ risk than osteoporosis doses (AAOMS 2022). Elective implant surgery is generally avoided; never alter oncology medications without the prescriber."
+        },
+        "q12": {
+          "correct": "b",
+          "explain": "ADA sedation guidelines require pre-sedation evaluation, monitoring and rescue capability matched to depth. Severe OSA is an airway risk that can outrank the surgery itself; Florida requires the appropriate sedation permit."
+        }
+      },
+      "messages": {
+        "high": "Strong plan-reader — ready for Week 3 surgery-day protocol.",
+        "mid": "Solid. Revisit prosthetic space, A-P spread/cantilever, MUAs and the medical review, then retry.",
+        "low": "Review the Week 2 module and study sheet, then retake. The plan is the surgery."
+      }
+    };
+  </script>
+  <script src="../js/quiz.js"></script>
+</body>
+</html>

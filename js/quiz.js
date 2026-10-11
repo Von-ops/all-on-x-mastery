@@ -1,5 +1,8 @@
 (function () {
-  const ANSWERS = {
+  // Pages may set window.AOX_QUIZ = { answers, storageKey, messages:{high,mid,low} } before loading this script.
+  // Defaults below are the Week 1 quiz (unchanged).
+  const CFG = window.AOX_QUIZ || {};
+  const ANSWERS = CFG.answers || {
     q1: { correct: "b", explain: "Immediate loading (ITI definition) means the prosthesis is connected in occlusion within 1 week of implant placement. Same-day conversion is common clinically but the formal window is ≤7 days." },
     q2: { correct: "c", explain: "ITI consensus literature commonly cites insertion torque ≥30 Ncm and ISQ ≥60 as inclusion criteria used in many immediate-load full-arch studies. Confirm primary stability for each implant before loading." },
     q3: { correct: "a", explain: "FP1 replaces crown contours only (natural soft tissue). FP2 has longer crowns (partial root form). FP3 replaces teeth + gingival tissues with prosthetic pink—most typical for All-on-X hybrids after ridge reduction." },
@@ -46,12 +49,13 @@
       result.classList.add("show");
       big.textContent = score + " / " + total;
       const pct = Math.round((score / total) * 100);
-      if (pct >= 80) msg.textContent = "Strong foundation — ready to drill into Week 2 surgical planning.";
-      else if (pct >= 60) msg.textContent = "Solid start. Revisit FP concepts, red flags, and ITI loading criteria, then retry.";
-      else msg.textContent = "Review the Week 1 module and study sheet, then retake. Case selection is non-negotiable.";
+      const M = CFG.messages || {};
+      if (pct >= 80) msg.textContent = M.high || "Strong foundation — ready to drill into Week 2 surgical planning.";
+      else if (pct >= 60) msg.textContent = M.mid || "Solid start. Revisit FP concepts, red flags, and ITI loading criteria, then retry.";
+      else msg.textContent = M.low || "Review the Week 1 module and study sheet, then retake. Case selection is non-negotiable.";
       result.scrollIntoView({ behavior: "smooth", block: "center" });
     }
-    try { localStorage.setItem("aox-week1-quiz", JSON.stringify({ score, total, at: Date.now() })); } catch (_) {}
+    try { localStorage.setItem(CFG.storageKey || "aox-week1-quiz", JSON.stringify({ score, total, at: Date.now() })); } catch (_) {}
   }
 
   document.addEventListener("DOMContentLoaded", () => {

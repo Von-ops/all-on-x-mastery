@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="mua-title mua-desc">
+  <title id="mua-title">Tilted posterior implant and multi-unit abutment angulation</title>
+  <desc id="mua-desc">Sagittal sketch of a maxillary posterior implant tilted about 30 to 45 degrees along the anterior sinus wall, corrected with a 30 degree angled multi-unit abutment so the screw channel exits occlusally. A second panel shows an axial anterior implant with a straight multi-unit abutment.</desc>
+  <rect width="720" height="440" fill="#f8fafc"/>
+  <text x="360" y="28" text-anchor="middle" fill="#0f172a" font-family="system-ui,sans-serif" font-size="16" font-weight="700">Tilted implant + angled MUA → common prosthetic axis</text>
+  <!-- Panel 1 -->
+  <rect x="20" y="45" width="430" height="380" rx="12" fill="#fff" stroke="#e2e8f0"/>
+  <text x="235" y="70" text-anchor="middle" fill="#0e7490" font-family="system-ui,sans-serif" font-size="13" font-weight="800">Posterior: tilted ~30–45° (maxilla)</text>
+  <!-- sinus -->
+  <path d="M190,95 Q300,80 420,110 L420,215 Q330,240 250,215 Q215,200 190,170 Z" fill="#e0f2fe" stroke="#0891b2" stroke-width="1.5"/>
+  <text x="330" y="160" text-anchor="middle" fill="#0369a1" font-family="system-ui,sans-serif" font-size="12" font-weight="700">Maxillary sinus</text>
+  <!-- bone -->
+  <path d="M40,200 L190,175 Q215,205 250,222 Q330,248 430,222 L430,330 L40,330 Z" fill="#d6d3d1"/>
+  <text x="380" y="315" text-anchor="middle" fill="#57534e" font-family="system-ui,sans-serif" font-size="10">Residual crest</text>
+  <!-- mesial direction label -->
+  <text x="60" y="190" fill="#64748b" font-family="system-ui,sans-serif" font-size="10">← mesial</text>
+  <!-- tilted implant: apex mesial-superior near (140,190), platform distal at (250,320) -->
+  <g transform="rotate(-38 245 318)">
+    <rect x="233" y="200" width="24" height="118" rx="5" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+    <path d="M233,212 h24 M233,226 h24 M233,240 h24 M233,254 h24 M233,268 h24 M233,282 h24 M233,296 h24" stroke="#334155" stroke-width="1"/>
+  </g>
+  <text x="70" y="250" fill="#334155" font-family="system-ui,sans-serif" font-size="11" font-weight="700">Implant follows</text>
+  <text x="70" y="264" fill="#334155" font-family="system-ui,sans-serif" font-size="11" font-weight="700">anterior sinus wall</text>
+  <!-- angled MUA at platform ~ (250,325) going up vertical -->
+  <path d="M236,322 L262,312 L268,346 L242,350 Z" fill="#0f766e"/>
+  <rect x="244" y="346" width="24" height="26" rx="3" fill="#0f766e"/>
+  <text x="285" y="352" fill="#0f766e" font-family="system-ui,sans-serif" font-size="11" font-weight="800">30° MUA</text>
+  <!-- screw channel up -->
+  <line x1="256" y1="372" x2="256" y2="392" stroke="#dc2626" stroke-width="3" stroke-dasharray="5 4"/>
+  <text x="272" y="388" fill="#b91c1c" font-family="system-ui,sans-serif" font-size="11" font-weight="700">Screw access → occlusal / lingual</text>
+  <!-- angle arc -->
+  <path d="M256,300 A30,30 0 0 0 232,288" fill="none" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="256" y1="330" x2="256" y2="280" stroke="#0f172a" stroke-width="1" stroke-dasharray="3 3"/>
+  <text x="206" y="285" fill="#0f172a" font-family="system-ui,sans-serif" font-size="10" font-weight="700">tilt</text>
+  <text x="60" y="415" fill="#64748b" font-family="system-ui,sans-serif" font-size="9">Schematic (inverted maxilla: occlusal plane at bottom). Not to scale.</text>
+  <!-- Panel 2 -->
+  <rect x="470" y="45" width="230" height="380" rx="12" fill="#fff" stroke="#e2e8f0"/>
+  <text x="585" y="70" text-anchor="middle" fill="#0f766e" font-family="system-ui,sans-serif" font-size="13" font-weight="800">Anterior: axial</text>
+  <path d="M490,170 L680,170 L680,330 L490,330 Z" fill="#d6d3d1"/>
+  <text x="585" y="160" text-anchor="middle" fill="#64748b" font-family="system-ui,sans-serif" font-size="10">Nasal floor / incisive canal above</text>
+  <rect x="573" y="200" width="24" height="118" rx="5" fill="#94a3b8" stroke="#334155" stroke-width="1.5"/>
+  <path d="M573,212 h24 M573,226 h24 M573,240 h24 M573,254 h24 M573,268 h24 M573,282 h24 M573,296 h24" stroke="#334155" stroke-width="1"/>
+  <rect x="575" y="318" width="20" height="30" rx="3" fill="#0f766e"/>
+  <text x="605" y="338" fill="#0f766e" font-family="system-ui,sans-serif" font-size="11" font-weight="800">0° / 17°</text>
+  <line x1="585" y1="348" x2="585" y2="395" stroke="#dc2626" stroke-width="3" stroke-dasharray="5 4"/>
+  <text x="585" y="410" text-anchor="middle" fill="#334155" font-family="system-ui,sans-serif" font-size="10">Collar height = tissue depth</text>
+</svg>

@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="Week 2 of Kevon's All-on-X mastery course — surgical planning and armamentarium." />
+  <title>Week 2 · Surgical Planning &amp; Armamentarium · All-on-X Mastery</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body data-progress-key="aox-week2-done">
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html">
+        <strong>All-on-X Mastery</strong>
+        <span>Week 2 · Surgical planning</span>
+      </a>
+      <nav class="header-nav" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="index.html" aria-current="page">Module</a>
+        <a href="study-sheet.html">Sheet</a>
+        <a href="quiz.html">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="week-progress" aria-label="Section progress">
+    <div class="week-progress-inner">
+      <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+      <span class="progress-label" id="progress-label">0/12</span>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">Week 2 of mastery track</span>
+      <h1>Surgical planning &amp; armamentarium</h1>
+      <p>
+        Turn a GO patient from Week 1 into a written, reverse-engineered surgical plan:
+        CBCT anatomy, prosthetic space, bone reduction, implant positions, A-P spread,
+        multi-unit abutments, guides, medical/sedation review, and a tray that is ready
+        before the first incision.
+      </p>
+      <div class="hero-meta">
+        <span class="chip">~75–100 min read + quiz</span>
+        <span class="chip">Aligned: Pikos L2 · SmartOnX SDC 2.0</span>
+        <span class="chip">Tuesday study block</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <nav class="toc" aria-label="Week 2 contents">
+      <h2>On this page</h2>
+      <ol>
+        <li><a href="#objectives">Learning objectives</a></li>
+        <li><a href="#cbct">CBCT-based planning &amp; anatomy</a></li>
+        <li><a href="#space">Restorative-driven planning &amp; prosthetic space</a></li>
+        <li><a href="#reduction">Bone reduction &amp; the transition line</a></li>
+        <li><a href="#positions">Implant number, position &amp; A-P spread</a></li>
+        <li><a href="#mua">Multi-unit abutments &amp; angulation</a></li>
+        <li><a href="#guides">Guided vs freehand</a></li>
+        <li><a href="#stability">Primary stability targets &amp; plan B</a></li>
+        <li><a href="#medical">Medical &amp; pharmacologic risk review</a></li>
+        <li><a href="#sedation">Sedation &amp; anesthesia planning</a></li>
+        <li><a href="#armamentarium">Armamentarium, team &amp; pre-op workflow</a></li>
+        <li><a href="#worksheet">Case planning worksheet &amp; vignettes</a></li>
+        <li><a href="#refs">References</a></li>
+      </ol>
+      <div class="btn-row" style="margin-bottom:0">
+        <a class="btn btn-secondary" href="study-sheet.html">Study sheet</a>
+        <a class="btn btn-primary" href="quiz.html">Take quiz</a>
+      </div>
+    </nav>
+
+    <div class="disclaimer">
+      <strong>Study aid disclaimer.</strong> Content synthesizes public scientific literature and
+      widely taught full-arch concepts consistent with Pikos Full Arch All-on-XYZ and SmartOnX-style
+      curricula. Numbers below are <em>teaching ranges</em>, not protocols. Follow your implant
+      system IFU, your lab's material specs, Florida Board sedation-permit rules, and mentorship
+      before independent full-arch cases.
+    </div>
+
+    <!-- 1 -->
+    <section class="section card" id="objectives" data-section="objectives">
+      <div class="section-header">
+        <h2><span class="section-num">1</span> Learning objectives</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <p>By the end of Week 2 you should be able to:</p>
+      <ul class="obj-list">
+        <li data-n="1">Read a full-arch CBCT systematically: bone volume/density, sinus, nasal floor, incisive canal, IAN, mental foramen and anterior loop.</li>
+        <li data-n="2">Plan from the teeth backward: tooth set-up → smile/lip → prosthetic space (~15+ mm) → reduction level → implant sites.</li>
+        <li data-n="3">Place the transition line where a high smile cannot show it, and justify every millimeter of bone removed.</li>
+        <li data-n="4">Lay out 4–6 implants with tilted posteriors, measure A-P spread, and set a safe provisional and final cantilever.</li>
+        <li data-n="5">Choose multi-unit abutment angulation and collar height so all screw channels exit lingual/occlusal on a common path.</li>
+        <li data-n="6">Decide guided vs freehand, set torque/ISQ go/no-go criteria, complete a medical/pharm/sedation review, and stage the tray and team.</li>
+      </ul>
+      <div class="callout">
+        <strong>Where Week 2 sits</strong>
+        Week 1 decided <em>who</em> gets immediate fixed. Week 2 is the blueprint for <em>how</em> — every
+        decision written down before surgery day (Week 3) and the conversion (Week 4).
+      </div>
+    </section>
+
+    <!-- 2 -->
+    <section class="section card" id="cbct" data-section="cbct">
+      <div class="section-header">
+        <h2><span class="section-num">2</span> CBCT-based planning &amp; anatomy</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <h3>Get the right scan first</h3>
+      <ul>
+        <li><strong>Field of view</strong> covering the whole arch (and opposing occlusion if you plan digitally). Large FOV only when it changes the plan — ALARA still applies (Jacobs 2018).</li>
+        <li><strong>Prosthetic information in the scan:</strong> a radiopaque duplicate of an acceptable denture / wax-up (dual-scan protocol) or a merged intraoral/denture scan. Without the teeth on the screen, you are planning bone, not a prosthesis.</li>
+        <li><strong>Lips relaxed and retracted</strong>, cotton rolls or a bite registration to separate the arches; terminal teeth stabilized so the scan isn't motion-blurred.</li>
+      </ul>
+      <h3>Systematic read — maxilla</h3>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Structure</th><th>What to measure</th><th>Planning consequence</th></tr></thead>
+          <tbody>
+            <tr><td>Maxillary sinus (anterior wall / floor)</td><td>Position of anterior wall relative to premolars; floor height; septa; mucosal thickening / sinusitis</td><td>Tilt posterior implant along anterior wall to emerge ~2nd premolar; sinus pathology → ENT/stage</td></tr>
+            <tr><td>Nasal floor &amp; piriform rim</td><td>Height in lateral/canine zone</td><td>Anterior implant length; avoid nasal perforation</td></tr>
+            <tr><td>Incisive canal</td><td>Width, position after reduction</td><td>Usually avoid; plan anterior implants lateral to it</td></tr>
+            <tr><td>Residual ridge</td><td>Width/height in each zone; buccal concavities</td><td>Where reduction creates width; fenestration risk</td></tr>
+            <tr><td>Density</td><td>Grayscale / relative HU (not absolute on CBCT)</td><td>Soft posterior maxilla → under-prep, longer/tilted implants, extra implant</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Systematic read — mandible</h3>
+      <ul>
+        <li><strong>Mental foramen &amp; anterior loop:</strong> locate bilaterally on cross-sections. Distal implants commonly sit mesial to the foramen and tilt distally <em>over</em> the loop; respect a safety margin (Greenstein &amp; Tarnow 2006 review anterior loop length variability—measure, don't assume).</li>
+        <li><strong>Inferior alveolar canal</strong> in posterior sites if you plan 5–6 implants.</li>
+        <li><strong>Lingual concavity / sublingual artery canals</strong> in the anterior mandible — perforation here is a hemorrhage emergency, not a nuisance.</li>
+        <li><strong>Knife-edge ridge:</strong> plan reduction to a width that houses the implant with bone around it.</li>
+      </ul>
+      <div class="callout warn">
+        <strong>Static-guide accuracy is not zero error</strong>
+        Meta-analysis of static computer-aided implant surgery found mean deviations of about
+        1.2 mm at entry, 1.4 mm at apex and 3.5° — worse in fully edentulous cases — with a
+        recommended safety margin of at least 2 mm from vital structures (Tahmaseb 2018).
+        Plan that margin into nerve and sinus distances even when guided.
+      </div>
+      <p style="font-size:0.9rem;color:var(--slate-600)">
+        <strong>Out of scope:</strong> zygomatic and pterygoid implants for severe maxillary atrophy
+        (Bedrossian “zone 1 bone only”). Recognize the case on CBCT and refer or stage —
+        these are advanced-training procedures.
+      </p>
+    </section>
+
+    <!-- 3 -->
+    <section class="section card" id="space" data-section="space">
+      <div class="section-header">
+        <h2><span class="section-num">3</span> Restorative-driven planning &amp; prosthetic space</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <p>
+        Plan in this order, every time: <strong>teeth → face → space → bone → implants.</strong>
+        Approve the tooth position (denture try-in, digital set-up, or the patient's existing
+        acceptable denture) <em>before</em> you open the planning software.
+      </p>
+      <h3>Pre-treatment evaluation (Bedrossian-style)</h3>
+      <p>
+        Bedrossian et al. (2008) describe a systematic pretreatment evaluation for fixed maxillary
+        implant prostheses: assess lip support (does the patient need a flange?), smile line /
+        <strong>visibility of the prosthesis–tissue transition</strong>, and the vertical position of the
+        planned teeth relative to the residual ridge, then map available bone in three zones —
+        <strong>zone 1</strong> anterior (canine to canine), <strong>zone 2</strong> premolar, <strong>zone 3</strong> molar.
+        Bone in all three zones allows axial implants; bone in zones 1–2 only points to the tilted-implant
+        (All-on-4 style) concept; zone 1 only points to sinus grafting or zygomatic options. They recommend a
+        minimum of 4 implants for a fixed maxillary prosthesis.
+      </p>
+      <h3>How much vertical space?</h3>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Prosthesis</th><th>Typical vertical space taught</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td>Screw-retained FP3 hybrid (metal/titanium bar + acrylic/composite)</td><td>≈15 mm or more (reduced bone/tissue → occlusal plane)</td><td>Bar + MUA + teeth + pink bulk; fracture resistance; cleansable intaglio</td></tr>
+            <tr><td>Monolithic / layered zirconia full-arch</td><td>≈12–15 mm minimum per most lab specs</td><td>Connector height and thickness over MUAs and screw channels</td></tr>
+            <tr><td>Immediate PMMA conversion (provisional)</td><td>Same envelope as the final</td><td>Thin provisionals fracture over MUAs — the classic week-2 phone call</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.9rem;color:var(--slate-600)">
+        Exact minimums differ by lab, material and design — ask your lab for their number in writing
+        and plan to it.
+      </p>
+      <div class="callout">
+        <strong>Clinical takeaway</strong>
+        Space comes from three places only: bone reduction, a slightly increased OVD (if the face and
+        joints allow), or the opposing arch. Decide which on paper — not with the handpiece mid-surgery.
+      </div>
+    </section>
+
+    <!-- 4 -->
+    <section class="section card" id="reduction" data-section="reduction">
+      <div class="section-header">
+        <h2><span class="section-num">4</span> Bone reduction planning &amp; the transition line</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <figure class="figure">
+        <img src="../assets/prosthetic-space.svg" alt="Sagittal schematic showing reduced bone level, transition line, lip at full smile, and roughly 15 millimeters of restorative space to the occlusal plane" width="720" height="470" />
+        <figcaption>Figure 1. Reduction is planned from the set-up: enough space for the material and a transition line hidden by the lip at full smile.</figcaption>
+      </figure>
+      <h3>Two reasons to reduce — and only two</h3>
+      <ol>
+        <li><strong>Material space</strong> — reach the ~15 mm envelope (Section 3).</li>
+        <li><strong>Hide the transition line</strong> — in a high-smile maxilla, the junction must sit apical to (behind) the upper lip at maximum smile; in the mandible, below the lower lip at speech.</li>
+      </ol>
+      <p>Secondary benefits: a flat, wide platform for implants and seating the conversion; removal of infected sockets and sharp crest.</p>
+      <h3>Measure it like a surgeon, not a sculptor</h3>
+      <ul>
+        <li>Record <strong>maximum smile display</strong> with photos/video; measure from the planned incisal edge to the lip at full smile.</li>
+        <li>In software, mark the planned incisal edge, transition line and <strong>reduction plane</strong>; read the reduction in mm per zone (anterior often differs from posterior).</li>
+        <li>Transfer to surgery with a <strong>bone reduction guide</strong> (pin-retained) or measured reference marks from a fixed landmark.</li>
+        <li>Over-reduction costs implant length, nerve distance and lip support — it is irreversible.</li>
+      </ul>
+      <div class="callout danger">
+        <strong>The visible-junction failure</strong>
+        A gummy/high-smile patient with no reduction and an FP3 hybrid will show a gray–pink shelf on
+        the first selfie. Either reduce enough, change the design (FP2-type), or tell the patient before
+        surgery that they will see it.
+      </div>
+    </section>
+
+    <!-- 5 -->
+    <section class="section card" id="positions" data-section="positions">
+      <div class="section-header">
+        <h2><span class="section-num">5</span> Implant number, position &amp; A-P spread</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <h3>The All-on-4 layout</h3>
+      <p>
+        Two anterior axial implants (≈ lateral/canine region) and two posterior implants
+        <strong>tilted distally (commonly ~30–35°, up to ~45°)</strong> so the platform emerges near the second premolar while
+        the apex stays mesial to the sinus (maxilla) or mental foramen (mandible) (Maló 2003; Krekmanov 2000).
+        Tilting increases A-P spread and shortens the cantilever without grafting.
+      </p>
+      <figure class="figure">
+        <img src="../assets/ap-spread-cantilever.svg" alt="Occlusal view diagram of A-P spread between anterior and posterior implant lines and distal cantilever limits" width="720" height="500" />
+        <figcaption>Figure 2. A-P spread is measured from the line through the most anterior implants to the line through the distal edges of the most posterior platforms.</figcaption>
+      </figure>
+      <h3>A-P spread &amp; cantilever — working rules</h3>
+      <ul>
+        <li><strong>A-P spread</strong>: larger is better; tilted distal implants exist mostly to make it larger.</li>
+        <li><strong>Cantilever (final)</strong>: commonly taught ≤ ~1.5–2 × A-P spread in a dense mandible; shorter in the maxilla, soft bone or a bruxer. Rangert et al. (1989) showed that cantilevered loads magnify forces on the implants nearest the cantilever — the lever arm is the risk.</li>
+        <li><strong>Cantilever (provisional)</strong>: shorter than the final, often ending at the first molar or premolar while integrating.</li>
+      </ul>
+      <h3>When 4 isn't enough</h3>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Go to 5–6 implants when…</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td>Soft maxillary bone / borderline torque expected</td><td>Redundancy if one implant fails to integrate</td></tr>
+            <tr><td>Heavy bruxer or opposing natural dentition / implants</td><td>Load sharing, shorter cantilever</td></tr>
+            <tr><td>Small A-P spread (square arch)</td><td>Add distal support to shorten cantilever</td></tr>
+            <tr><td>Planned segmented / zirconia final with longer span</td><td>Material and design requirements</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Evidence: tilted and axial implants showed no significant difference in marginal bone loss in
+        systematic review (Del Fabbro &amp; Ceresoli 2014). The ITI 2018 review of implant number found
+        similar implant and prosthesis survival with fewer than five vs five or more implants per arch
+        (most often 4 vs 6 in the maxilla) (Daudt Polido 2018). More implants are a <em>risk-management</em>
+        choice, not a survival-rate requirement.
+      </p>
+    </section>
+
+    <!-- 6 -->
+    <section class="section card" id="mua" data-section="mua">
+      <div class="section-header">
+        <h2><span class="section-num">6</span> Multi-unit abutments &amp; angulation</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <p>
+        Multi-unit abutments (MUAs) move the restorative interface to a common, slightly supragingival
+        level, correct implant angulation, and let you screw the conversion on and off without touching
+        the implant connection — the backbone of a screw-retained full arch (and a big upgrade from
+        Zest-retained designs).
+      </p>
+      <figure class="figure">
+        <img src="../assets/tilted-implant-mua.svg" alt="Schematic of a tilted posterior implant corrected with a 30 degree multi-unit abutment and an axial anterior implant with a straight abutment" width="720" height="440" />
+        <figcaption>Figure 3. Angled MUAs bring tilted implants back to a shared prosthetic path of insertion.</figcaption>
+      </figure>
+      <h3>Selection checklist</h3>
+      <ul>
+        <li><strong>Angle:</strong> straight (0°) for axial anteriors; 17° for moderate correction; 30° for tilted posteriors (exact angles vary by system — check your catalog).</li>
+        <li><strong>Collar (cuff) height:</strong> matched to soft-tissue thickness so the MUA platform sits at or just above the tissue after healing; plan it from the CBCT/tissue scan, confirm with a depth gauge on the day.</li>
+        <li><strong>Screw-channel exit:</strong> rotate angled MUAs (indexing) so the channel exits lingual/occlusal — never facial.</li>
+        <li><strong>Seating torque:</strong> per manufacturer IFU (straight and angled MUAs often have different values). Verify seating radiographically before the conversion.</li>
+        <li><strong>Order extras:</strong> one spare of each angle/height you plan, plus temporary cylinders, healing caps and spare prosthetic screws.</li>
+      </ul>
+      <div class="callout">
+        <strong>Plan the MUAs in software</strong>
+        Most planning programs (and stackable-guide workflows) place the MUA virtually so the lab can
+        design the provisional around real screw-channel positions. If you freehand, use the system's
+        angle-measuring/try-in tools before final seating.
+      </div>
+    </section>
+
+    <!-- 7 -->
+    <section class="section card" id="guides" data-section="guides">
+      <div class="section-header">
+        <h2><span class="section-num">7</span> Guided vs freehand</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Approach</th><th>Strengths</th><th>Watch-outs</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Freehand</strong> with bone reduction reference / denture duplicate</td><td>Flexible; adapts to surprises; low cost</td><td>Relies on experience for tilt and spread; harder to pre-fabricate the provisional</td></tr>
+            <tr><td><strong>Bone reduction guide</strong> (pin-fixed) ± pilot guide</td><td>Transfers the planned reduction plane; keeps orientation</td><td>Pin position must be planned outside implant sites; seat on bone, not tissue</td></tr>
+            <tr><td><strong>Stackable guides</strong> (base/fixation → reduction → implant → prosthetic)</td><td>One fixed base references every step, enables a pre-made provisional placed in the planned position</td><td>Expensive, needs mouth opening for guided drills; any base-seating error propagates to every layer</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        Recent case series (Martins et al. 2024) describe a fully digital All-on-4 workflow with printed
+        base, implant and prosthetic stackable guides that permitted predictable reduction and immediate
+        prosthesis connection. Remember the accuracy limits from Section 2.
+      </p>
+      <div class="callout">
+        <strong>Recommendation for your first cases</strong>
+        Bone-reduction-guided with a freehand or pilot-guided implant step is a sensible first step: it
+        protects the most irreversible decision (reduction) while you build feel for tilted placement.
+        Know how to finish freehand if a guide fails to seat.
+      </div>
+      <h3>Watch · stackable guide workflow</h3>
+      <div class="video-wrap">
+        <iframe
+          src="https://www.youtube-nocookie.com/embed/GhqY24KDtHo"
+          title="Stackable Surgical Guide design (case with bone reduction and immediate loading)"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+          loading="lazy"></iframe>
+      </div>
+      <p style="font-size:0.9rem;color:var(--slate-600)">
+        ImplaStation (public YouTube) — software walk-through of base guide, reduction plane, osteotomy
+        guide, locks and prosthetic guide. Software-specific; watch for the sequence, not the clicks.
+      </p>
+      <div class="video-placeholder">
+        <h4>Case write-up (external)</h4>
+        <p>FOR.org patient case — Digitally driven All-on-4 with stackable guides and photogrammetry (base guide pinned to bone, reduction, implant guide, prosthetic guide).</p>
+        <a class="btn btn-secondary" href="https://www.for.org/en/learn/patient-cases/digitally-driven-all-4-full-arch-rehabilitation-using-guided-surgery-and-photogrammetry" rel="noopener noreferrer" target="_blank">Open FOR.org case</a>
+      </div>
+      <div class="video-placeholder">
+        <h4>Further video (external)</h4>
+        <p>Glidewell Education — Full-arch immediate loading using a stackable surgical guide.</p>
+        <a class="btn btn-secondary" href="https://glidewelldental.com/education/videos/dental-video/full-arch-immediate-loading-using-a-multi-level-surgical-guide" rel="noopener noreferrer" target="_blank">Open Glidewell video</a>
+      </div>
+    </section>
+
+    <!-- 8 -->
+    <section class="section card" id="stability" data-section="stability">
+      <div class="section-header">
+        <h2><span class="section-num">8</span> Primary stability targets &amp; plan B</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <p>
+        Write your go/no-go numbers in the plan <em>before</em> surgery so the decision on the day is
+        mechanical, not emotional.
+      </p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Measure</th><th>Common immediate-load target</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td>Insertion torque</td><td>≥30–35 Ncm per implant (many prefer 35–45 for tilted posteriors)</td><td>Used as inclusion criteria across immediate-load studies (Gallucci 2014; Papaspyridakos 2014). Don't over-torque dense mandible—compression necrosis risk.</td></tr>
+            <tr><td>ISQ (RFA)</td><td>≥60–65 commonly used</td><td>Adjunct; measure on implant or MUA per device instructions</td></tr>
+            <tr><td>Splinting</td><td>Rigid one-piece provisional, cross-arch</td><td>Distributes load; passive fit essential</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Plan B tree (decide now)</h3>
+      <ul>
+        <li><strong>One implant low, the rest strong:</strong> place an additional implant if planned/possible, or leave the weak implant out of the provisional (cover/healing screw) and load the rest if spread and number remain adequate.</li>
+        <li><strong>Two or more low / poor spread:</strong> no immediate fixed. Deliver the converted denture as a relined removable interim; load after integration.</li>
+        <li><strong>Guide doesn't seat or anatomy differs:</strong> pre-planned freehand protocol or stop and stage.</li>
+      </ul>
+      <div class="callout warn">
+        <strong>Consent includes plan B</strong>
+        The patient signs knowing they may leave with a removable interim. That sentence avoids most
+        surgery-day conflicts.
+      </div>
+    </section>
+
+    <!-- 9 -->
+    <section class="section card" id="medical" data-section="medical">
+      <div class="section-header">
+        <h2><span class="section-num">9</span> Medical &amp; pharmacologic risk review</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Factor</th><th>What to check</th><th>Planning response</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>Antiresorptives</strong> (bisphosphonates, denosumab) &amp; antiangiogenics</td>
+              <td>Drug, route (oral vs IV/SC), dose (osteoporosis vs oncologic), duration, cancer history</td>
+              <td>Oncologic-dose IV bisphosphonate / denosumab: elective implants generally avoided (high MRONJ risk). Osteoporosis-dose: lower risk, but informed consent, minimize trauma, consider prescriber discussion (AAOMS 2022).</td>
+            </tr>
+            <tr>
+              <td><strong>Diabetes</strong></td>
+              <td>Recent HbA1c, hypoglycemia history, complications</td>
+              <td>Controlled diabetes: survival similar to non-diabetics; poor control → more peri-implantitis and late failure (Wagner 2022). Many clinicians defer elective full-arch above ~8% and coordinate with the PCP. Schedule mornings; check glucose on the day.</td>
+            </tr>
+            <tr>
+              <td><strong>Smoking / vaping</strong></td>
+              <td>Amount, willingness to stop</td>
+              <td>Higher failure and infection risk and more marginal bone loss (Chrcanovic 2015). Document; cessation counseling; CAUTION score.</td>
+            </tr>
+            <tr>
+              <td><strong>Anticoagulants / antiplatelets</strong></td>
+              <td>Agent (warfarin INR, DOAC, single/dual antiplatelet), indication, prescriber</td>
+              <td>Multiple extractions + alveoloplasty = higher bleeding risk procedure. Follow current guidance (e.g., SDCEP 2022) and the prescriber — do not stop independently. Local hemostatics, sutures, tranexamic acid per protocol.</td>
+            </tr>
+            <tr>
+              <td><strong>Other</strong></td>
+              <td>Head/neck radiation, immunosuppressants/steroids, uncontrolled CV disease, allergies (penicillin, latex), OSA</td>
+              <td>Medical clearance; antibiotic and steroid plan per your protocol; airway plan (Section 10).</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 10 -->
+    <section class="section card" id="sedation" data-section="sedation">
+      <div class="section-header">
+        <h2><span class="section-num">10</span> Sedation &amp; anesthesia planning</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <ul>
+        <li><strong>Who sedates?</strong> Your permit level determines what you can do (Florida requires Board-issued sedation permits). Many surgeons start full-arch with a dentist anesthesiologist or CRNA so the surgeon focuses on surgery.</li>
+        <li><strong>Pre-sedation evaluation:</strong> ASA class, airway (Mallampati, neck, STOP-BANG for OSA), meds, NPO instructions, escort, pre-op vitals (ADA 2016 sedation guidelines).</li>
+        <li><strong>Monitoring &amp; rescue:</strong> pulse oximetry, BP, capnography for moderate/deep sedation, emergency drugs/AED, trained second person, reversal agents.</li>
+        <li><strong>Local anesthesia plan:</strong> blocks + infiltration with long-acting agent for post-op comfort; total-dose calculation by weight.</li>
+        <li><strong>Duration:</strong> surgery + conversion may run 3–5+ hours for a first case — plan breaks, positioning and the conversion step after the patient is awake enough for occlusion.</li>
+      </ul>
+      <div class="callout danger">
+        <strong>Severe untreated OSA + deep sedation request</strong>
+        That's Patient C from Week 1. The airway, not the implants, is the highest-risk part of the day.
+      </div>
+    </section>
+
+    <!-- 11 -->
+    <section class="section card" id="armamentarium" data-section="armamentarium">
+      <div class="section-header">
+        <h2><span class="section-num">11</span> Armamentarium, team &amp; pre-op workflow</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <h3>Tray checklist</h3>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Category</th><th>Items</th></tr></thead>
+          <tbody>
+            <tr><td>Extraction / flap</td><td>Periotomes/elevators, forceps, #15 blades, periosteal elevators, retractors (Minnesota, Seldin), curettes, rongeurs</td></tr>
+            <tr><td>Bone reduction</td><td>Large round / barrel carbide or bone-reduction burs, piezo (optional, near nerve/sinus), bone file, reduction guide + fixation pins, irrigation</td></tr>
+            <tr><td>Implant</td><td>Surgical kit + motor with torque readout, implants in planned + backup sizes (incl. longer lengths), depth/direction gauges, ISQ device</td></tr>
+            <tr><td>Prosthetic</td><td>MUAs (all planned angles/heights + spares), MUA drivers/torque wrench, angle-correction/try-in tools, temporary cylinders, healing caps, prosthetic screws</td></tr>
+            <tr><td>Conversion</td><td>Immediate denture / printed provisional, rubber dam squares, pickup resin (and pink), acrylic burs, polishing kit, articulating paper</td></tr>
+            <tr><td>Closure &amp; adjuncts</td><td>Sutures (e.g., 4-0 resorbable / PTFE per preference), hemostatics, PRF centrifuge (optional), bone graft for sockets (optional)</td></tr>
+            <tr><td>Imaging</td><td>Periapical/pano capability to verify MUA seating before pickup</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Team roles</h3>
+      <ul>
+        <li><strong>Surgeon (you):</strong> plan sign-off, surgery, go/no-go call.</li>
+        <li><strong>Surgical assistant:</strong> retraction, suction, irrigation, instrument flow.</li>
+        <li><strong>Circulator / implant coordinator:</strong> opens implants/MUAs, records lot numbers, torques &amp; ISQs on the worksheet.</li>
+        <li><strong>Sedation provider + monitor:</strong> vitals log, airway, recovery.</li>
+        <li><strong>Restorative/conversion lead</strong> (you or a lab tech/second doctor): conversion, occlusion, polish.</li>
+      </ul>
+      <h3>Pre-op timeline (example)</h3>
+      <ol>
+        <li><strong>T-4 to -6 weeks:</strong> records, CBCT with prosthetic info, photos/video, set-up try-in, medical consults.</li>
+        <li><strong>T-3 weeks:</strong> plan finalized in software, guides/provisional ordered, MUAs and implants ordered with spares.</li>
+        <li><strong>T-1 week:</strong> written consent incl. plan B, Rx (antibiotics/analgesics/rinse per your protocol), sedation instructions, team huddle.</li>
+        <li><strong>T-1 day:</strong> tray and component check against the plan; guides test-fitted on model; confirmation call.</li>
+        <li><strong>Day of:</strong> time-out (patient, arch, plan, allergies, sedation), then execute (Week 3).</li>
+      </ol>
+    </section>
+
+    <!-- 12 -->
+    <section class="section card" id="worksheet" data-section="worksheet">
+      <div class="section-header">
+        <h2><span class="section-num">12</span> Case planning worksheet &amp; vignettes</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <p>Fill this out for every case; the printable version is on the <a href="study-sheet.html">study sheet</a>.</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Item</th><th>Record</th></tr></thead>
+          <tbody>
+            <tr><td>Arch / prosthesis / FP class</td><td>Max / Mand · hybrid / zirconia · FP2 / FP3</td></tr>
+            <tr><td>Smile display &amp; lip support</td><td>mm at full smile · flange needed?</td></tr>
+            <tr><td>Prosthetic space after reduction</td><td>___ mm (target ≈15+)</td></tr>
+            <tr><td>Planned reduction</td><td>Anterior ___ mm · posterior ___ mm · guide Y/N</td></tr>
+            <tr><td>Implants</td><td>Sites, diameter × length, tilt angle</td></tr>
+            <tr><td>A-P spread / cantilever</td><td>___ mm / final ___ mm · provisional ___ mm</td></tr>
+            <tr><td>MUAs</td><td>Angle + collar height per site · spares ordered</td></tr>
+            <tr><td>Anatomy margins</td><td>Sinus / nasal / IAN / mental foramen / loop — distances ≥2 mm</td></tr>
+            <tr><td>Stability criteria</td><td>Torque ≥___ Ncm · ISQ ≥___ · plan B written</td></tr>
+            <tr><td>Medical / pharm</td><td>HbA1c · antiresorptive · anticoagulant · smoking · clearance</td></tr>
+            <tr><td>Sedation</td><td>Provider · level · ASA · airway notes</td></tr>
+            <tr><td>Team &amp; tray</td><td>Roles assigned · checklist done</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Is this plan ready? Score each vignette</h3>
+      <p>GO = plan ready as written · CAUTION = fix something first · NO = wrong plan for immediate fixed.</p>
+
+      <div class="patient-card" data-patient="w2a">
+        <h4>Plan A — Mandible, 64M, non-smoker</h4>
+        <ul>
+          <li>4 implants: 2 axial anterior, 2 distal tilted ~30° mesial to the mental foramina; 3 mm from the measured anterior loop</li>
+          <li>A-P spread 14 mm; final cantilever planned 20 mm, provisional ending at first premolar</li>
+          <li>Post-reduction space 16 mm; 30° MUAs posterior, straight anterior; torque target ≥35 Ncm; plan B written</li>
+        </ul>
+        <div class="score-btns">
+          <button type="button" class="go" data-score="go">GO</button>
+          <button type="button" class="caution" data-score="caution">CAUTION</button>
+          <button type="button" class="no" data-score="no">NO</button>
+        </div>
+        <div class="score-feedback" role="status"></div>
+      </div>
+
+      <div class="patient-card" data-patient="w2b">
+        <h4>Plan B — Maxilla, 59F, high smile line</h4>
+        <ul>
+          <li>Full smile shows 4 mm of gingiva above the planned incisal edges</li>
+          <li>Plan: FP3 hybrid, no bone reduction "to save bone"; 11 mm of space from ridge to occlusal plane</li>
+          <li>4 implants with good torque expected; zirconia final requested</li>
+        </ul>
+        <div class="score-btns">
+          <button type="button" class="go" data-score="go">GO</button>
+          <button type="button" class="caution" data-score="caution">CAUTION</button>
+          <button type="button" class="no" data-score="no">NO</button>
+        </div>
+        <div class="score-feedback" role="status"></div>
+      </div>
+
+      <div class="patient-card" data-patient="w2c">
+        <h4>Plan C — Maxilla, 70F, breast cancer history</h4>
+        <ul>
+          <li>Receiving denosumab 120 mg monthly for bone metastases</li>
+          <li>Wants same-day fixed teeth; CBCT shows adequate zone 1–2 bone</li>
+          <li>Plan: extractions, alveoloplasty, 4 implants, immediate load next month</li>
+        </ul>
+        <div class="score-btns">
+          <button type="button" class="go" data-score="go">GO</button>
+          <button type="button" class="caution" data-score="caution">CAUTION</button>
+          <button type="button" class="no" data-score="no">NO</button>
+        </div>
+        <div class="score-feedback" role="status"></div>
+      </div>
+    </section>
+
+    <!-- References -->
+    <section class="section card refs" id="refs">
+      <h2>References (verified sources)</h2>
+      <ol>
+        <li>Maló P, Rangert B, Nobre M. “All-on-Four” immediate-function concept with Brånemark System implants for completely edentulous mandibles: a retrospective clinical study. <em>Clin Implant Dent Relat Res.</em> 2003;5 Suppl 1:2-9. <a href="https://doi.org/10.1111/j.1708-8208.2003.tb00010.x" rel="noopener noreferrer" target="_blank">doi:10.1111/j.1708-8208.2003.tb00010.x</a></li>
+        <li>Maló P, de Araújo Nobre M, Lopes A, Moss SM, Molina GJ. A longitudinal study of the survival of All-on-4 implants in the mandible with up to 10 years of follow-up. <em>J Am Dent Assoc.</em> 2011;142(3):310-320. <a href="https://doi.org/10.14219/jada.archive.2011.0170" rel="noopener noreferrer" target="_blank">doi:10.14219/jada.archive.2011.0170</a></li>
+        <li>Krekmanov L, Kahn M, Rangert B, Lindström H. Tilting of posterior mandibular and maxillary implants for improved prosthesis support. <em>Int J Oral Maxillofac Implants.</em> 2000;15(3):405-414. <a href="https://pubmed.ncbi.nlm.nih.gov/10874806/" rel="noopener noreferrer" target="_blank">PMID 10874806</a></li>
+        <li>Bedrossian E, Sullivan RM, Fortin Y, Malo P, Indresano T. Fixed-prosthetic implant restoration of the edentulous maxilla: a systematic pretreatment evaluation method. <em>J Oral Maxillofac Surg.</em> 2008;66(1):112-122. <a href="https://doi.org/10.1016/j.joms.2007.06.687" rel="noopener noreferrer" target="_blank">doi:10.1016/j.joms.2007.06.687</a></li>
+        <li>Rangert B, Jemt T, Jörneus L. Forces and moments on Brånemark implants. <em>Int J Oral Maxillofac Implants.</em> 1989;4(3):241-247. <a href="https://pubmed.ncbi.nlm.nih.gov/2700747/" rel="noopener noreferrer" target="_blank">PMID 2700747</a></li>
+        <li>Del Fabbro M, Ceresoli V. The fate of marginal bone around axial vs. tilted implants: a systematic review. <em>Eur J Oral Implantol.</em> 2014;7 Suppl 2:S171-189. <a href="https://pubmed.ncbi.nlm.nih.gov/24977252/" rel="noopener noreferrer" target="_blank">PMID 24977252</a></li>
+        <li>Daudt Polido W, Aghaloo T, Emmett TW, Taylor TD, Morton D. Number of implants placed for complete-arch fixed prostheses: a systematic review and meta-analysis. <em>Clin Oral Implants Res.</em> 2018;29 Suppl 16:154-183. <a href="https://doi.org/10.1111/clr.13312" rel="noopener noreferrer" target="_blank">doi:10.1111/clr.13312</a></li>
+        <li>Gallucci GO, Benic GI, Eckert SE, Papaspyridakos P, Schimmel M, Schrott A, Weber HP. Consensus statements and clinical recommendations for implant loading protocols. <em>Int J Oral Maxillofac Implants.</em> 2014;29 Suppl:287-290. <a href="https://doi.org/10.11607/jomi.2013.g4" rel="noopener noreferrer" target="_blank">doi:10.11607/jomi.2013.g4</a></li>
+        <li>Papaspyridakos P, Chen CJ, Chuang SK, Weber HP. Implant loading protocols for edentulous patients with fixed prostheses: a systematic review and meta-analysis. <em>Int J Oral Maxillofac Implants.</em> 2014;29 Suppl:256-270. <a href="https://doi.org/10.11607/jomi.2014suppl.g4.3" rel="noopener noreferrer" target="_blank">doi:10.11607/jomi.2014suppl.g4.3</a></li>
+        <li>Morton D, Gallucci G, Lin WS, et al. Group 2 ITI Consensus Report: Prosthodontics and implant dentistry. <em>Clin Oral Implants Res.</em> 2018;29 Suppl 16:215-223. <a href="https://doi.org/10.1111/clr.13298" rel="noopener noreferrer" target="_blank">doi:10.1111/clr.13298</a></li>
+        <li>Tahmaseb A, Wu V, Wismeijer D, Coucke W, Evans C. The accuracy of static computer-aided implant surgery: a systematic review and meta-analysis. <em>Clin Oral Implants Res.</em> 2018;29 Suppl 16:416-435. <a href="https://doi.org/10.1111/clr.13346" rel="noopener noreferrer" target="_blank">doi:10.1111/clr.13346</a></li>
+        <li>Martins J, Rangel J, de Araújo Nobre M, et al. A new full digital workflow for fixed prosthetic rehabilitation of full-arch edentulism using the All-on-4 concept. <em>Medicina (Kaunas).</em> 2024;60(5):720. <a href="https://doi.org/10.3390/medicina60050720" rel="noopener noreferrer" target="_blank">doi:10.3390/medicina60050720</a></li>
+        <li>Jacobs R, Salmon B, Codari M, Hassan B, Bornstein MM. Cone beam computed tomography in implant dentistry: recommendations for clinical use. <em>BMC Oral Health.</em> 2018;18:88. <a href="https://doi.org/10.1186/s12903-018-0523-5" rel="noopener noreferrer" target="_blank">doi:10.1186/s12903-018-0523-5</a></li>
+        <li>Greenstein G, Tarnow D. The mental foramen and nerve: clinical and anatomical factors related to dental implant placement: a literature review. <em>J Periodontol.</em> 2006;77(12):1933-1943. <a href="https://doi.org/10.1902/jop.2006.060197" rel="noopener noreferrer" target="_blank">doi:10.1902/jop.2006.060197</a></li>
+        <li>Ruggiero SL, Dodson TB, Aghaloo T, Carlson ER, Ward BB, Kademani D. American Association of Oral and Maxillofacial Surgeons’ position paper on medication-related osteonecrosis of the jaws—2022 update. <em>J Oral Maxillofac Surg.</em> 2022;80(5):920-943. <a href="https://doi.org/10.1016/j.joms.2022.02.008" rel="noopener noreferrer" target="_blank">doi:10.1016/j.joms.2022.02.008</a></li>
+        <li>Wagner J, Spille JH, Wiltfang J, Naujokat H. Systematic review on diabetes mellitus and dental implants: an update. <em>Int J Implant Dent.</em> 2022;8(1):1. <a href="https://doi.org/10.1186/s40729-021-00399-8" rel="noopener noreferrer" target="_blank">doi:10.1186/s40729-021-00399-8</a></li>
+        <li>Chrcanovic BR, Albrektsson T, Wennerberg A. Smoking and dental implants: a systematic review and meta-analysis. <em>J Dent.</em> 2015;43(5):487-498. <a href="https://doi.org/10.1016/j.jdent.2015.03.003" rel="noopener noreferrer" target="_blank">doi:10.1016/j.jdent.2015.03.003</a></li>
+        <li>Scottish Dental Clinical Effectiveness Programme (SDCEP). Management of Dental Patients Taking Anticoagulants or Antiplatelet Drugs. <a href="https://www.sdcep.org.uk/published-guidance/anticoagulants-and-antiplatelets/" rel="noopener noreferrer" target="_blank">sdcep.org.uk guidance</a></li>
+        <li>American Dental Association. Guidelines for the Use of Sedation and General Anesthesia by Dentists (adopted October 2016). <a href="https://www.ada.org/-/media/project/ada-organization/ada/ada-org/files/resources/research/ada_sedation_use_guidelines.pdf" rel="noopener noreferrer" target="_blank">ada.org (PDF)</a></li>
+        <li>Misch CE. Contemporary Implant Dentistry — prosthetic options / crown-height space and biomechanics chapters (textbook; use current edition).</li>
+        <li>Course context (general sources, not cited for specific numbers): <a href="https://www.pikosinstitute.com/full-arch-reconstruction/full-arch-implant-course" rel="noopener noreferrer" target="_blank">Pikos Institute — Foundational Full Arch Therapy: All-on-XYZ / All-on-4 Level 2</a>; <a href="https://smartonx.com/" rel="noopener noreferrer" target="_blank">SmartOnX</a>.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><a href="../index.html">Home</a> · <a href="../week1/index.html">Week 1</a> · <a href="study-sheet.html">Study sheet</a> · <a href="quiz.html">Quiz</a></p>
+    <p>Week 2 · All-on-X Mastery · Personal study aid</p>
+  </footer>
+
+  <script>
+    window.AOX_PATIENT_KEYS = {
+      w2a: { answer: "go", tip: "GO: cantilever 20 mm ≈ 1.4 × a 14 mm A-P spread in mandible, 3 mm from a measured loop (above the ~2 mm guide-error margin), 16 mm of space, MUAs planned, torque criteria and plan B written. This is what a finished plan looks like." },
+      w2b: { answer: "caution", tip: "CAUTION — fix before surgery: 11 mm is short of the ~15 mm envelope for a hybrid and below most zirconia specs, and a 4 mm gingival display means an unreduced FP3 junction will show. Plan reduction from the set-up (space + hidden transition) or change the design and re-consent." },
+      w2c: { answer: "no", tip: "NO for elective implants: oncologic-dose denosumab for metastatic disease carries high MRONJ risk (AAOMS 2022). Coordinate with the oncologist; a conventional denture / non-surgical path is usually indicated." }
+    };
+  </script>
+  <script src="../js/progress.js"></script>
+  <script src="../js/patients.js"></script>
+</body>
+</html>
