@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 640" role="img" aria-labelledby="sdt-title sdt-desc">
+  <title id="sdt-title">Surgery-day flow for full-arch immediate load</title>
+  <desc id="sdt-desc">Fifteen steps in three phases. Before surgery: arrival and vitals, sign in, sedation and local anesthesia, surgical time-out. Surgery: extractions and debridement, flap and nerve identification, bone reduction and space check, osteotomies and implant placement, torque and ISQ go or no-go decision, multi-unit abutments seated and radiograph, graft and closure, hemostasis. After: sign out and count, handoff to same-day conversion (Week 4), recovery and discharge with written instructions.</desc>
+  <defs>
+    <marker id="sdt-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#334155"/>
+    </marker>
+    <filter id="sdt-soft" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="720" height="640" fill="#f8fafc"/>
+  <text x="360" y="30" text-anchor="middle" fill="#0f172a" font-family="system-ui,sans-serif" font-size="16" font-weight="700">Surgery day — one direction, written decision points</text>
+
+  <!-- Phase labels -->
+  <rect x="20" y="50" width="680" height="128" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
+  <text x="34" y="70" fill="#1d4ed8" font-family="system-ui,sans-serif" font-size="12" font-weight="800">BEFORE INCISION · Sign In → Time Out</text>
+  <rect x="20" y="190" width="680" height="300" rx="12" fill="#f0fdfa" stroke="#99f6e4"/>
+  <text x="686" y="210" text-anchor="end" fill="#0f766e" font-family="system-ui,sans-serif" font-size="12" font-weight="800">SURGERY · extraction → implants → MUAs → closure</text>
+  <rect x="20" y="502" width="680" height="124" rx="12" fill="#fff7ed" stroke="#fed7aa"/>
+  <text x="686" y="522" text-anchor="end" fill="#c2410c" font-family="system-ui,sans-serif" font-size="12" font-weight="800">AFTER · Sign Out → conversion (Week 4) → discharge</text>
+
+  <!-- Row 1 -->
+  <g font-family="system-ui,sans-serif">
+    <rect x="36" y="84" width="150" height="76" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="111" y="108" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">1 · Arrive</text>
+    <text x="111" y="126" text-anchor="middle" fill="#475569" font-size="10">Vitals · glucose · meds</text>
+    <text x="111" y="140" text-anchor="middle" fill="#475569" font-size="10">taken? escort? NPO?</text>
+
+    <rect x="202" y="84" width="150" height="76" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="277" y="108" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">2 · Sign In</text>
+    <text x="277" y="126" text-anchor="middle" fill="#475569" font-size="10">ID · consent · allergies</text>
+    <text x="277" y="140" text-anchor="middle" fill="#475569" font-size="10">airway · monitors on</text>
+
+    <rect x="368" y="84" width="150" height="76" rx="10" fill="#fff" stroke="#3b82f6" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="443" y="108" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">3 · Sedation + LA</text>
+    <text x="443" y="126" text-anchor="middle" fill="#475569" font-size="10">Blocks + infiltration</text>
+    <text x="443" y="140" text-anchor="middle" fill="#475569" font-size="10">dose log (mg/kg)</text>
+
+    <rect x="534" y="84" width="150" height="76" rx="10" fill="#1d4ed8" filter="url(#sdt-soft)"/>
+    <text x="609" y="108" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">4 · TIME OUT</text>
+    <text x="609" y="126" text-anchor="middle" fill="#dbeafe" font-size="10">Arch · plan · implants</text>
+    <text x="609" y="140" text-anchor="middle" fill="#dbeafe" font-size="10">MUAs · plan B · roles</text>
+
+    <line x1="186" y1="122" x2="200" y2="122" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+    <line x1="352" y1="122" x2="366" y2="122" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+    <line x1="518" y1="122" x2="532" y2="122" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+    <path d="M609,160 L609,176 L111,176 L111,222" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+
+    <!-- Row 2 -->
+    <rect x="36" y="224" width="150" height="76" rx="10" fill="#fff" stroke="#0f766e" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="111" y="248" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">5 · Extract</text>
+    <text x="111" y="266" text-anchor="middle" fill="#475569" font-size="10">Atraumatic · curette</text>
+    <text x="111" y="280" text-anchor="middle" fill="#475569" font-size="10">debride infection</text>
+
+    <rect x="202" y="224" width="150" height="76" rx="10" fill="#fff" stroke="#0f766e" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="277" y="248" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">6 · Flap + nerves</text>
+    <text x="277" y="266" text-anchor="middle" fill="#475569" font-size="10">Crestal full-thickness</text>
+    <text x="277" y="280" text-anchor="middle" fill="#475569" font-size="10">see foramina / sinus wall</text>
+
+    <rect x="368" y="224" width="150" height="76" rx="10" fill="#fff" stroke="#0f766e" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="443" y="248" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">7 · Reduce bone</text>
+    <text x="443" y="266" text-anchor="middle" fill="#475569" font-size="10">To planned level</text>
+    <text x="443" y="280" text-anchor="middle" fill="#475569" font-size="10">verify space (≈15 mm)</text>
+
+    <rect x="534" y="224" width="150" height="76" rx="10" fill="#fff" stroke="#0f766e" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="609" y="248" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">8 · Implants</text>
+    <text x="609" y="266" text-anchor="middle" fill="#475569" font-size="10">Tilted distal → axial ant.</text>
+    <text x="609" y="280" text-anchor="middle" fill="#475569" font-size="10">prep to bone density</text>
+
+    <line x1="186" y1="262" x2="200" y2="262" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+    <line x1="352" y1="262" x2="366" y2="262" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+    <line x1="518" y1="262" x2="532" y2="262" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+    <path d="M609,300 L609,316 L111,316 L111,360" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+
+    <!-- Row 3 -->
+    <rect x="36" y="362" width="150" height="76" rx="10" fill="#0f172a" filter="url(#sdt-soft)"/>
+    <text x="111" y="386" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">9 · GO / NO-GO</text>
+    <text x="111" y="404" text-anchor="middle" fill="#94a3b8" font-size="10">Torque · ISQ · spread</text>
+    <text x="111" y="418" text-anchor="middle" fill="#94a3b8" font-size="10">plan B if not met</text>
+
+    <rect x="202" y="362" width="150" height="76" rx="10" fill="#fff" stroke="#0f766e" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="277" y="386" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">10 · Seat MUAs</text>
+    <text x="277" y="404" text-anchor="middle" fill="#475569" font-size="10">Angle · cuff · index</text>
+    <text x="277" y="418" text-anchor="middle" fill="#475569" font-size="10">torque per IFU · x-ray</text>
+
+    <rect x="368" y="362" width="150" height="76" rx="10" fill="#fff" stroke="#0f766e" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="443" y="386" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">11 · Graft + close</text>
+    <text x="443" y="404" text-anchor="middle" fill="#475569" font-size="10">Fill gaps · suture</text>
+    <text x="443" y="418" text-anchor="middle" fill="#475569" font-size="10">around MUAs · caps on</text>
+
+    <rect x="534" y="362" width="150" height="76" rx="10" fill="#fff" stroke="#0f766e" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="609" y="386" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">12 · Hemostasis</text>
+    <text x="609" y="404" text-anchor="middle" fill="#475569" font-size="10">Pressure · local agents</text>
+    <text x="609" y="418" text-anchor="middle" fill="#475569" font-size="10">dry field for pickup</text>
+
+    <line x1="186" y1="400" x2="200" y2="400" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+    <line x1="352" y1="400" x2="366" y2="400" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+    <line x1="518" y1="400" x2="532" y2="400" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+    <text x="111" y="462" text-anchor="middle" fill="#b45309" font-size="10" font-weight="700">NO-GO → cover screws /</text>
+    <text x="111" y="476" text-anchor="middle" fill="#b45309" font-size="10" font-weight="700">removable interim</text>
+    <path d="M609,438 L609,500 L111,500 L111,536" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+
+    <!-- Row 4 -->
+    <rect x="36" y="538" width="200" height="72" rx="10" fill="#fff" stroke="#ea580c" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="136" y="562" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">13 · Sign Out</text>
+    <text x="136" y="580" text-anchor="middle" fill="#475569" font-size="10">Counts · lot #s · torque/ISQ</text>
+    <text x="136" y="594" text-anchor="middle" fill="#475569" font-size="10">recorded · concerns voiced</text>
+
+    <rect x="260" y="538" width="200" height="72" rx="10" fill="#c2410c" filter="url(#sdt-soft)"/>
+    <text x="360" y="562" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">14 · Conversion</text>
+    <text x="360" y="580" text-anchor="middle" fill="#ffedd5" font-size="10">Pickup · contour · occlusion</text>
+    <text x="360" y="594" text-anchor="middle" fill="#ffedd5" font-size="10">→ Week 4 (SDC 2.0)</text>
+
+    <rect x="484" y="538" width="200" height="72" rx="10" fill="#fff" stroke="#ea580c" stroke-width="2" filter="url(#sdt-soft)"/>
+    <text x="584" y="562" text-anchor="middle" fill="#0f172a" font-size="12" font-weight="700">15 · Discharge</text>
+    <text x="584" y="580" text-anchor="middle" fill="#475569" font-size="10">Recovery criteria · escort</text>
+    <text x="584" y="594" text-anchor="middle" fill="#475569" font-size="10">written post-op · call</text>
+
+    <line x1="236" y1="574" x2="258" y2="574" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+    <line x1="460" y1="574" x2="482" y2="574" stroke="#334155" stroke-width="2" marker-end="url(#sdt-arrow)"/>
+  </g>
+  <text x="700" y="634" text-anchor="end" fill="#64748b" font-family="system-ui,sans-serif" font-size="9">Schematic teaching flow. Your sedation provider, IFUs and protocol govern the details.</text>
+</svg>
