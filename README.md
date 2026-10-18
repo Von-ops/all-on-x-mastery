@@ -1,6 +1,6 @@
-# All-on-X Mastery — Weeks 1–2
+# All-on-X Mastery — Weeks 1–3
 
-Personal study site for **Kevon Rennie**: foundations & case selection (Week 1) and surgical planning & armamentarium (Week 2) for full-arch immediate load (aligned with Pikos Full Arch All-on-XYZ Level 2 + SmartOnX SDC 2.0 concepts).
+Personal study site for **Kevon Rennie**: foundations & case selection (Week 1), surgical planning & armamentarium (Week 2) and surgery-day protocol (Week 3) for full-arch immediate load (aligned with Pikos Full Arch All-on-XYZ Level 2 + SmartOnX SDC 2.0 concepts).
 
 **Not** a substitute for manufacturer IFUs, CE accreditation, or live mentorship.
 
@@ -54,6 +54,10 @@ Open `index.html` in a browser. Relative CSS/JS/SVG paths work offline. YouTube 
     index.html          (full module)
     study-sheet.html
     quiz.html
+  week3/
+    index.html          (full module)
+    study-sheet.html
+    quiz.html
 ```
 
 ### JS conventions (shared scripts, per-week config)
@@ -89,6 +93,27 @@ Open `index.html` in a browser. Relative CSS/JS/SVG paths work offline. YouTube 
 11. Armamentarium, team & pre-op workflow
 12. Case planning worksheet + 3 plan vignettes
 13. Study sheet + 12-question quiz
+
+## Week 3 outline — Surgery-day protocol
+
+1. Learning objectives
+2. Surgery-day flow & timeline
+3. Day-before & morning-of checklist (consent, meds/premedication, sedation readiness, guide/implant/MUA inventory, team briefing)
+4. Surgical time-out (WHO Surgical Safety Checklist, adapted: Sign In · Time Out · Sign Out)
+5. Anesthesia & full-arch local technique
+6. Atraumatic extraction & socket debridement
+7. Flap design, exposure & nerve identification
+8. Bone reduction to the planned level & prosthetic-space check
+9. Osteotomy & placement sequence (distal tilted → anterior axial; soft vs dense bone)
+10. Torque / ISQ go/no-go & plan B
+11. MUA selection & seating (cuff, angle, indexing, torque per IFU, radiograph)
+12. Grafting, closure & hemostasis
+13. Post-op instructions & handoff to conversion (Week 4 preview)
+14. Intraoperative complications quick-reference
+15. Intraoperative vignettes (GO / CAUTION / NO)
+16. Study sheet + 12-question quiz
+
+New diagrams: `assets/surgery-day-timeline.svg`, `assets/placement-sequence.svg`, `assets/torque-isq-decision.svg`, `assets/mua-selection.svg`.
 
 ## License / content note
 
