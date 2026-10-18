@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Week 3 Quiz · All-on-X Mastery</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html">
+        <strong>All-on-X Mastery</strong>
+        <span>Week 3 · Quiz</span>
+      </a>
+      <nav class="header-nav" aria-label="Primary">
+        <a href="index.html">Module</a>
+        <a href="study-sheet.html">Sheet</a>
+        <a href="quiz.html" aria-current="page">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">12 questions · instant feedback</span>
+      <h1>Week 3 knowledge check</h1>
+      <p>Select one answer per question, then grade. Correct choices highlight in green with explanations.</p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div id="quiz-result" class="quiz-result" role="status">
+      <div>Your score</div>
+      <div class="score-big" id="score-big">0 / 12</div>
+      <p id="score-msg" style="margin:0;color:var(--slate-300)"></p>
+    </div>
+
+    <form id="quiz-form" onsubmit="return false;">
+      <div class="quiz-q" id="q1">
+        <h3>1. In the WHO Surgical Safety Checklist, the three pauses are:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q1" value="a" /> Consent, incision, discharge</label>
+          <label><input type="radio" name="q1" value="b" /> Sign In before anesthesia, Time Out before incision, Sign Out before the patient leaves</label>
+          <label><input type="radio" name="q1" value="c" /> Time Out only, immediately before closure</label>
+          <label><input type="radio" name="q1" value="d" /> Pre-op call, morning huddle, post-op call</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q2">
+        <h3>2. A terminal tooth at a planned implant site has a chronic periapical lesion. Before placing an implant in or near that socket you should:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q2" value="a" /> Place the implant immediately — bone reduction removes all infection anyway</label>
+          <label><input type="radio" name="q2" value="b" /> Cover the socket with graft and place the implant through it</label>
+          <label><input type="radio" name="q2" value="c" /> Meticulously curette/debride to clean bone and irrigate (e.g., chlorhexidine); if it can't be cleaned, relocate or stage that site</label>
+          <label><input type="radio" name="q2" value="d" /> Rely on post-operative antibiotics to clear it</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q3">
+        <h3>3. For a mandibular All-on-4, the safest approach to the mental nerve during flap reflection is:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q3" value="a" /> Identify both mental foramina by blunt dissection, keep releasing incisions away from them, and keep distal implant apices mesial to the measured loop</label>
+          <label><input type="radio" name="q3" value="b" /> Make vertical releasing incisions directly over the premolars for access</label>
+          <label><input type="radio" name="q3" value="c" /> Avoid reflecting near the foramen and estimate its position by eye</label>
+          <label><input type="radio" name="q3" value="d" /> Rely on the sedated patient to report nerve proximity</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q4">
+        <h3>4. After bone reduction and before the first osteotomy, the key check is:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q4" value="a" /> That the ridge is knife-edged for better tissue adaptation</label>
+          <label><input type="radio" name="q4" value="b" /> That the MUAs are already ordered</label>
+          <label><input type="radio" name="q4" value="c" /> That the patient can smile on command under sedation</label>
+          <label><input type="radio" name="q4" value="d" /> Prosthetic space from reduced bone to the planned occlusal plane (≈15 mm for a hybrid / lab spec) and a flat platform — reduce more now if short</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q5">
+        <h3>5. The left posterior maxilla feels soft (D4) while drilling the tilted distal site. Which change most improves primary stability?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q5" value="a" /> Over-prepare one size larger so the implant seats easily</label>
+          <label><input type="radio" name="q5" value="b" /> Increase drill speed and skip irrigation</label>
+          <label><input type="radio" name="q5" value="c" /> Switch to a shorter, wider implant at the crest only</label>
+          <label><input type="radio" name="q5" value="d" /> Under-prepare (stop a drill short per IFU), use a longer tapered implant and engage cortical bone where safe</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q6">
+        <h3>6. An anterior mandibular implant in dense D1 bone is climbing toward the system's maximum insertion torque before full depth. Best action:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q6" value="a" /> Stop, back out, use the dense-bone drill/tap per IFU, then re-insert</label>
+          <label><input type="radio" name="q6" value="b" /> Leave it 3 mm proud and load it anyway</label>
+          <label><input type="radio" name="q6" value="c" /> Keep ratcheting by hand — higher torque is always better</label>
+          <label><input type="radio" name="q6" value="d" /> Switch to a wider implant without changing the osteotomy</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q7">
+        <h3>7. In a zygoma-free maxillary All-on-4, the distal implant is typically:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q7" value="a" /> Tilted ~30–45° along the anterior sinus wall with the platform near the second premolar</label>
+          <label><input type="radio" name="q7" value="b" /> Placed axially in the first molar through the sinus floor</label>
+          <label><input type="radio" name="q7" value="c" /> Placed in the incisive canal for cortical engagement</label>
+          <label><input type="radio" name="q7" value="d" /> Angled facially so the screw access exits buccally</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q8">
+        <h3>8. Maxilla: two of four implants reach only 12 and 18 Ncm despite rescue attempts; the written threshold is 35 Ncm. The correct call is:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q8" value="a" /> Immediate load — cross-arch splinting compensates</label>
+          <label><input type="radio" name="q8" value="b" /> Load the two good implants with a full-arch provisional</label>
+          <label><input type="radio" name="q8" value="c" /> Remove all implants and abandon treatment</label>
+          <label><input type="radio" name="q8" value="d" /> Stage: cover screws/healing abutments, close, deliver a relieved, soft-relined removable interim, load after integration</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q9">
+        <h3>9. Seating a 30° MUA on a tilted implant, the correct torque value comes from:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q9" value="a" /> A universal 35 Ncm for every system</label>
+          <label><input type="radio" name="q9" value="b" /> The implant insertion torque you just recorded</label>
+          <label><input type="radio" name="q9" value="c" /> The manufacturer's IFU for that abutment/screw — then verify seating radiographically</label>
+          <label><input type="radio" name="q9" value="d" /> Hand-tight is enough on surgery day</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q10">
+        <h3>10. The 2026 Cochrane update on antibiotic prophylaxis at implant placement (without bone augmentation) concluded that:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q10" value="a" /> Antibiotics have no effect on implant failure</label>
+          <label><input type="radio" name="q10" value="b" /> Prophylaxis probably reduces early implant failures, mostly from a single pre-op 2 g amoxicillin dose; the optimal regimen is uncertain</label>
+          <label><input type="radio" name="q10" value="c" /> A 7-day post-operative course is clearly superior to a single dose</label>
+          <label><input type="radio" name="q10" value="d" /> Clindamycin is proven superior to amoxicillin</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q11">
+        <h3>11. During an anterior mandibular osteotomy the drill perforates the lingual cortex; minutes later the floor of the mouth swells and the tongue rises. First priority:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q11" value="a" /> Deepen sedation so the patient stops moving</label>
+          <label><input type="radio" name="q11" value="b" /> Finish placing the implant to tamponade the bleeding, then continue</label>
+          <label><input type="radio" name="q11" value="c" /> Airway: stop, sit the patient up, oxygen, bimanual compression, call 911 early</label>
+          <label><input type="radio" name="q11" value="d" /> Complete the conversion quickly so the patient leaves with teeth</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q12">
+        <h3>12. While preparing a tilted maxillary site, the depth gauge passes into the sinus (small membrane perforation). Reasonable management:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q12" value="a" /> Pack particulate graft through the osteotomy into the sinus</label>
+          <label><input type="radio" name="q12" value="b" /> Stop; push nothing into the sinus; shorten/redirect or proceed if the implant achieves stability in bone; sinus precautions, document and inform the patient</label>
+          <label><input type="radio" name="q12" value="c" /> Abandon the entire arch immediately</label>
+          <label><input type="radio" name="q12" value="d" /> Ignore it and don't tell the patient</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="btn-row">
+        <button type="button" class="btn btn-primary" id="grade-quiz">Grade quiz</button>
+        <button type="button" class="btn btn-ghost" id="reset-quiz">Reset</button>
+        <a class="btn btn-secondary" href="study-sheet.html">Study sheet</a>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p><a href="index.html">Back to Week 3 module</a> · <a href="../index.html">Home</a></p>
+  </footer>
+  <script>
+    window.AOX_QUIZ = {
+      "storageKey": "aox-week3-quiz",
+      "answers": {
+        "q1": {
+          "correct": "b",
+          "explain": "WHO's checklist pauses at Sign In (before induction of anesthesia/sedation), Time Out (before incision) and Sign Out (before the patient leaves). Its introduction was associated with deaths falling from 1.5% to 0.8% and complications from 11.0% to 7.0% (Haynes 2009)."
+        },
+        "q2": {
+          "correct": "c",
+          "explain": "Reduction removes crestal sockets, not apical lesions below the reduction level. Immediate implants in sites with endodontic/periodontal lesions showed high survival when meticulous cleaning, curettage/debridement and chlorhexidine rinsing came first (Chrcanovic 2015). Benefit of antibiotics alone is unproven."
+        },
+        "q3": {
+          "correct": "a",
+          "explain": "See the foramina, keep releases away from them, and respect a measured anterior loop (variable length — Greenstein & Tarnow 2006) with a ≥2 mm margin. Patient feedback under sedation is not a reliable safeguard."
+        },
+        "q4": {
+          "correct": "d",
+          "explain": "Verify the planned space (≈15 mm for a hybrid, or your lab's number) and a flat, wide platform before drilling. Finding 11 mm during the conversion means a thin provisional that fractures over MUAs."
+        },
+        "q5": {
+          "correct": "d",
+          "explain": "Undersized preparation increased insertion and removal torque in low-density bone models (Tabassum 2009); primary stability depends on bone density, implant design and surgical technique (Javed & Romanos 2010)."
+        },
+        "q6": {
+          "correct": "a",
+          "explain": "Overcompressing dense cortical bone is a reported cause of early failure (compression necrosis — Bashutski 2009). Use the dense-bone drill/tap per IFU and never exceed the system's maximum insertion torque."
+        },
+        "q7": {
+          "correct": "a",
+          "explain": "The tilted distal implant follows the anterior sinus wall so its platform emerges near the second premolar, widening the A-P spread without grafting (Maló 2005). Tilted and axial implants show similar survival and bone levels (Agliardi 2010; Del Fabbro 2012)."
+        },
+        "q8": {
+          "correct": "d",
+          "explain": "With two of four implants below threshold, number and spread are inadequate for immediate load. Stage with a removable interim and load after integration — the plan B the patient consented to (Gallucci 2014; Papaspyridakos 2014)."
+        },
+        "q9": {
+          "correct": "c",
+          "explain": "MUA screw torque is system- and component-specific (straight and angled often differ). Use the IFU value, then radiograph each interface to confirm full seating before the conversion."
+        },
+        "q10": {
+          "correct": "b",
+          "explain": "Esposito 2026 (15 RCTs): prophylaxis probably reduces early failures (RR 0.34; NNT ≈ 19), mainly from single 2 g amoxicillin ~1 h pre-op; single vs multiple dose, pre vs post-op, and agent comparisons were inconclusive. Augmentation cases were excluded — apply your protocol."
+        },
+        "q11": {
+          "correct": "c",
+          "explain": "Lingual perforation can injure sublingual/submental arteries; expanding hematomas displace the tongue and can obstruct the airway, sometimes with delayed onset (Kalpidis 2004). Airway first, EMS early, no conversion."
+        },
+        "q12": {
+          "correct": "b",
+          "explain": "Common teaching: don't introduce graft or debris into the sinus; if the implant gains stability in bone many surgeons proceed, otherwise shorten, redirect or relocate. Give sinus precautions, document, inform the patient and follow for sinusitis."
+        }
+      },
+      "messages": {
+        "high": "Surgery-day ready on paper — next up, Week 4 Smart Denture Conversion 2.0.",
+        "mid": "Solid. Revisit the go/no-go tree, bone-density preparation, MUA seating and the complication table, then retry.",
+        "low": "Review the Week 3 module and study sheet, then retake. The checklist and the numbers protect the patient."
+      }
+    };
+  </script>
+  <script src="../js/quiz.js"></script>
+</body>
+</html>

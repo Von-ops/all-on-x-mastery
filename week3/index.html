@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <meta name="description" content="Week 3 of Kevon's All-on-X mastery course — surgery-day protocol from checklist and time-out to MUA seating, closure and handoff to conversion." />
+  <title>Week 3 · Surgery-Day Protocol · All-on-X Mastery</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body data-progress-key="aox-week3-done">
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html">
+        <strong>All-on-X Mastery</strong>
+        <span>Week 3 · Surgery day</span>
+      </a>
+      <nav class="header-nav" aria-label="Primary">
+        <a href="../index.html">Home</a>
+        <a href="index.html" aria-current="page">Module</a>
+        <a href="study-sheet.html">Sheet</a>
+        <a href="quiz.html">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="week-progress" aria-label="Section progress">
+    <div class="week-progress-inner">
+      <div class="progress-track" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+      <span class="progress-label" id="progress-label">0/15</span>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">Week 3 of mastery track</span>
+      <h1>Surgery-day protocol</h1>
+      <p>
+        Execute the Week 2 plan in order: checklists and time-out, anesthesia, atraumatic
+        extraction and debridement, flap and nerve identification, reduction to the planned
+        level, tilted/axial placement matched to bone density, a numbers-based go/no-go,
+        MUA seating, closure — and a clean handoff to the same-day conversion.
+      </p>
+      <div class="hero-meta">
+        <span class="chip">~90–110 min read + quiz</span>
+        <span class="chip">Aligned: Pikos L2 · SmartOnX SDC 2.0</span>
+        <span class="chip">Tuesday study block</span>
+      </div>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <nav class="toc" aria-label="Week 3 contents">
+      <h2>On this page</h2>
+      <ol>
+        <li><a href="#objectives">Learning objectives</a></li>
+        <li><a href="#flow">Surgery-day flow &amp; timeline</a></li>
+        <li><a href="#preop">Day-before &amp; morning-of checklist</a></li>
+        <li><a href="#timeout">Surgical time-out (WHO checklist, adapted)</a></li>
+        <li><a href="#anesthesia">Anesthesia &amp; full-arch local technique</a></li>
+        <li><a href="#extraction">Atraumatic extraction &amp; socket debridement</a></li>
+        <li><a href="#flap">Flap design, exposure &amp; nerve identification</a></li>
+        <li><a href="#reduction">Bone reduction to the planned level</a></li>
+        <li><a href="#placement">Osteotomy &amp; placement sequence</a></li>
+        <li><a href="#stability">Torque / ISQ go/no-go &amp; plan B</a></li>
+        <li><a href="#mua">MUA selection &amp; seating</a></li>
+        <li><a href="#closure">Grafting, closure &amp; hemostasis</a></li>
+        <li><a href="#postop">Post-op instructions &amp; handoff to conversion</a></li>
+        <li><a href="#complications">Intraoperative complications quick-reference</a></li>
+        <li><a href="#vignettes">Intraoperative vignettes</a></li>
+        <li><a href="#refs">References</a></li>
+      </ol>
+      <div class="btn-row" style="margin-bottom:0">
+        <a class="btn btn-secondary" href="study-sheet.html">Study sheet</a>
+        <a class="btn btn-primary" href="quiz.html">Take quiz</a>
+      </div>
+    </nav>
+
+    <div class="disclaimer">
+      <strong>Study aid disclaimer.</strong> Content synthesizes public scientific literature and
+      widely taught full-arch concepts consistent with Pikos Full Arch All-on-XYZ and SmartOnX-style
+      curricula. Numbers below are <em>teaching ranges</em>, not protocols. Drill speeds, torque
+      values and MUA screw torques come from your implant system IFU; drugs and doses from your
+      protocol, the patient's physicians and your sedation provider. Follow Florida Board
+      sedation-permit rules and get mentorship (ideally a mentor in the room) for your first cases.
+    </div>
+
+    <!-- 1 -->
+    <section class="section card" id="objectives" data-section="objectives">
+      <div class="section-header">
+        <h2><span class="section-num">1</span> Learning objectives</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <p>By the end of Week 3 you should be able to:</p>
+      <ul class="obj-list">
+        <li data-n="1">Run the day-before and morning-of checks and a three-phase surgical safety checklist (Sign In · Time Out · Sign Out) with your team.</li>
+        <li data-n="2">Anesthetize a full arch, extract atraumatically and debride infected sockets before any implant goes in.</li>
+        <li data-n="3">Raise a crestal full-thickness flap, see the mental foramina / sinus landmarks, and reduce bone to the planned level while verifying prosthetic space.</li>
+        <li data-n="4">Place distal tilted and anterior axial implants in sequence, preparing the osteotomy to the bone you actually find (under-prep soft, protect dense).</li>
+        <li data-n="5">Make the immediate-load vs staging call from torque/ISQ numbers and execute plan B without improvising.</li>
+        <li data-n="6">Select, index and seat MUAs (torque per IFU), graft and close around them, control bleeding, and hand a clean, documented field to the conversion.</li>
+      </ul>
+      <div class="callout">
+        <strong>Where Week 3 sits</strong>
+        Week 2 wrote the blueprint. Week 3 is the surgery itself — it ends when the MUAs are seated,
+        verified, the tissue is closed around them and the field is dry. Week 4 (Smart Denture
+        Conversion 2.0) picks up the prosthesis from there.
+      </div>
+    </section>
+
+    <!-- 2 -->
+    <section class="section card" id="flow" data-section="flow">
+      <div class="section-header">
+        <h2><span class="section-num">2</span> Surgery-day flow &amp; timeline</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <figure class="figure">
+        <img src="../assets/surgery-day-timeline.svg" alt="Fifteen-step surgery-day flow in three phases: before incision (arrive, sign in, sedation and local anesthesia, time out), surgery (extract, flap and nerves, reduce bone, implants, go/no-go decision, seat MUAs, graft and close, hemostasis), and after (sign out, conversion, discharge)" width="720" height="640" />
+        <figcaption>Figure 1. One direction, with written decision points. The go/no-go (step 9) happens <em>before</em> MUAs and long before anyone starts the conversion.</figcaption>
+      </figure>
+      <h3>Example first-case schedule</h3>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Block</th><th>What happens</th><th>Typical time (first cases, single arch)</th></tr></thead>
+          <tbody>
+            <tr><td>Arrival &amp; Sign In</td><td>Vitals, glucose, consent re-check, monitors, IV/sedation</td><td>30–45 min</td></tr>
+            <tr><td>Local + Time Out</td><td>Blocks/infiltration; team confirms arch, plan, components, plan B</td><td>10–20 min</td></tr>
+            <tr><td>Extraction → closure</td><td>Steps 5–12 in Figure 1</td><td>90–180 min</td></tr>
+            <tr><td>Conversion (Week 4)</td><td>Pickup, contour, polish, occlusion</td><td>60–120 min</td></tr>
+            <tr><td>Recovery &amp; discharge</td><td>Recovery criteria, written instructions, escort</td><td>30–60 min</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.9rem;color:var(--slate-600)">
+        Times are illustrative planning numbers for a learning surgeon, not benchmarks. Book the
+        whole day for your first case — the clock is the most common reason people skip a check.
+      </p>
+    </section>
+
+    <!-- 3 -->
+    <section class="section card" id="preop" data-section="preop">
+      <div class="section-header">
+        <h2><span class="section-num">3</span> Day-before &amp; morning-of checklist</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <h3>Day before (T-1)</h3>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Area</th><th>Check</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Consent</strong></td><td>Signed and witnessed: procedure, sedation, nerve/sinus/bleeding risks, <strong>plan B (may leave with a removable interim)</strong>, financial. Questions answered on the phone, not in the chair.</td></tr>
+            <tr><td><strong>Medical / meds</strong> (from your Week 2 risk review)</td><td>Anticoagulant/antiplatelet plan agreed with the prescriber; diabetic plan (morning slot, medication adjustment per physician); antiresorptive status re-confirmed; any premedication (antibiotic prophylaxis per your protocol, endocarditis prophylaxis only if indicated by current AHA/ADA guidance, anxiolytic per sedation provider) prescribed and filled.</td></tr>
+            <tr><td><strong>Sedation readiness</strong></td><td>Provider confirmed; NPO and escort instructions given; emergency cart, O<sub>2</sub>, suction (plus backup), AED, reversal agents, capnography/pulse oximetry/BP monitors checked and logged (ADA 2016).</td></tr>
+            <tr><td><strong>Guides &amp; prosthesis</strong></td><td>Base/reduction/implant/prosthetic guides test-fitted on the printed model; fixation pins and pin drill present; conversion denture or printed provisional, bite registration and duplicate on hand.</td></tr>
+            <tr><td><strong>Implant inventory</strong></td><td>Every planned implant <em>plus</em> a longer and a wider backup for each zone; cover screws; motor with torque readout; ISQ device charged with the correct pegs.</td></tr>
+            <tr><td><strong>MUA inventory</strong></td><td>Each planned angle and cuff height <em>plus</em> spares; MUA carriers/drivers, torque wrench, angle-measuring/try-in tools, protection/healing caps, temporary cylinders, prosthetic screws.</td></tr>
+            <tr><td><strong>Sterilization</strong></td><td>Surgical and prosthetic kits processed and indicator-verified; bone-reduction burs sharp.</td></tr>
+            <tr><td><strong>Team briefing</strong></td><td>15-minute huddle: sequence, who opens what, who records torque/ISQ and lot numbers, plan B triggers, emergency roles (who calls 911, who brings the cart).</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Morning of</h3>
+      <ul>
+        <li>☐ Patient: NPO and escort confirmed, usual meds taken/held as instructed, premedication taken, BP/HR/SpO<sub>2</sub>, glucose for diabetics, pre-op photos.</li>
+        <li>☐ Plan printed and posted: teeth to extract (by number), implant sites/sizes/angles, MUA angle + cuff per site, torque/ISQ thresholds, plan B.</li>
+        <li>☐ CBCT and planning software open on the operatory screen.</li>
+        <li>☐ Tray laid out in the order of the day (extraction → reduction → implant → prosthetic); components staged by site but <em>not opened</em> until called.</li>
+        <li>☐ Chilled sterile saline irrigation, suction and backup suction, radiograph sensor ready.</li>
+        <li>☐ Pre-procedural chlorhexidine rinse per your protocol.</li>
+      </ul>
+    </section>
+
+    <!-- 4 -->
+    <section class="section card" id="timeout" data-section="timeout">
+      <div class="section-header">
+        <h2><span class="section-num">4</span> Surgical time-out (WHO checklist, adapted)</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <p>
+        The WHO Surgical Safety Checklist runs in three pauses: <strong>Sign In</strong> (before
+        anesthesia/sedation), <strong>Time Out</strong> (before incision) and <strong>Sign Out</strong>
+        (before the patient leaves). In the WHO pilot across eight hospitals, introducing the 19-item
+        checklist was associated with deaths falling from 1.5% to 0.8% and inpatient complications
+        from 11.0% to 7.0% (Haynes 2009). That was hospital, non-cardiac surgery — but the mechanism
+        (team communication, nothing assumed) transfers directly to a long office case.
+      </p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Pause</th><th>Full-arch adaptation — say it out loud</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Sign In</strong><br />(before sedation / local)</td><td>Patient identity · procedure and <strong>arch</strong> · consent incl. plan B · allergies · airway/aspiration risk · anticoagulant and glucose status · sedation drugs and monitors checked and working · premedication taken</td></tr>
+            <tr><td><strong>Time Out</strong><br />(before the first extraction / incision)</td><td>Team names and roles · teeth to extract by number · planned implant sites, sizes, tilt · MUA angles/cuffs · all components present · imaging displayed · antibiotic given per protocol · anticipated critical events (nerve, sinus, lingual concavity, bleeding) · torque/ISQ thresholds and plan B stated · sterility confirmed</td></tr>
+            <tr><td><strong>Sign Out</strong><br />(before handoff to conversion / leaving the chair)</td><td>Implants and MUAs recorded with lot numbers, torque and ISQ · radiograph taken and reviewed · counts (gauze, needles, drills, guide pins removed) · intraoperative events documented · plan for conversion and recovery agreed · key concerns for recovery voiced</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout warn">
+        <strong>Make it a hard stop</strong>
+        Anyone on the team can call "stop" during the time-out. The circulator reads the posted plan;
+        you confirm. If the implant box on the counter doesn't match the plan, the day pauses until it does.
+      </div>
+      <div class="video-placeholder">
+        <h4>Source document (external)</h4>
+        <p>WHO — Implementation manual, WHO Surgical Safety Checklist 2009 (Safe Surgery Saves Lives), including the checklist and guidance on adapting it locally.</p>
+        <a class="btn btn-secondary" href="https://iris.who.int/handle/10665/44186" rel="noopener noreferrer" target="_blank">Open WHO manual</a>
+      </div>
+    </section>
+
+    <!-- 5 -->
+    <section class="section card" id="anesthesia" data-section="anesthesia">
+      <div class="section-header">
+        <h2><span class="section-num">5</span> Anesthesia &amp; full-arch local technique</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <p>
+        Sedation is run by the provider you planned in Week 2. Your job is profound, long-lasting
+        local anesthesia, within dose limits, that also helps hemostasis.
+      </p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Arch</th><th>Typical approach</th><th>Notes</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Maxilla</strong></td><td>Buccal infiltrations canine eminence → tuberosity (± PSA, infraorbital); greater palatine and nasopalatine blocks or palatal infiltrations</td><td>Palatal tissue is where the flap and sutures hurt most post-op — anesthetize it well</td></tr>
+            <tr><td><strong>Mandible</strong></td><td>Bilateral IAN + long buccal blocks, or infiltration-based technique; mental/incisive infiltration; cautious lingual infiltration anteriorly</td><td>Bilateral blocks numb the tongue — warn the patient; the conversion occlusion check is harder with a numb, sedated patient</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li><strong>Dose log:</strong> calculate maximum dose by weight for each agent before you start; the assistant logs every cartridge. Long cases tempt "one more carpule" — the log decides.</li>
+        <li><strong>Vasoconstrictor</strong> improves the field and reduces blood loss; respect cardiac limits from the medical review.</li>
+        <li><strong>Re-dosing:</strong> a 3–5 h day outlasts short-acting agents — plan re-injection before the conversion and a long-acting agent at the end if your protocol uses one.</li>
+        <li><strong>Don't rely on the patient to warn you about the nerve.</strong> Some clinicians use infiltration instead of IAN blocks so a patient can report proximity, but under sedation that signal is unreliable. Your protection is the CBCT margin (≥2 mm, Week 2) and visual identification of the foramen.</li>
+      </ul>
+    </section>
+
+    <!-- 6 -->
+    <section class="section card" id="extraction" data-section="extraction">
+      <div class="section-header">
+        <h2><span class="section-num">6</span> Atraumatic extraction &amp; socket debridement</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <h3>Extract to protect the bone you will use</h3>
+      <ul>
+        <li><strong>Section multi-rooted teeth</strong>; periotomes and luxators before forceps. The buccal plate at planned implant sites is worth more than 30 seconds saved.</li>
+        <li><strong>Sequence with your guide workflow:</strong> some stackable systems fix the base guide using teeth or tooth-borne indexing first and extract afterwards — follow the guide's protocol.</li>
+        <li>Remove all root fragments, failing restorations, implants planned for removal and debris.</li>
+      </ul>
+      <h3>Debride every socket — infection is removed, not covered</h3>
+      <ul>
+        <li>Curette granulation tissue, cyst lining and residual PDL to clean bleeding bone; a round bur helps in chronic periapical lesions.</li>
+        <li>Irrigate copiously with sterile saline. Many protocols add a chlorhexidine rinse.</li>
+        <li>Reduction removes much of the crestal socket — but <strong>apical lesions below the reduction level stay</strong>. Find them on the CBCT and debride them specifically.</li>
+      </ul>
+      <p>
+        A systematic review of immediate implants placed into sites with endodontic or periodontal
+        lesions found high survival in several studies <em>provided</em> meticulous cleaning, socket
+        curettage/debridement and chlorhexidine rinsing were performed first; the added benefit of
+        antibiotic irrigation or systemic antibiotics in this setting was unproven (Chrcanovic 2015).
+      </p>
+      <div class="callout danger">
+        <strong>Pus, a cyst, or a lesion you can't get clean</strong>
+        Don't place an implant into it. Relocate the implant to clean bone if the plan allows, or graft
+        and stage that site.
+      </div>
+    </section>
+
+    <!-- 7 -->
+    <section class="section card" id="flap" data-section="flap">
+      <div class="section-header">
+        <h2><span class="section-num">7</span> Flap design, exposure &amp; nerve identification</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <h3>Incision and reflection</h3>
+      <ul>
+        <li><strong>Mid-crestal incision splitting the keratinized tissue</strong> so both buccal and lingual/palatal flaps carry keratinized tissue to the future MUAs; extend from tuberosity/retromolar area to the contralateral side, sulcular around remaining teeth.</li>
+        <li><strong>Full-thickness</strong> reflection wide enough to see buccal concavities and seat a bone-borne guide.</li>
+        <li><strong>Releasing incisions only where needed</strong>, away from danger: in the mandible keep them well clear of the mental foramina; in the maxilla avoid palatal releasing incisions in the greater palatine region.</li>
+        <li>Tie-back or retraction sutures keep flaps out of the reduction bur's path.</li>
+      </ul>
+      <h3>See the anatomy you planned around</h3>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Landmark</th><th>How to identify</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Mental foramen</strong> (both sides)</td><td>Blunt dissection with the elevator on bone in the premolar region until the nerve is seen exiting; protect it with a retractor</td><td>Distal tilted implants sit mesial to it; anterior loop length varies — measure on CBCT, don't assume (Greenstein &amp; Tarnow 2006)</td></tr>
+            <tr><td><strong>Lingual contour</strong> (anterior mandible)</td><td>Reflect and palpate the lingual plate; keep a finger on it while drilling</td><td>Lingual perforation can injure sublingual/submental vessels → floor-of-mouth hemorrhage (Kalpidis 2004)</td></tr>
+            <tr><td><strong>Anterior sinus wall</strong></td><td>CBCT measurements from a fixed landmark, the guide, or a small exploratory window/probe per surgeon preference</td><td>The distal maxillary implant tracks along it</td></tr>
+            <tr><td><strong>Nasal floor / piriform rim, incisive canal</strong></td><td>Palpation and CBCT reference</td><td>Anterior implant length and position</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 8 -->
+    <section class="section card" id="reduction" data-section="reduction">
+      <div class="section-header">
+        <h2><span class="section-num">8</span> Bone reduction to the planned level</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <p>
+        Week 2 decided <em>how much</em> and <em>why</em>. Today you transfer that number to bone —
+        and check it before a single osteotomy.
+      </p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Guided</th><th>Freehand</th></tr></thead>
+          <tbody>
+            <tr>
+              <td>Seat the base/reduction guide on bone; confirm it is fully seated (no rocking, check windows) <em>before</em> pinning; place fixation pins in planned positions; reduce to the guide surface</td>
+              <td>Record reference measurements from a fixed landmark before extraction (e.g., planned incisal edge via denture/putty index); mark depth with bur dots; reduce; re-measure in each zone</td>
+            </tr>
+            <tr>
+              <td>A seating error propagates to every stacked layer — static-guide error is real even when seated well (Tahmaseb 2018)</td>
+              <td>Easy to under- or over-reduce posteriorly; measure anterior and posterior separately</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h3>Technique</h3>
+      <ul>
+        <li>Large barrel/round carbide or reduction bur under copious irrigation; piezo near nerve or sinus if you use it.</li>
+        <li>Leave a <strong>flat, even platform</strong> wide enough to house each implant with bone around it; round off sharp lingual/buccal edges.</li>
+        <li>Collect reduced bone (bone trap) — it is your graft for socket gaps later.</li>
+      </ul>
+      <h3>Verify prosthetic space before you drill</h3>
+      <ul>
+        <li>Measure from the reduced bone to the planned occlusal plane with the denture, prosthetic guide or a bite at the planned vertical dimension — target your lab's number (≈15 mm for a hybrid, Week 2).</li>
+        <li>Confirm the transition line will sit where the plan put it (behind the lip at full smile).</li>
+        <li>Short on space? Reduce more <em>now</em>. Discovering 11 mm during the conversion means a thin, fracture-prone provisional.</li>
+      </ul>
+      <div class="callout danger">
+        <strong>Over-reduction is irreversible</strong>
+        It costs implant length, nerve distance and lip support. Reduce in increments and re-measure.
+      </div>
+    </section>
+
+    <!-- 9 -->
+    <section class="section card" id="placement" data-section="placement">
+      <div class="section-header">
+        <h2><span class="section-num">9</span> Osteotomy &amp; placement sequence</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <figure class="figure">
+        <img src="../assets/placement-sequence.svg" alt="Occlusal views of maxilla and mandible showing two distal implants tilted along the sinus wall or over the mental loop placed first, then two axial anterior implants, with the A-P spread marked" width="720" height="520" />
+        <figcaption>Figure 2. Many protocols place the distal tilted implants first — they define the A-P spread and are hardest to position — then the anteriors. Follow your guide's sequence.</figcaption>
+      </figure>
+      <h3>Positions (zygoma-free, graftless concept)</h3>
+      <ul>
+        <li><strong>Maxilla:</strong> distal implants tilted (~30–45°) along the anterior sinus wall, platform near the second premolar, apex in the canine/first-premolar region; anterior implants axial in the lateral incisor–canine region, lateral to the incisive canal, engaging nasal-floor cortex without perforating (Maló 2005; Testori 2008).</li>
+        <li><strong>Mandible:</strong> distal implants anterior to the mental foramen, tilted distally over the loop with the apex ≥2 mm mesial to it; anterior implants axial, drilled with a finger on the lingual plate (Maló 2003).</li>
+        <li>Tilted and axial implants performed similarly in immediately loaded full-arch cohorts and reviews — 1-year survival 98.4% (maxilla) and 99.7% (mandible) in 154 prostheses with no marginal-bone difference between axial and tilted implants (Agliardi 2010); 1.25% failures across 1,992 implants with no tilted vs upright difference (Del Fabbro 2012).</li>
+      </ul>
+      <h3>Osteotomy — prepare for the bone you find</h3>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Bone feel</th><th>Preparation</th><th>Why</th></tr></thead>
+          <tbody>
+            <tr><td><strong>Soft</strong> (posterior maxilla, D3–D4)</td><td><strong>Under-prepare</strong>: stop one drill short / skip the cortical drill per IFU; longer, tapered, aggressive-thread implant; engage cortical bone (nasal or sinus floor) where safe</td><td>Undersized preparation raised insertion and removal torque in low-density bone models (Tabassum 2009); primary stability depends on bone density, implant design and surgical technique (Javed &amp; Romanos 2010)</td></tr>
+            <tr><td><strong>Medium</strong> (D2–D3)</td><td>Standard sequence per IFU</td><td>Most anterior maxilla and mandible sites</td></tr>
+            <tr><td><strong>Dense</strong> (anterior mandible, D1)</td><td>Full sequence + dense-bone drill / countersink / <strong>tap</strong> per IFU; generous irrigation; never exceed the system's maximum insertion torque</td><td>Overcompressed dense bone can necrose and fail early (Bashutski 2009)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <ul>
+        <li>Pilot → sequential drills at IFU speeds; check depth and direction with gauges and indicators against the plan after the pilot.</li>
+        <li>Seat the platform at the planned vertical level (for tilted implants, the distal platform edge at bone level; subcrestal only if the system is designed for it).</li>
+        <li>The circulator records site, size, lot number, final insertion torque and ISQ for every implant as it goes in.</li>
+      </ul>
+    </section>
+
+    <!-- 10 -->
+    <section class="section card" id="stability" data-section="stability">
+      <div class="section-header">
+        <h2><span class="section-num">10</span> Torque / ISQ go/no-go &amp; plan B</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <figure class="figure">
+        <img src="../assets/torque-isq-decision.svg" alt="Decision pathway: if all implants meet the written torque and ISQ threshold proceed to MUAs and conversion; if one is low try to rescue it or leave it out of the provisional; if two or more are low or spread is inadequate, stage with a removable interim" width="720" height="600" />
+        <figcaption>Figure 3. The decision is made with the numbers you wrote in the Week 2 plan, before MUAs and before the conversion starts.</figcaption>
+      </figure>
+      <ul>
+        <li><strong>Insertion torque</strong> (final seating value) of about ≥30–35 Ncm per implant is the usual inclusion threshold in immediate-load full-arch studies (Gallucci 2014; Papaspyridakos 2014; Morton 2018).</li>
+        <li><strong>ISQ</strong> from resonance frequency analysis is an adjunct (commonly ≥60–65); readings depend on bone, implant length/diameter and where and how the peg is measured, so record them the same way every time (Sennerby &amp; Meredith 2008).</li>
+        <li><strong>Cross-arch splinting</strong> with a rigid provisional distributes load — it does not rescue an implant that spins.</li>
+      </ul>
+      <h3>Plan B — execute, don't negotiate</h3>
+      <ol>
+        <li><strong>One implant low:</strong> rescue (longer/wider implant, deeper cortical engagement, or a new site if the plan allows). Still low → cover screw, leave it out of the provisional, and load the rest only if number and A-P spread remain adequate.</li>
+        <li><strong>Two or more low, or spread inadequate:</strong> stage. Cover screws or healing abutments per plan, close, deliver the converted/immediate denture as a relieved, soft-relined removable interim; load after integration.</li>
+        <li><strong>Guide won't seat or anatomy differs from the plan:</strong> pre-planned freehand protocol, or stop and stage.</li>
+      </ol>
+      <div class="callout warn">
+        <strong>The sunk-cost trap</strong>
+        Three hours in, with the patient and family expecting teeth, "35 Ncm" starts to look like "about 25."
+        That's exactly why the consent included plan B and the threshold was written down.
+      </div>
+    </section>
+
+    <!-- 11 -->
+    <section class="section card" id="mua" data-section="mua">
+      <div class="section-header">
+        <h2><span class="section-num">11</span> MUA selection &amp; seating</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <figure class="figure">
+        <img src="../assets/mua-selection.svg" alt="Left: three MUA cuff heights on an implant under 3 mm of tissue — too short buries the platform, matched puts it at or just above tissue, too tall exposes metal. Right: angle bands for straight, 17 and 30 degree MUAs, indexing the screw channel to exit occlusal or lingual, and torque per manufacturer IFU with radiographic verification" width="720" height="500" />
+        <figcaption>Figure 4. Cuff height from measured tissue depth; angle from the implant's deviation from the common path; index; torque per IFU; verify.</figcaption>
+      </figure>
+      <h3>Sequence at each site</h3>
+      <ol>
+        <li><strong>Measure tissue depth</strong> with the system's depth gauge (implant platform to the margin of the flap as it will lie when sutured) → choose the cuff that puts the MUA platform at or just above the tissue.</li>
+        <li><strong>Choose the angle</strong>: straight for axial anteriors; 17° or 30° (system-specific options) for tilted implants, confirmed with try-in/angle-measuring tools against the plan.</li>
+        <li><strong>Clear bone</strong> that blocks full seating — especially the mesial crest over a tilted implant (bone profiler per system).</li>
+        <li><strong>Index/rotate</strong> angled MUAs so the screw channel exits occlusal or lingual, never facial, and all channels share a path.</li>
+        <li><strong>Torque per manufacturer IFU</strong> — straight and angled MUA screws often have different values. Hand-seat first, then the torque wrench.</li>
+        <li><strong>Radiograph</strong> each interface (beam perpendicular to the junction) — no gap before anything else happens.</li>
+        <li><strong>Protection or healing caps</strong> on during closure and until the pickup.</li>
+      </ol>
+      <div class="callout">
+        <strong>One abutment, one time</strong>
+        Seat MUAs once at surgery and work at MUA level afterwards. In a prospective study of immediately
+        restored implants (partially edentulous posterior mandible), not removing the abutment placed at
+        surgery reduced horizontal bone remodeling (Degidi 2011) — the same logic underpins leaving
+        full-arch MUAs undisturbed.
+      </div>
+    </section>
+
+    <!-- 12 -->
+    <section class="section card" id="closure" data-section="closure">
+      <div class="section-header">
+        <h2><span class="section-num">12</span> Grafting, closure &amp; hemostasis</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <h3>Graft the gaps</h3>
+      <ul>
+        <li>Fill residual socket defects and gaps around implants with autogenous bone collected during reduction (± particulate graft; PRF optional per preference).</li>
+        <li>Keep graft away from the MUA–prosthesis interface — it is the pickup zone in Week 4.</li>
+      </ul>
+      <h3>Close around the MUAs</h3>
+      <ul>
+        <li>Thin and trim excess flap tissue so it adapts to the MUA collars without covering the platforms.</li>
+        <li>Keep keratinized tissue buccal and lingual/palatal to each MUA.</li>
+        <li>Tension-free interrupted and/or horizontal mattress sutures between MUAs; resorbable or PTFE per preference.</li>
+        <li>Tissue must not be trapped under protection caps or, later, under the prosthesis.</li>
+      </ul>
+      <h3>Hemostasis — a dry field before conversion</h3>
+      <ul>
+        <li>Firm gauze pressure first; local anesthetic with vasoconstrictor at bleeding margins.</li>
+        <li>Local hemostatic agents (collagen, oxidized cellulose) in sockets; bone wax or burnishing for intraosseous bleeders; sutures for soft-tissue bleeders.</li>
+        <li>Tranexamic acid (mouthwash or soaked gauze) as agreed in the Week 2 anticoagulant plan.</li>
+        <li>Blood contaminates pickup resin and hides MUA seating — don't start the conversion in a wet field.</li>
+      </ul>
+    </section>
+
+    <!-- 13 -->
+    <section class="section card" id="postop" data-section="postop">
+      <div class="section-header">
+        <h2><span class="section-num">13</span> Post-op instructions &amp; handoff to conversion</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <h3>Handoff to the conversion (Sign Out → Week 4)</h3>
+      <ul>
+        <li>☐ Implant map: site, size, lot, torque, ISQ · MUA angle, cuff, torque · radiograph reviewed</li>
+        <li>☐ Decision recorded: immediate load (all/selected implants) or staged</li>
+        <li>☐ Intraoperative events (sinus perforation, nerve proximity, plate fracture) noted for the conversion lead and the chart</li>
+        <li>☐ Protection caps on, field dry, sutures clear of MUA platforms</li>
+        <li>☐ Sedation status: can the patient close reproducibly for the occlusion check?</li>
+      </ul>
+      <h3>Written post-op instructions (patient and escort)</h3>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Topic</th><th>Typical instruction (adapt to your protocol)</th></tr></thead>
+          <tbody>
+            <tr><td>Swelling &amp; bleeding</td><td>Ice on/off for the first 24–48 h, head elevated; swelling peaks around day 2–3; oozing is normal, steady bleeding is a call</td></tr>
+            <tr><td>Medications</td><td>As prescribed: analgesics (multimodal where appropriate), antibiotic and steroid only if part of your protocol, antimicrobial rinse; never adjust anticoagulants without the prescriber</td></tr>
+            <tr><td>Diet</td><td>Liquids/very soft first days, then a soft, no-heavy-chewing diet for the integration period (commonly ~8–12 weeks); no biting with the front teeth or chewing on the cantilevers</td></tr>
+            <tr><td>Hygiene</td><td>Gentle rinsing from the next day; no water-flossers or brushing on the sutures until cleared; don't try to remove the teeth</td></tr>
+            <tr><td>Sinus (if perforated)</td><td>No nose blowing, sneeze with mouth open, no straws; decongestant/antibiotic per your protocol</td></tr>
+            <tr><td>Habits</td><td>No smoking/vaping; no strenuous exercise for several days</td></tr>
+            <tr><td>Call immediately / ER</td><td>Difficulty breathing or swallowing, floor-of-mouth swelling, uncontrolled bleeding, fever, numbness that persists after local anesthesia wears off, a loose or cracked prosthesis</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>
+        <strong>Antibiotics — what the evidence says:</strong> the 2026 Cochrane update (15 RCTs, implant
+        placement without bone augmentation) found antibiotic prophylaxis probably reduces early implant
+        failures (RR 0.34; NNT ≈ 19), mostly from a single oral 2 g amoxicillin dose about 1 h pre-op;
+        evidence was insufficient to define the best regimen or show benefit of post-operative courses
+        (Esposito 2026). Full-arch cases with extractions and grafting are outside that review's scope —
+        follow your protocol and allergies, and document the rationale.
+      </p>
+      <p><strong>Follow-up:</strong> call at 24 h · visit ~1 week (sutures, occlusion, hygiene) · ~2 weeks · then per the Week 4/5 provisional-to-final pathway.</p>
+      <div class="callout">
+        <strong>Coming in Week 4 — Smart Denture Conversion 2.0</strong>
+        Rubber-dam isolation over the MUAs, temporary cylinders, pickup resin, removing the flange and palate,
+        contouring a cleansable intaglio, cantilever length for the provisional, and occlusion on a fixed
+        immediate prosthesis.
+      </div>
+    </section>
+
+    <!-- 14 -->
+    <section class="section card" id="complications" data-section="complications">
+      <div class="section-header">
+        <h2><span class="section-num">14</span> Intraoperative complications quick-reference</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Event</th><th>Recognize</th><th>Immediate action</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>Floor-of-mouth bleeding</strong> (lingual perforation, anterior mandible)</td>
+              <td>Rapid sublingual swelling, tongue elevation, voice change, falling SpO<sub>2</sub> — may start immediately or be delayed</td>
+              <td><strong>Airway first.</strong> Stop surgery, sit patient up, O<sub>2</sub>, bimanual compression of the floor of mouth, call 911 early; no conversion today. Most reported cases needed surgical vessel ligation (Kalpidis 2004)</td>
+            </tr>
+            <tr>
+              <td><strong>Other bleeding</strong> (socket, palatal, intraosseous)</td>
+              <td>Persistent ooze or pulsatile bleeder</td>
+              <td>Pressure, vasoconstrictor, hemostatic agents, bone wax, sutures; tranexamic acid per plan; check anticoagulant status</td>
+            </tr>
+            <tr>
+              <td><strong>Sinus membrane perforation</strong> (tilted maxillary osteotomy)</td>
+              <td>Loss of resistance at depth, depth gauge passes into sinus, air bubbles/positive nose-blow test</td>
+              <td>Stop; don't push graft or debris into the sinus. If the implant still achieves stability within bone, many surgeons proceed; otherwise shorten, redirect or relocate. Sinus precautions, inform and document, follow for sinusitis</td>
+            </tr>
+            <tr>
+              <td><strong>Poor primary stability</strong></td>
+              <td>Torque/ISQ below written threshold, implant spins</td>
+              <td>Section 10: rescue (longer/wider/new site) → exclude → stage. Never over-torque dense bone to compensate elsewhere</td>
+            </tr>
+            <tr>
+              <td><strong>Nerve proximity</strong> (mental / IAN)</td>
+              <td>Drill or implant close to the canal on the intraop radiograph, patient reacts, foramen not where planned</td>
+              <td>Stop and withdraw; re-check CBCT and the visualized foramen; shorter implant or new position. Post-op neurosensory check; if an implant encroaches, remove or back it out early and refer promptly (Greenstein &amp; Tarnow 2006)</td>
+            </tr>
+            <tr>
+              <td><strong>Fractured buccal/lingual plate</strong></td>
+              <td>Plate moves with the elevator or cracks during insertion</td>
+              <td>Implant stable and housed in bone → graft (± membrane). Unstable or largely exposed → relocate or stage that site</td>
+            </tr>
+            <tr>
+              <td><strong>Guide won't seat / plan doesn't match anatomy</strong></td>
+              <td>Rocking guide, pins won't engage, sites miss the bone</td>
+              <td>Remove soft tissue/bone interferences and re-check; switch to the pre-planned freehand protocol or stage — never drill through a guide you don't trust</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="callout danger">
+        <strong>Emergency roles are assigned at the huddle</strong>
+        Who calls 911, who brings the cart and O<sub>2</sub>, who records times. In an airway emergency the
+        implants don't matter.
+      </div>
+    </section>
+
+    <!-- 15 -->
+    <section class="section card" id="vignettes" data-section="vignettes">
+      <div class="section-header">
+        <h2><span class="section-num">15</span> Intraoperative vignettes</h2>
+        <button type="button" class="mark-done" aria-pressed="false">Mark done</button>
+      </div>
+      <p>You are at step 9 or later. GO = proceed to MUAs/conversion as planned · CAUTION = execute a plan-B step first · NO = stop the immediate-load pathway today.</p>
+
+      <div class="patient-card" data-patient="w3a">
+        <h4>Case A — Mandible, 62F, non-smoker, dense anterior bone</h4>
+        <ul>
+          <li>4 implants: 2 distal tilted ~30° mesial to visualized foramina, 2 axial anterior</li>
+          <li>Torque 45, 50, 40, 45 Ncm (anterior site tapped after torque climbed); ISQ 68–74; written threshold 35 Ncm / ISQ 60</li>
+          <li>30° and straight MUAs seated per IFU, radiographs show no gaps; space 16 mm; field dry</li>
+        </ul>
+        <div class="score-btns">
+          <button type="button" class="go" data-score="go">GO</button>
+          <button type="button" class="caution" data-score="caution">CAUTION</button>
+          <button type="button" class="no" data-score="no">NO</button>
+        </div>
+        <div class="score-feedback" role="status"></div>
+      </div>
+
+      <div class="patient-card" data-patient="w3b">
+        <h4>Case B — Maxilla, 58M, soft posterior bone</h4>
+        <ul>
+          <li>Anteriors 40 and 45 Ncm; right distal tilted 38 Ncm</li>
+          <li>Left distal tilted implant reaches only 15 Ncm, ISQ 52, despite under-preparation</li>
+          <li>A longer implant is available; the plan includes an optional 5th site in the left premolar region</li>
+        </ul>
+        <div class="score-btns">
+          <button type="button" class="go" data-score="go">GO</button>
+          <button type="button" class="caution" data-score="caution">CAUTION</button>
+          <button type="button" class="no" data-score="no">NO</button>
+        </div>
+        <div class="score-feedback" role="status"></div>
+      </div>
+
+      <div class="patient-card" data-patient="w3c">
+        <h4>Case C — Mandible, 67M, IV moderate sedation</h4>
+        <ul>
+          <li>During the right anterior osteotomy the drill drops through the lingual cortex</li>
+          <li>Within minutes: firm sublingual swelling, tongue elevating, SpO<sub>2</sub> drifting down from 97% to 92%</li>
+          <li>Three implants already placed with good torque; family waiting for "same-day teeth"</li>
+        </ul>
+        <div class="score-btns">
+          <button type="button" class="go" data-score="go">GO</button>
+          <button type="button" class="caution" data-score="caution">CAUTION</button>
+          <button type="button" class="no" data-score="no">NO</button>
+        </div>
+        <div class="score-feedback" role="status"></div>
+      </div>
+    </section>
+
+    <!-- References -->
+    <section class="section card refs" id="refs">
+      <h2>References (verified sources)</h2>
+      <ol>
+        <li>Haynes AB, Weiser TG, Berry WR, et al.; Safe Surgery Saves Lives Study Group. A surgical safety checklist to reduce morbidity and mortality in a global population. <em>N Engl J Med.</em> 2009;360(5):491-499. <a href="https://doi.org/10.1056/NEJMsa0810119" rel="noopener noreferrer" target="_blank">doi:10.1056/NEJMsa0810119</a></li>
+        <li>World Health Organization. Implementation manual: WHO surgical safety checklist 2009 — Safe Surgery Saves Lives. Geneva: WHO; 2009. <a href="https://iris.who.int/handle/10665/44186" rel="noopener noreferrer" target="_blank">iris.who.int/handle/10665/44186</a></li>
+        <li>Maló P, Rangert B, Nobre M. “All-on-Four” immediate-function concept with Brånemark System implants for completely edentulous mandibles: a retrospective clinical study. <em>Clin Implant Dent Relat Res.</em> 2003;5 Suppl 1:2-9. <a href="https://doi.org/10.1111/j.1708-8208.2003.tb00010.x" rel="noopener noreferrer" target="_blank">doi:10.1111/j.1708-8208.2003.tb00010.x</a></li>
+        <li>Maló P, Rangert B, Nobre M. All-on-4 immediate-function concept with Brånemark System implants for completely edentulous maxillae: a 1-year retrospective clinical study. <em>Clin Implant Dent Relat Res.</em> 2005;7 Suppl 1:S88-S94. <a href="https://doi.org/10.1111/j.1708-8208.2005.tb00080.x" rel="noopener noreferrer" target="_blank">doi:10.1111/j.1708-8208.2005.tb00080.x</a></li>
+        <li>Agliardi E, Panigatti S, Clericò M, Villa C, Malò P. Immediate rehabilitation of the edentulous jaws with full fixed prostheses supported by four implants: interim results of a single cohort prospective study. <em>Clin Oral Implants Res.</em> 2010;21(5):459-465. <a href="https://doi.org/10.1111/j.1600-0501.2009.01852.x" rel="noopener noreferrer" target="_blank">doi:10.1111/j.1600-0501.2009.01852.x</a></li>
+        <li>Testori T, Del Fabbro M, Capelli M, Zuffetti F, Francetti L, Weinstein RL. Immediate occlusal loading and tilted implants for the rehabilitation of the atrophic edentulous maxilla: 1-year interim results of a multicenter prospective study. <em>Clin Oral Implants Res.</em> 2008;19(3):227-232. <a href="https://doi.org/10.1111/j.1600-0501.2007.01472.x" rel="noopener noreferrer" target="_blank">doi:10.1111/j.1600-0501.2007.01472.x</a></li>
+        <li>Del Fabbro M, Bellini CM, Romeo D, Francetti L. Tilted implants for the rehabilitation of edentulous jaws: a systematic review. <em>Clin Implant Dent Relat Res.</em> 2012;14(4):612-621. <a href="https://doi.org/10.1111/j.1708-8208.2010.00288.x" rel="noopener noreferrer" target="_blank">doi:10.1111/j.1708-8208.2010.00288.x</a></li>
+        <li>Gallucci GO, Benic GI, Eckert SE, Papaspyridakos P, Schimmel M, Schrott A, Weber HP. Consensus statements and clinical recommendations for implant loading protocols. <em>Int J Oral Maxillofac Implants.</em> 2014;29 Suppl:287-290. <a href="https://doi.org/10.11607/jomi.2013.g4" rel="noopener noreferrer" target="_blank">doi:10.11607/jomi.2013.g4</a></li>
+        <li>Papaspyridakos P, Chen CJ, Chuang SK, Weber HP. Implant loading protocols for edentulous patients with fixed prostheses: a systematic review and meta-analysis. <em>Int J Oral Maxillofac Implants.</em> 2014;29 Suppl:256-270. <a href="https://doi.org/10.11607/jomi.2014suppl.g4.3" rel="noopener noreferrer" target="_blank">doi:10.11607/jomi.2014suppl.g4.3</a></li>
+        <li>Morton D, Gallucci G, Lin WS, et al. Group 2 ITI Consensus Report: Prosthodontics and implant dentistry. <em>Clin Oral Implants Res.</em> 2018;29 Suppl 16:215-223. <a href="https://doi.org/10.1111/clr.13298" rel="noopener noreferrer" target="_blank">doi:10.1111/clr.13298</a></li>
+        <li>Javed F, Romanos GE. The role of primary stability for successful immediate loading of dental implants. A literature review. <em>J Dent.</em> 2010;38(8):612-620. <a href="https://doi.org/10.1016/j.jdent.2010.05.013" rel="noopener noreferrer" target="_blank">doi:10.1016/j.jdent.2010.05.013</a></li>
+        <li>Sennerby L, Meredith N. Implant stability measurements using resonance frequency analysis: biological and biomechanical aspects and clinical implications. <em>Periodontol 2000.</em> 2008;47:51-66. <a href="https://doi.org/10.1111/j.1600-0757.2008.00267.x" rel="noopener noreferrer" target="_blank">doi:10.1111/j.1600-0757.2008.00267.x</a></li>
+        <li>Tabassum A, Meijer GJ, Wolke JGC, Jansen JA. Influence of the surgical technique and surface roughness on the primary stability of an implant in artificial bone with a density equivalent to maxillary bone: a laboratory study. <em>Clin Oral Implants Res.</em> 2009;20(4):327-332. <a href="https://doi.org/10.1111/j.1600-0501.2008.01692.x" rel="noopener noreferrer" target="_blank">doi:10.1111/j.1600-0501.2008.01692.x</a></li>
+        <li>Bashutski JD, D'Silva NJ, Wang HL. Implant compression necrosis: current understanding and case report. <em>J Periodontol.</em> 2009;80(4):700-704. <a href="https://doi.org/10.1902/jop.2009.080581" rel="noopener noreferrer" target="_blank">doi:10.1902/jop.2009.080581</a></li>
+        <li>Chrcanovic BR, Martins MD, Wennerberg A. Immediate placement of implants into infected sites: a systematic review. <em>Clin Implant Dent Relat Res.</em> 2015;17 Suppl 1:e1-e16. <a href="https://doi.org/10.1111/cid.12098" rel="noopener noreferrer" target="_blank">doi:10.1111/cid.12098</a></li>
+        <li>Esposito MA, Visconti RF, Grusovin MG, Greco K. Interventions for replacing missing teeth: antibiotic prophylaxis for dental implant placement without bone augmentation procedures. <em>Cochrane Database Syst Rev.</em> 2026;9:CD004152. <a href="https://doi.org/10.1002/14651858.CD004152.pub5" rel="noopener noreferrer" target="_blank">doi:10.1002/14651858.CD004152.pub5</a></li>
+        <li>Kalpidis CD, Setayesh RM. Hemorrhaging associated with endosseous implant placement in the anterior mandible: a review of the literature. <em>J Periodontol.</em> 2004;75(5):631-645. <a href="https://doi.org/10.1902/jop.2004.75.5.631" rel="noopener noreferrer" target="_blank">doi:10.1902/jop.2004.75.5.631</a></li>
+        <li>Greenstein G, Tarnow D. The mental foramen and nerve: clinical and anatomical factors related to dental implant placement: a literature review. <em>J Periodontol.</em> 2006;77(12):1933-1943. <a href="https://doi.org/10.1902/jop.2006.060197" rel="noopener noreferrer" target="_blank">doi:10.1902/jop.2006.060197</a></li>
+        <li>Tahmaseb A, Wu V, Wismeijer D, Coucke W, Evans C. The accuracy of static computer-aided implant surgery: a systematic review and meta-analysis. <em>Clin Oral Implants Res.</em> 2018;29 Suppl 16:416-435. <a href="https://doi.org/10.1111/clr.13346" rel="noopener noreferrer" target="_blank">doi:10.1111/clr.13346</a></li>
+        <li>Degidi M, Nardi D, Piattelli A. One abutment at one time: non-removal of an immediate abutment and its effect on bone healing around subcrestal tapered implants. <em>Clin Oral Implants Res.</em> 2011;22(11):1303-1307. <a href="https://doi.org/10.1111/j.1600-0501.2010.02111.x" rel="noopener noreferrer" target="_blank">doi:10.1111/j.1600-0501.2010.02111.x</a></li>
+        <li>American Dental Association. Guidelines for the Use of Sedation and General Anesthesia by Dentists (adopted October 2016). <a href="https://www.ada.org/-/media/project/ada-organization/ada/ada-org/files/resources/research/ada_sedation_use_guidelines.pdf" rel="noopener noreferrer" target="_blank">ada.org (PDF)</a></li>
+        <li>Course context (general sources, not cited for specific numbers): <a href="https://www.pikosinstitute.com/full-arch-reconstruction/full-arch-implant-course" rel="noopener noreferrer" target="_blank">Pikos Institute — Foundational Full Arch Therapy: All-on-XYZ / All-on-4 Level 2</a>; <a href="https://smartonx.com/" rel="noopener noreferrer" target="_blank">SmartOnX</a>.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p><a href="../index.html">Home</a> · <a href="../week1/index.html">Week 1</a> · <a href="../week2/index.html">Week 2</a> · <a href="study-sheet.html">Study sheet</a> · <a href="quiz.html">Quiz</a></p>
+    <p>Week 3 · All-on-X Mastery · Personal study aid</p>
+  </footer>
+
+  <script>
+    window.AOX_PATIENT_KEYS = {
+      w3a: { answer: "go", tip: "GO: every implant clears the written 35 Ncm / ISQ 60 threshold, the dense site was tapped instead of over-torqued, MUAs are verified radiographically, space is adequate and the field is dry. Sign Out, then hand off to the conversion." },
+      w3b: { answer: "caution", tip: "CAUTION — execute plan B: 15 Ncm / ISQ 52 is below threshold. Try the longer implant or the planned 5th site; if still low, cover-screw it and leave it out of the provisional. Load only if the remaining implants give adequate number and A-P spread (shorten the left cantilever); otherwise stage with a removable interim." },
+      w3c: { answer: "no", tip: "NO: an expanding floor-of-mouth hematoma after lingual perforation is an airway emergency (Kalpidis 2004). Stop, sit up, O2, bimanual compression, call 911 early. No conversion today; the implants and the family's expectations are irrelevant until the airway is secure." }
+    };
+  </script>
+  <script src="../js/progress.js"></script>
+  <script src="../js/patients.js"></script>
+</body>
+</html>
