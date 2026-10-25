@@ -1,6 +1,6 @@
-# All-on-X Mastery — Weeks 1–3
+# All-on-X Mastery — Weeks 1–4
 
-Personal study site for **Kevon Rennie**: foundations & case selection (Week 1), surgical planning & armamentarium (Week 2) and surgery-day protocol (Week 3) for full-arch immediate load (aligned with Pikos Full Arch All-on-XYZ Level 2 + SmartOnX SDC 2.0 concepts).
+Personal study site for **Kevon Rennie**: foundations & case selection (Week 1), surgical planning & armamentarium (Week 2) surgery-day protocol (Week 3) and Smart Denture Conversion 2.0 (Week 4) for full-arch immediate load (aligned with Pikos Full Arch All-on-XYZ Level 2 + SmartOnX SDC 2.0 concepts).
 
 **Not** a substitute for manufacturer IFUs, CE accreditation, or live mentorship.
 
@@ -55,6 +55,10 @@ Open `index.html` in a browser. Relative CSS/JS/SVG paths work offline. YouTube 
     study-sheet.html
     quiz.html
   week3/
+    index.html          (full module)
+    study-sheet.html
+    quiz.html
+  week4/
     index.html          (full module)
     study-sheet.html
     quiz.html
@@ -114,6 +118,26 @@ Open `index.html` in a browser. Relative CSS/JS/SVG paths work offline. YouTube 
 16. Study sheet + 12-question quiz
 
 New diagrams: `assets/surgery-day-timeline.svg`, `assets/placement-sequence.svg`, `assets/torque-isq-decision.svg`, `assets/mua-selection.svg`.
+
+## Week 4 outline — Smart Denture Conversion 2.0
+
+1. Objectives
+2. Why convert on surgery day (Balshi & Wolfinger 1996; Kammeyer 2002)
+3. Conversion workflow at a glance (Figure 1)
+4. Denture readiness, duplicate and bite index
+5. Conversion tray and armamentarium
+6. Cylinder pickup step by step
+7. Passivity and pickup pitfalls
+8. De-flanging and intaglio contour (Figure 2)
+9. Cantilever and A-P spread for resin provisionals (Drago 2017) (Figure 3)
+10. Provisional occlusion (Kim 2005; Sheridan 2016)
+11. Strength, reinforcement and fractures (Mendonça 2024)
+12. Delivery, screw torque and access-channel seal (Maluly-Proni 2017; Jain 2022)
+13. Home instructions and follow-up
+14. Troubleshooting
+15. Conversion vignettes (GO / CAUTION / NO)
+
+New diagrams: `assets/conversion-workflow.svg`, `assets/intaglio-contour.svg`, `assets/provisional-occlusion.svg`.
 
 ## License / content note
 
