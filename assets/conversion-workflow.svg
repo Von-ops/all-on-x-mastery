@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 660" role="img" aria-labelledby="cw-title cw-desc">
+  <title id="cw-title">Same-day denture conversion workflow in four phases</title>
+  <desc id="cw-desc">Phase A, before surgery: verify the denture (vertical dimension, esthetics, occlusion), duplicate it, make a bite index and plan reinforcement. Phase B, in the chair: protection caps on the MUAs, locate cylinder positions, hollow the denture, seat temporary cylinders and confirm passive try-in at the correct vertical, place rubber dam isolation, pick up the cylinders with the patient closed into the bite index. Phase C, out of the mouth on analogs: fill voids, remove flanges and palate, contour a convex cleansable intaglio, shorten cantilevers, finish and polish. Phase D, delivery: seat, radiograph every interface, torque screws per IFU, adjust occlusion, seal access channels, give instructions and schedule follow-up.</desc>
+  <defs>
+    <marker id="cw-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#334155"/></marker>
+  </defs>
+  <rect width="720" height="660" fill="#f8fafc"/>
+  <g font-family="system-ui,sans-serif">
+    <text x="360" y="30" text-anchor="middle" fill="#0f172a" font-size="17" font-weight="700">Smart Denture Conversion — one direction, four phases</text>
+    <text x="360" y="50" text-anchor="middle" fill="#64748b" font-size="11">Starts only after the Week 3 go/no-go says LOAD and the MUAs are verified</text>
+
+    <!-- Phase A -->
+    <rect x="20" y="66" width="680" height="110" rx="12" fill="#ecfeff" stroke="#67e8f9"/>
+    <text x="36" y="88" fill="#0e7490" font-size="13" font-weight="800">A · Before surgery day (lab / try-in)</text>
+    <g font-size="11" fill="#0f172a">
+      <rect x="36" y="100" width="150" height="60" rx="8" fill="#fff" stroke="#a5f3fc"/><text x="111" y="125" text-anchor="middle" font-weight="700">1 Verify denture</text><text x="111" y="142" text-anchor="middle" fill="#475569" font-size="10">VDO · esthetics · occlusion</text>
+      <rect x="200" y="100" width="150" height="60" rx="8" fill="#fff" stroke="#a5f3fc"/><text x="275" y="125" text-anchor="middle" font-weight="700">2 Duplicate</text><text x="275" y="142" text-anchor="middle" fill="#475569" font-size="10">backup + guide reference</text>
+      <rect x="364" y="100" width="150" height="60" rx="8" fill="#fff" stroke="#a5f3fc"/><text x="439" y="125" text-anchor="middle" font-weight="700">3 Bite index</text><text x="439" y="142" text-anchor="middle" fill="#475569" font-size="10">records VDO for pickup</text>
+      <rect x="528" y="100" width="156" height="60" rx="8" fill="#fff" stroke="#a5f3fc"/><text x="606" y="125" text-anchor="middle" font-weight="700">4 Plan strength</text><text x="606" y="142" text-anchor="middle" fill="#475569" font-size="10">thickness · reinforcement</text>
+    </g>
+    <line x1="360" y1="176" x2="360" y2="196" stroke="#334155" stroke-width="2" marker-end="url(#cw-arrow)"/>
+
+    <!-- Phase B -->
+    <rect x="20" y="198" width="680" height="170" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+    <text x="36" y="220" fill="#15803d" font-size="13" font-weight="800">B · In the mouth (after Sign Out of surgery)</text>
+    <g font-size="11" fill="#0f172a">
+      <rect x="36" y="232" width="150" height="56" rx="8" fill="#fff" stroke="#bbf7d0"/><text x="111" y="256" text-anchor="middle" font-weight="700">5 Caps on MUAs</text><text x="111" y="272" text-anchor="middle" fill="#475569" font-size="10">protect platforms</text>
+      <rect x="200" y="232" width="150" height="56" rx="8" fill="#fff" stroke="#bbf7d0"/><text x="275" y="256" text-anchor="middle" font-weight="700">6 Locate + hollow</text><text x="275" y="272" text-anchor="middle" fill="#475569" font-size="10">relief over each MUA</text>
+      <rect x="364" y="232" width="150" height="56" rx="8" fill="#fff" stroke="#bbf7d0"/><text x="439" y="256" text-anchor="middle" font-weight="700">7 Cylinders + try-in</text><text x="439" y="272" text-anchor="middle" fill="#475569" font-size="10">passive · full VDO</text>
+      <rect x="528" y="232" width="156" height="56" rx="8" fill="#fff" stroke="#bbf7d0"/><text x="606" y="256" text-anchor="middle" font-weight="700">8 Isolate</text><text x="606" y="272" text-anchor="middle" fill="#475569" font-size="10">dam squares · block undercuts</text>
+      <rect x="160" y="300" width="400" height="56" rx="8" fill="#dcfce7" stroke="#22c55e" stroke-width="2"/><text x="360" y="324" text-anchor="middle" font-weight="800">9 Pick up in occlusion</text><text x="360" y="341" text-anchor="middle" fill="#166534" font-size="10">patient closed into bite index · minimal resin · keep cool · let it set</text>
+    </g>
+    <line x1="360" y1="368" x2="360" y2="388" stroke="#334155" stroke-width="2" marker-end="url(#cw-arrow)"/>
+
+    <!-- Phase C -->
+    <rect x="20" y="390" width="680" height="110" rx="12" fill="#fff7ed" stroke="#fdba74"/>
+    <text x="36" y="412" fill="#c2410c" font-size="13" font-weight="800">C · Out of the mouth, on MUA analogs</text>
+    <g font-size="11" fill="#0f172a">
+      <rect x="36" y="424" width="120" height="60" rx="8" fill="#fff" stroke="#fed7aa"/><text x="96" y="449" text-anchor="middle" font-weight="700">10 Fill voids</text><text x="96" y="466" text-anchor="middle" fill="#475569" font-size="10">around cylinders</text>
+      <rect x="166" y="424" width="120" height="60" rx="8" fill="#fff" stroke="#fed7aa"/><text x="226" y="449" text-anchor="middle" font-weight="700">11 Remove</text><text x="226" y="466" text-anchor="middle" fill="#475569" font-size="10">flanges · palate</text>
+      <rect x="296" y="424" width="128" height="60" rx="8" fill="#fff" stroke="#fed7aa"/><text x="360" y="449" text-anchor="middle" font-weight="700">12 Contour</text><text x="360" y="466" text-anchor="middle" fill="#475569" font-size="10">convex intaglio</text>
+      <rect x="434" y="424" width="120" height="60" rx="8" fill="#fff" stroke="#fed7aa"/><text x="494" y="449" text-anchor="middle" font-weight="700">13 Cantilever</text><text x="494" y="466" text-anchor="middle" fill="#475569" font-size="10">shorten to plan</text>
+      <rect x="564" y="424" width="120" height="60" rx="8" fill="#fff" stroke="#fed7aa"/><text x="624" y="449" text-anchor="middle" font-weight="700">14 Polish</text><text x="624" y="466" text-anchor="middle" fill="#475569" font-size="10">smooth, no voids</text>
+    </g>
+    <line x1="360" y1="500" x2="360" y2="520" stroke="#334155" stroke-width="2" marker-end="url(#cw-arrow)"/>
+
+    <!-- Phase D -->
+    <rect x="20" y="522" width="680" height="120" rx="12" fill="#eef2ff" stroke="#a5b4fc"/>
+    <text x="36" y="544" fill="#4338ca" font-size="13" font-weight="800">D · Delivery</text>
+    <g font-size="11" fill="#0f172a">
+      <rect x="36" y="556" width="120" height="66" rx="8" fill="#fff" stroke="#c7d2fe"/><text x="96" y="582" text-anchor="middle" font-weight="700">15 Seat + x-ray</text><text x="96" y="599" text-anchor="middle" fill="#475569" font-size="10">every interface</text>
+      <rect x="166" y="556" width="120" height="66" rx="8" fill="#fff" stroke="#c7d2fe"/><text x="226" y="582" text-anchor="middle" font-weight="700">16 Torque</text><text x="226" y="599" text-anchor="middle" fill="#475569" font-size="10">screws per IFU</text>
+      <rect x="296" y="556" width="128" height="66" rx="8" fill="#fff" stroke="#c7d2fe"/><text x="360" y="582" text-anchor="middle" font-weight="700">17 Occlusion</text><text x="360" y="599" text-anchor="middle" fill="#475569" font-size="10">spread, flat, light</text>
+      <rect x="434" y="556" width="120" height="66" rx="8" fill="#fff" stroke="#c7d2fe"/><text x="494" y="582" text-anchor="middle" font-weight="700">18 Seal</text><text x="494" y="599" text-anchor="middle" fill="#475569" font-size="10">PTFE + composite</text>
+      <rect x="564" y="556" width="120" height="66" rx="8" fill="#fff" stroke="#c7d2fe"/><text x="624" y="582" text-anchor="middle" font-weight="700">19 Instruct</text><text x="624" y="599" text-anchor="middle" fill="#475569" font-size="10">diet · hygiene · recall</text>
+    </g>
+  </g>
+</svg>
