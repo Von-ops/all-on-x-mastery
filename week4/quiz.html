@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Week 4 Quiz · All-on-X Mastery</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html">
+        <strong>All-on-X Mastery</strong>
+        <span>Week 4 · Quiz</span>
+      </a>
+      <nav class="header-nav" aria-label="Primary">
+        <a href="index.html">Module</a>
+        <a href="study-sheet.html">Sheet</a>
+        <a href="quiz.html" aria-current="page">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">12 questions · instant feedback</span>
+      <h1>Week 4 knowledge check</h1>
+      <p>Select one answer per question, then grade. Correct choices highlight in green with explanations.</p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div id="quiz-result" class="quiz-result" role="status">
+      <div>Your score</div>
+      <div class="score-big" id="score-big">0 / 12</div>
+      <p id="score-msg" style="margin:0;color:var(--slate-300)"></p>
+    </div>
+
+    <form id="quiz-form" onsubmit="return false;">
+      <div class="quiz-q" id="q1">
+        <h3>1. A conversion prosthesis on the day of surgery is primarily valuable because it:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q1" value="a" /> Lets you skip verifying the denture</label>
+          <label><input type="radio" name="q1" value="b" /> Rigidly splints the implants cross-arch at the approved vertical and esthetics, protects the surgical site and acts as a prototype for the final</label>
+          <label><input type="radio" name="q1" value="c" /> Allows implants below the torque threshold to be loaded safely</label>
+          <label><input type="radio" name="q1" value="d" /> Replaces the need for a final prosthesis</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q2">
+        <h3>2. Which existing denture is the WORST candidate to convert?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q2" value="a" /> Verified VDO, approved esthetics, even centric contacts, good acrylic bulk</label>
+          <label><input type="radio" name="q2" value="b" /> A new immediate denture made from the planning try-in</label>
+          <label><input type="radio" name="q2" value="c" /> A duplicate of an approved denture</label>
+          <label><input type="radio" name="q2" value="d" /> Thin, previously repaired base with a vertical the patient says 'always felt short'</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q3">
+        <h3>3. During try-in before pickup, the denture rocks and the vertical opens about 2 mm. You should:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q3" value="a" /> Inject resin anyway — it will settle</label>
+          <label><input type="radio" name="q3" value="b" /> Have the patient bite harder during set</label>
+          <label><input type="radio" name="q3" value="c" /> Stop and relieve further until every cylinder is free and the denture seats fully at the bite-index vertical</label>
+          <label><input type="radio" name="q3" value="d" /> Cut the cylinders off flush with the tissue</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q4">
+        <h3>4. The main purpose of rubber dam squares and block-out during pickup is to:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q4" value="a" /> Keep pickup resin out of tissue, sutures, undercuts and screw channels so the prosthesis doesn't lock or trap material</label>
+          <label><input type="radio" name="q4" value="b" /> Improve the esthetics of the resin</label>
+          <label><input type="radio" name="q4" value="c" /> Speed up the resin set</label>
+          <label><input type="radio" name="q4" value="d" /> Increase retention of the cylinders</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q5">
+        <h3>5. Why use a bite index during the pickup?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q5" value="a" /> A sedated, numb, swollen patient can't reliably close to the approved vertical and midline on their own</label>
+          <label><input type="radio" name="q5" value="b" /> It's only for the lab's records</label>
+          <label><input type="radio" name="q5" value="c" /> It replaces the need to adjust occlusion</label>
+          <label><input type="radio" name="q5" value="d" /> It helps the resin cure faster</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q6">
+        <h3>6. On the analog model, the converted maxillary prosthesis still has its palate and full flanges. The right step is:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q6" value="a" /> Deliver as is — flanges help retention</label>
+          <label><input type="radio" name="q6" value="b" /> Add more resin to the flanges for strength</label>
+          <label><input type="radio" name="q6" value="c" /> Reline the flanges with soft liner</label>
+          <label><input type="radio" name="q6" value="d" /> Remove the palate and flanges and contour a smooth, convex-to-flat, polished intaglio a water flosser can clean under</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q7">
+        <h3>7. In Drago's 2017 series of interim all-acrylic full-arch prostheses, which cantilever-to-A-P spread ratio range generally resulted in successful interim prostheses?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q7" value="a" /> About 0.5–0.6</label>
+          <label><input type="radio" name="q7" value="b" /> About 1.0–1.5</label>
+          <label><input type="radio" name="q7" value="c" /> About 2.0</label>
+          <label><input type="radio" name="q7" value="d" /> Ratios made no difference at all to anything</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q8">
+        <h3>8. For an immediately loaded resin provisional, the cantilevered segments in centric should be:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q8" value="a" /> The heaviest contacts, to protect the anterior implants</label>
+          <label><input type="radio" name="q8" value="b" /> Light or out of contact, with no excursive contacts</label>
+          <label><input type="radio" name="q8" value="c" /> In contact only during lateral excursions</label>
+          <label><input type="radio" name="q8" value="d" /> Built up to restore second molar function</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q9">
+        <h3>9. You are about to torque the prosthetic screws on the provisional. The correct value comes from:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q9" value="a" /> The same torque you used to seat the MUAs</label>
+          <label><input type="radio" name="q9" value="b" /> 35 Ncm for every system</label>
+          <label><input type="radio" name="q9" value="c" /> Your MUA system's IFU for the prosthetic (cylinder) screw — typically lower than abutment torque</label>
+          <label><input type="radio" name="q9" value="d" /> Hand-tight only, always</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q10">
+        <h3>10. A common, retrievable way to seal the screw access channels of the provisional is:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q10" value="a" /> Fill the entire channel with self-cure acrylic directly on the screw</label>
+          <label><input type="radio" name="q10" value="b" /> Leave channels open so the patient can clean them</label>
+          <label><input type="radio" name="q10" value="c" /> PTFE tape over the screw head, then a temporary/light-cure composite</label>
+          <label><input type="radio" name="q10" value="d" /> Gutta-percha only, with no occlusal seal</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q11">
+        <h3>11. How often do resin full-arch provisionals fracture, per the Week 4 sources?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q11" value="a" /> Practically never</label>
+          <label><input type="radio" name="q11" value="b" /> Only when the patient is a smoker</label>
+          <label><input type="radio" name="q11" value="c" /> Only in the mandible</label>
+          <label><input type="radio" name="q11" value="d" /> Frequently enough to plan for it: ~18% of interim acrylic prostheses needed repair (Drago 2017); ~18% complete fractures in year one with milled PMMA (Mendonça 2024)</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q12">
+        <h3>12. Four hours into sedation, only 3 clustered implants are loadable, the denture cracked during hollowing and there is no duplicate. Best decision:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q12" value="a" /> Glue the denture and convert anyway</label>
+          <label><input type="radio" name="q12" value="b" /> Load the three implants with full-length cantilevers</label>
+          <label><input type="radio" name="q12" value="c" /> Protect the MUAs, deliver a relieved soft-lined removable interim, and plan the fixed provisional at a scheduled visit</label>
+          <label><input type="radio" name="q12" value="d" /> Extend the sedation until a new denture is printed</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="btn-row">
+        <button type="button" class="btn btn-primary" id="grade-quiz">Grade quiz</button>
+        <button type="button" class="btn btn-ghost" id="reset-quiz">Reset</button>
+        <a class="btn btn-secondary" href="study-sheet.html">Study sheet</a>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p><a href="index.html">Back to Week 4 module</a> · <a href="../index.html">Home</a></p>
+  </footer>
+  <script>
+    window.AOX_QUIZ = {
+  "storageKey": "aox-week4-quiz",
+  "answers": {
+    "q1": {
+      "correct": "b",
+      "explain": "Balshi & Wolfinger (1996) list load distribution, protection of sutured mucosa, preserved vertical dimension and a prototype for the final. Rigid splinting is the reason immediate load works — it never rescues an implant that failed the go/no-go."
+    },
+    "q2": {
+      "correct": "d",
+      "explain": "A thin repaired base fractures on hollowing, and an unverified/over-closed vertical becomes a fixed problem. Decide convertibility at planning — make a new denture if VDO, esthetics, occlusion or bulk are questionable."
+    },
+    "q3": {
+      "correct": "c",
+      "explain": "A rocking denture means a cylinder or the denture is binding. Capturing cylinders under strain stores stress on healing implants and gives a wrong vertical. Relieve until passive, then pick up."
+    },
+    "q4": {
+      "correct": "a",
+      "explain": "Resin flowing under tissue or below the MUA can lock the prosthesis and leave fragments in the wound. Isolate, block out, and use a modest resin volume."
+    },
+    "q5": {
+      "correct": "a",
+      "explain": "The index recorded at the approved vertical lets the patient close to exactly that position while the resin sets — avoiding an opened, closed or shifted provisional."
+    },
+    "q6": {
+      "correct": "d",
+      "explain": "A fixed prosthesis is retained by screws, not by flanges. Flanges and concave ridge-laps trap food and plaque on tissue the patient can't access. Convex, polished and cleansable — test it on the analogs."
+    },
+    "q7": {
+      "correct": "a",
+      "explain": "Mean cantilevers were ~9–10 mm with A-P spreads of ~17–18 mm; CL/AP ratios of about 0.5–0.6 generally did well, and mandibular prostheses with complications had slightly greater ratios. 17.7% needed at least one repair."
+    },
+    "q8": {
+      "correct": "b",
+      "explain": "Load is kept over the implant-supported segment: even, bilateral, light centric contacts, shallow anterior guidance, no working/non-working interferences and cantilevers light or out of contact (Kim 2005; Sheridan 2016)."
+    },
+    "q9": {
+      "correct": "c",
+      "explain": "Prosthetic screw torque is system-specific and usually well below the MUA abutment torque. Look it up, post it on the tray, and radiograph every interface first."
+    },
+    "q10": {
+      "correct": "c",
+      "explain": "PTFE is easy to remove and doesn't bond to the screw (Maluly-Proni 2017). A systematic review of in vitro studies found no single sealing material clearly superior for microleakage (Jain 2022)."
+    },
+    "q11": {
+      "correct": "d",
+      "explain": "Fracture is the signature complication. Keep bulk at cylinders and connectors, cantilevers short and light, consider reinforcement for high-risk patients, and keep the duplicate and a repair kit."
+    },
+    "q12": {
+      "correct": "c",
+      "explain": "Poor A-P spread, a broken prosthesis with no backup and an exhausted sedation window each argue against a fixed provisional today. A conversion never rescues an implant or planning problem."
+    }
+  },
+  "messages": {
+    "high": "Conversion-ready on paper — next up, Week 5 digital workflow and same-day prosthesis.",
+    "mid": "Solid. Revisit passivity and isolation, intaglio contour, cantilever/A-P and provisional occlusion, then retry.",
+    "low": "Review the Week 4 module and study sheet, then retake. Passive pickup, cleansable design and light occlusion protect the implants."
+  }
+};
+  </script>
+  <script src="../js/quiz.js"></script>
+</body>
+</html>
