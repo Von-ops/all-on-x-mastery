@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" role="img" aria-labelledby="dw-title dw-desc">
+  <title id="dw-title">Full-arch digital workflow from records to final prosthesis</title>
+  <desc id="dw-desc">Four phases. A, records before surgery: CBCT, intraoral or denture scans, photos, bite at approved vertical, digital tooth arrangement. B, plan and print: virtual implant plan from the tooth arrangement, stackable or reduction guides, pre-designed provisional shell. C, surgery day: place implants and seat multi-unit abutments, capture implant positions with scan bodies by intraoral scan or photogrammetry plus a tissue and bite scan, design and print or mill the provisional, bond cylinders, verify, deliver. D, after integration: reverse scan the approved provisional, verify implant positions with a jig or rigid prototype try-in, then the definitive prosthesis. A backup arrow shows the analog direct pickup from Week 4 is always available.</desc>
+  <rect width="720" height="600" fill="#f8fafc"/>
+  <g font-family="system-ui,sans-serif">
+    <text x="360" y="30" text-anchor="middle" fill="#0f172a" font-size="17" font-weight="700">Digital full-arch workflow — one coordinate system, four phases</text>
+    <g>
+      <rect x="30" y="54" width="660" height="104" rx="12" fill="#e0f2fe" stroke="#0284c7"/>
+      <text x="48" y="78" fill="#075985" font-size="14" font-weight="700">A · Records (planning visit)</text>
+      <g font-size="12" fill="#0f172a">
+        <rect x="48" y="90" width="118" height="54" rx="8" fill="#fff" stroke="#7dd3fc"/><text x="107" y="113" text-anchor="middle">CBCT</text><text x="107" y="130" text-anchor="middle" fill="#64748b" font-size="10">± radiographic guide</text>
+        <rect x="176" y="90" width="118" height="54" rx="8" fill="#fff" stroke="#7dd3fc"/><text x="235" y="113" text-anchor="middle">Intraoral / denture</text><text x="235" y="130" text-anchor="middle">scans</text>
+        <rect x="304" y="90" width="118" height="54" rx="8" fill="#fff" stroke="#7dd3fc"/><text x="363" y="113" text-anchor="middle">Photos</text><text x="363" y="130" text-anchor="middle" fill="#64748b" font-size="10">smile · rest · retracted</text>
+        <rect x="432" y="90" width="118" height="54" rx="8" fill="#fff" stroke="#7dd3fc"/><text x="491" y="113" text-anchor="middle">Bite at approved</text><text x="491" y="130" text-anchor="middle">VDO</text>
+        <rect x="560" y="90" width="118" height="54" rx="8" fill="#fff" stroke="#7dd3fc"/><text x="619" y="113" text-anchor="middle">Digital tooth</text><text x="619" y="130" text-anchor="middle">arrangement</text>
+      </g>
+    </g>
+    <path d="M360,160 v18" stroke="#334155" stroke-width="2" marker-end="url(#dwA)"/>
+    <g>
+      <rect x="30" y="182" width="660" height="92" rx="12" fill="#ede9fe" stroke="#7c3aed"/>
+      <text x="48" y="206" fill="#5b21b6" font-size="14" font-weight="700">B · Plan &amp; manufacture (before surgery)</text>
+      <g font-size="12" fill="#0f172a">
+        <rect x="48" y="218" width="196" height="44" rx="8" fill="#fff" stroke="#c4b5fd"/><text x="146" y="245" text-anchor="middle">Implants planned from the teeth</text>
+        <rect x="262" y="218" width="196" height="44" rx="8" fill="#fff" stroke="#c4b5fd"/><text x="360" y="237" text-anchor="middle">Reduction / stackable</text><text x="360" y="253" text-anchor="middle">guides (Week 2)</text>
+        <rect x="476" y="218" width="196" height="44" rx="8" fill="#fff" stroke="#c4b5fd"/><text x="574" y="237" text-anchor="middle">Pre-designed provisional</text><text x="574" y="253" text-anchor="middle">(shell or file ready)</text>
+      </g>
+    </g>
+    <path d="M360,276 v18" stroke="#334155" stroke-width="2" marker-end="url(#dwA)"/>
+    <g>
+      <rect x="30" y="298" width="660" height="150" rx="12" fill="#dcfce7" stroke="#16a34a"/>
+      <text x="48" y="322" fill="#166534" font-size="14" font-weight="700">C · Surgery day (same-day prosthesis)</text>
+      <g font-size="12" fill="#0f172a">
+        <rect x="48" y="334" width="146" height="48" rx="8" fill="#fff" stroke="#86efac"/><text x="121" y="354" text-anchor="middle">Implants + MUAs</text><text x="121" y="370" text-anchor="middle" fill="#64748b" font-size="10">Week 3 go/no-go = LOAD</text>
+        <rect x="206" y="334" width="146" height="48" rx="8" fill="#fff" stroke="#86efac"/><text x="279" y="354" text-anchor="middle">Capture positions</text><text x="279" y="370" text-anchor="middle" fill="#64748b" font-size="10">IOS or photogrammetry</text>
+        <rect x="364" y="334" width="146" height="48" rx="8" fill="#fff" stroke="#86efac"/><text x="437" y="354" text-anchor="middle">+ tissue &amp; bite scan</text><text x="437" y="370" text-anchor="middle" fill="#64748b" font-size="10">merge to the plan</text>
+        <rect x="522" y="334" width="150" height="48" rx="8" fill="#fff" stroke="#86efac"/><text x="597" y="354" text-anchor="middle">Design → print / mill</text><text x="597" y="370" text-anchor="middle" fill="#64748b" font-size="10">0° build, post-cure per IFU</text>
+        <rect x="128" y="392" width="216" height="44" rx="8" fill="#fff" stroke="#86efac"/><text x="236" y="419" text-anchor="middle">Bond cylinders (passive) · polish</text>
+        <rect x="376" y="392" width="216" height="44" rx="8" fill="#fff" stroke="#86efac"/><text x="484" y="411" text-anchor="middle">Seat · x-ray · torque per IFU</text><text x="484" y="427" text-anchor="middle">occlusion · seal (Week 4)</text>
+      </g>
+    </g>
+    <path d="M360,450 v18" stroke="#334155" stroke-width="2" marker-end="url(#dwA)"/>
+    <g>
+      <rect x="30" y="472" width="660" height="92" rx="12" fill="#fef3c7" stroke="#d97706"/>
+      <text x="48" y="496" fill="#92400e" font-size="14" font-weight="700">D · After integration (~8–12+ weeks) → final</text>
+      <g font-size="12" fill="#0f172a">
+        <rect x="48" y="508" width="196" height="44" rx="8" fill="#fff" stroke="#fcd34d"/><text x="146" y="527" text-anchor="middle">Scan the approved provisional</text><text x="146" y="543" text-anchor="middle" fill="#64748b" font-size="10">copy what works</text>
+        <rect x="262" y="508" width="196" height="44" rx="8" fill="#fff" stroke="#fcd34d"/><text x="360" y="527" text-anchor="middle">Verify positions</text><text x="360" y="543" text-anchor="middle" fill="#64748b" font-size="10">jig or rigid prototype try-in</text>
+        <rect x="476" y="508" width="196" height="44" rx="8" fill="#fff" stroke="#fcd34d"/><text x="574" y="527" text-anchor="middle">Definitive prosthesis</text><text x="574" y="543" text-anchor="middle" fill="#64748b" font-size="10">zirconia · metal-resin · etc.</text>
+      </g>
+    </g>
+    <text x="360" y="588" text-anchor="middle" fill="#c2410c" font-size="12" font-weight="700">Backup at every step in C: the Week 4 analog direct pickup of the denture</text>
+  </g>
+  <defs><marker id="dwA" markerWidth="10" markerHeight="10" refX="5" refY="8" orient="auto"><path d="M0,0 L10,0 L5,9 z" fill="#334155"/></marker></defs>
+</svg>

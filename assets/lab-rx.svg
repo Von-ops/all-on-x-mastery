@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="lr-title lr-desc">
+  <title id="lr-title">What to send the lab for a full-arch case</title>
+  <desc id="lr-desc">A lab prescription checklist in three columns. Files: scan-body or photogrammetry file with the system and scan body named, tissue scan, opposing arch, bite at approved vertical, pre-op or denture scan, CBCT and plan if guided. Photos: full smile, rest with lips relaxed, retracted, profile, and the denture or provisional in place. Instructions: implant system and multi-unit abutment platform and screw, prosthesis type and material, tooth mould and shade and pink, occlusal scheme with cantilever limits, intaglio design that is convex and cleansable, the due date and what is being delivered (prototype, try-in, or final).</desc>
+  <rect width="720" height="470" fill="#f8fafc"/>
+  <g font-family="system-ui,sans-serif" font-size="12" fill="#0f172a">
+    <text x="360" y="30" text-anchor="middle" font-size="17" font-weight="700">Full-arch lab Rx — send once, send complete</text>
+    <g>
+      <rect x="20" y="50" width="216" height="360" rx="12" fill="#fff" stroke="#0284c7"/>
+      <text x="36" y="76" font-size="14" font-weight="700" fill="#075985">Files</text>
+      <text x="36" y="104">☐ Implant positions</text><text x="52" y="120" fill="#64748b" font-size="10">IOS / PG · name system + scan body</text>
+      <text x="36" y="146">☐ Tissue (soft-tissue) scan</text>
+      <text x="36" y="172">☐ Opposing arch</text>
+      <text x="36" y="198">☐ Bite at approved VDO</text>
+      <text x="36" y="224">☐ Pre-op / denture or</text><text x="52" y="240">provisional scan</text>
+      <text x="36" y="266">☐ CBCT + plan (if guided)</text>
+      <text x="36" y="292">☐ File names = patient,</text><text x="52" y="308">arch, date, content</text>
+    </g>
+    <g>
+      <rect x="252" y="50" width="216" height="360" rx="12" fill="#fff" stroke="#16a34a"/>
+      <text x="268" y="76" font-size="14" font-weight="700" fill="#166534">Photos</text>
+      <text x="268" y="104">☐ Full smile</text>
+      <text x="268" y="130">☐ Rest, lips relaxed</text><text x="284" y="146" fill="#64748b" font-size="10">incisal display</text>
+      <text x="268" y="172">☐ Retracted frontal</text>
+      <text x="268" y="198">☐ Profile</text>
+      <text x="268" y="224">☐ Denture / provisional in</text><text x="284" y="240">place, smiling</text>
+      <text x="268" y="266">☐ Shade tab in frame</text>
+      <text x="268" y="292">☐ Midline + plane marked</text>
+    </g>
+    <g>
+      <rect x="484" y="50" width="216" height="360" rx="12" fill="#fff" stroke="#d97706"/>
+      <text x="500" y="76" font-size="14" font-weight="700" fill="#92400e">Instructions</text>
+      <text x="500" y="104">☐ Implant system, MUA</text><text x="516" y="120">platform, screw type</text>
+      <text x="500" y="146">☐ What: prototype / try-in /</text><text x="516" y="162">final + material</text>
+      <text x="500" y="188">☐ Mould · shade · pink</text>
+      <text x="500" y="214">☐ Occlusion scheme +</text><text x="516" y="230">cantilever limit (mm)</text>
+      <text x="500" y="256">☐ Convex, cleansable</text><text x="516" y="272">intaglio · hygiene access</text>
+      <text x="500" y="298">☐ Changes vs provisional</text><text x="516" y="314">(patient's wish-list)</text>
+      <text x="500" y="340">☐ Due date + who to call</text>
+    </g>
+    <rect x="20" y="422" width="680" height="36" rx="10" fill="#0f172a"/>
+    <text x="360" y="445" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">The lab can only design what you record: missing files = guessed vertical, midline or tissue</text>
+  </g>
+</svg>

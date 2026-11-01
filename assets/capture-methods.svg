@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 470" role="img" aria-labelledby="cm-title cm-desc">
+  <title id="cm-title">Four ways to record complete-arch implant positions</title>
+  <desc id="cm-desc">Conventional splinted open-tray impression with a verified stone cast, the long-standing reference. Intraoral scanning with scan bodies, splinted or non-splinted, which is technique-sensitive across an edentulous arch because the mucosa offers few landmarks for stitching. Photogrammetry, intraoral or extraoral, which in systematic reviews showed better trueness and precision than intraoral scanning but captures only implant positions, so a tissue and bite scan is still needed. Reverse scan, where the interim prosthesis or a verification jig with scan analogs is scanned outside the mouth, which is only as good as that prosthesis or jig fits. A footer reminds that whatever method you use, verify before you make the definitive prosthesis.</desc>
+  <rect width="720" height="470" fill="#f8fafc"/>
+  <g font-family="system-ui,sans-serif" font-size="12" fill="#0f172a">
+    <text x="360" y="30" text-anchor="middle" font-size="17" font-weight="700">Recording implant positions — four routes</text>
+    <!-- card 1 -->
+    <rect x="24" y="52" width="330" height="168" rx="12" fill="#fff" stroke="#94a3b8"/>
+    <rect x="24" y="52" width="330" height="34" rx="12" fill="#e2e8f0"/>
+    <text x="40" y="74" font-size="14" font-weight="700">1 · Splinted open-tray (analog)</text>
+    <g stroke="#475569" stroke-width="2" fill="#cbd5e1"><rect x="50" y="112" width="14" height="40"/><rect x="110" y="112" width="14" height="40"/><rect x="170" y="112" width="14" height="40"/><rect x="230" y="112" width="14" height="40"/></g>
+    <path d="M57,118 H237" stroke="#0e7490" stroke-width="5"/>
+    <text x="40" y="178">Reference standard · verified stone cast</text>
+    <text x="40" y="196" fill="#64748b">Slower; material, splint and pour errors</text>
+    <text x="40" y="212" fill="#64748b">Still the benchmark in comparison studies</text>
+    <!-- card 2 -->
+    <rect x="366" y="52" width="330" height="168" rx="12" fill="#fff" stroke="#0284c7"/>
+    <rect x="366" y="52" width="330" height="34" rx="12" fill="#e0f2fe"/>
+    <text x="382" y="74" font-size="14" font-weight="700" fill="#075985">2 · Intraoral scan + scan bodies</text>
+    <g fill="#38bdf8" stroke="#0369a1"><rect x="394" y="108" width="14" height="30" rx="2"/><rect x="454" y="108" width="14" height="30" rx="2"/><rect x="514" y="108" width="14" height="30" rx="2"/><rect x="574" y="108" width="14" height="30" rx="2"/></g>
+    <path d="M394,150 C440,165 540,165 600,150" fill="none" stroke="#0369a1" stroke-dasharray="4 4"/>
+    <text x="604" y="154" fill="#0369a1" font-size="10">stitching path</text>
+    <text x="382" y="178">Fast, in-office; ~88 µm vs conventional (36 jaws)</text>
+    <text x="382" y="196" fill="#64748b">Featureless mucosa → stitching error grows</text>
+    <text x="382" y="212" fill="#64748b">across the arch; splinting/aids help variably</text>
+    <!-- card 3 -->
+    <rect x="24" y="236" width="330" height="168" rx="12" fill="#fff" stroke="#16a34a"/>
+    <rect x="24" y="236" width="330" height="34" rx="12" fill="#dcfce7"/>
+    <text x="40" y="258" font-size="14" font-weight="700" fill="#166534">3 · Photogrammetry (PG)</text>
+    <g fill="#fff" stroke="#16a34a" stroke-width="2"><rect x="50" y="290" width="22" height="22"/><rect x="110" y="290" width="22" height="22"/><rect x="170" y="290" width="22" height="22"/><rect x="230" y="290" width="22" height="22"/></g>
+    <g stroke="#16a34a" stroke-dasharray="3 3"><line x1="290" y1="290" x2="61" y2="301"/><line x1="290" y1="290" x2="121" y2="301"/><line x1="290" y1="290" x2="181" y2="301"/><line x1="290" y1="290" x2="241" y2="301"/></g>
+    <circle cx="296" cy="288" r="9" fill="#166534"/>
+    <text x="40" y="346">Coded targets read by cameras; very fast</text>
+    <text x="40" y="364" fill="#64748b">Better trueness/precision than IOS in reviews</text>
+    <text x="40" y="380" fill="#64748b">Positions only → still scan tissue + bite</text>
+    <text x="40" y="396" fill="#64748b">Cost; system-specific libraries</text>
+    <!-- card 4 -->
+    <rect x="366" y="236" width="330" height="168" rx="12" fill="#fff" stroke="#d97706"/>
+    <rect x="366" y="236" width="330" height="34" rx="12" fill="#fef3c7"/>
+    <text x="382" y="258" font-size="14" font-weight="700" fill="#92400e">4 · Reverse scan (extraoral)</text>
+    <path d="M400,318 Q530,270 660,318" fill="none" stroke="#f9a8d4" stroke-width="20" stroke-linecap="round"/>
+    <g fill="#94a3b8" stroke="#475569"><rect x="428" y="318" width="10" height="22"/><rect x="490" y="306" width="10" height="22"/><rect x="560" y="306" width="10" height="22"/><rect x="622" y="318" width="10" height="22"/></g>
+    <text x="382" y="364">Scan the provisional or a jig on scan analogs</text>
+    <text x="382" y="380" fill="#64748b">Copies an approved design to the final</text>
+    <text x="382" y="396" fill="#64748b">Only valid if that prosthesis/jig fits passively</text>
+    <rect x="24" y="418" width="672" height="38" rx="10" fill="#0f172a"/>
+    <text x="360" y="442" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Any route → verify (jig / rigid prototype try-in + radiographs) before the definitive prosthesis</text>
+  </g>
+</svg>
