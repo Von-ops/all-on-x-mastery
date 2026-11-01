@@ -1,6 +1,6 @@
-# All-on-X Mastery — Weeks 1–4
+# All-on-X Mastery — Weeks 1–5
 
-Personal study site for **Kevon Rennie**: foundations & case selection (Week 1), surgical planning & armamentarium (Week 2) surgery-day protocol (Week 3) and Smart Denture Conversion 2.0 (Week 4) for full-arch immediate load (aligned with Pikos Full Arch All-on-XYZ Level 2 + SmartOnX SDC 2.0 concepts).
+Personal study site for **Kevon Rennie**: foundations & case selection (Week 1), surgical planning & armamentarium (Week 2) surgery-day protocol (Week 3), Smart Denture Conversion 2.0 (Week 4) and digital workflow & same-day prosthesis (Week 5) for full-arch immediate load (aligned with Pikos Full Arch All-on-XYZ Level 2 + SmartOnX SDC 2.0 concepts).
 
 **Not** a substitute for manufacturer IFUs, CE accreditation, or live mentorship.
 
@@ -59,6 +59,10 @@ Open `index.html` in a browser. Relative CSS/JS/SVG paths work offline. YouTube 
     study-sheet.html
     quiz.html
   week4/
+    index.html          (full module)
+    study-sheet.html
+    quiz.html
+  week5/
     index.html          (full module)
     study-sheet.html
     quiz.html
@@ -138,6 +142,26 @@ New diagrams: `assets/surgery-day-timeline.svg`, `assets/placement-sequence.svg`
 15. Conversion vignettes (GO / CAUTION / NO)
 
 New diagrams: `assets/conversion-workflow.svg`, `assets/intaglio-contour.svg`, `assets/provisional-occlusion.svg`.
+
+## Week 5 outline — Digital workflow & same-day prosthesis
+
+1. Objectives
+2. Analog, hybrid or fully digital (Joda 2017; ITI consensus 2018)
+3. Digital workflow at a glance (Figure 1)
+4. Records that make the workflow work
+5. Four ways to record implant positions (Figure 2)
+6. Intraoral scanning a full arch (Papaspyridakos 2023; Revilla-León 2026)
+7. Photogrammetry (Pozzi 2025; Altalla 2026; Pozzi 2026)
+8. Same-day printed or milled provisional (Vasquez-Ramos 2026)
+9. Printing in the office (Tahayeri 2018; Sonderegger 2026)
+10. Lab communication (Figure 3)
+11. Verification before the final (Kan 1999; Asavanant 2025; Abduo 2011)
+12. Choosing the definitive prosthesis (Bidra 2017; Marinkovic 2026)
+13. Provisional to final timeline
+14. Building your first-case workflow
+15. Digital workflow vignettes (GO / CAUTION / NO)
+
+New diagrams: `assets/digital-workflow.svg`, `assets/capture-methods.svg`, `assets/lab-rx.svg`.
 
 ## License / content note
 

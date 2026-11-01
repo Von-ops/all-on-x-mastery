@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Week 5 Quiz · All-on-X Mastery</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html">
+        <strong>All-on-X Mastery</strong>
+        <span>Week 5 · Quiz</span>
+      </a>
+      <nav class="header-nav" aria-label="Primary">
+        <a href="index.html">Module</a>
+        <a href="study-sheet.html">Sheet</a>
+        <a href="quiz.html" aria-current="page">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">12 questions · instant feedback</span>
+      <h1>Week 5 knowledge check</h1>
+      <p>Select one answer per question, then grade. Correct choices highlight in green with explanations.</p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div id="quiz-result" class="quiz-result" role="status">
+      <div>Your score</div>
+      <div class="score-big" id="score-big">0 / 12</div>
+      <p id="score-msg" style="margin:0;color:var(--slate-300)"></p>
+    </div>
+
+    <form id="quiz-form" onsubmit="return false;">
+      <div class="quiz-q" id="q1">
+        <h3>1. In the full-arch digital workflow, what has to stay consistent from the planning visit to the final?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q1" value="a" /> The scanner brand</label>
+          <label><input type="radio" name="q1" value="b" /> One coordinate system tying the approved tooth arrangement to bone, implants, provisional and final</label>
+          <label><input type="radio" name="q1" value="c" /> The resin color</label>
+          <label><input type="radio" name="q1" value="d" /> The number of implants</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q2">
+        <h3>2. What did the 2017 systematic review of the complete digital workflow in fixed prosthodontics find?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q2" value="a" /> Many RCTs proving full-arch digital superiority</label>
+          <label><input type="radio" name="q2" value="b" /> Only three RCTs, all single crowns, and none for multi-unit fixed prostheses</label>
+          <label><input type="radio" name="q2" value="c" /> Digital was slower for single implant crowns</label>
+          <label><input type="radio" name="q2" value="d" /> Digital workflows should be avoided</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q3">
+        <h3>3. Why is intraoral scanning a fully edentulous arch with scan bodies technique-sensitive?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q3" value="a" /> Scan bodies are radiopaque</label>
+          <label><input type="radio" name="q3" value="b" /> Featureless, mobile mucosa gives few landmarks, so stitching error can accumulate across the arch</label>
+          <label><input type="radio" name="q3" value="c" /> Scanners can&#x27;t see titanium</label>
+          <label><input type="radio" name="q3" value="d" /> It needs a CBCT at the same visit</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q4">
+        <h3>4. In 36 edentulous jaws, how did digital implant scans compare with verified conventional casts?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q4" value="a" /> Mean 3D deviation about 88 µm, judged clinically acceptable</label>
+          <label><input type="radio" name="q4" value="b" /> Deviation over 500 µm</label>
+          <label><input type="radio" name="q4" value="c" /> No difference could be measured</label>
+          <label><input type="radio" name="q4" value="d" /> Mandible was far worse than maxilla</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q5">
+        <h3>5. Compared with intraoral scanning for complete-arch implant positions, photogrammetry in recent systematic reviews:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q5" value="a" /> Was less accurate</label>
+          <label><input type="radio" name="q5" value="b" /> Showed better trueness and precision, though a rigid prototype try-in is still recommended</label>
+          <label><input type="radio" name="q5" value="c" /> Replaced the need for a tissue scan</label>
+          <label><input type="radio" name="q5" value="d" /> Was only studied in patients</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q6">
+        <h3>6. Photogrammetry records implant positions. What else do you still need for the provisional or final?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q6" value="a" /> Nothing</label>
+          <label><input type="radio" name="q6" value="b" /> A tissue scan, the opposing arch and the bite at the approved vertical, merged to the PG file</label>
+          <label><input type="radio" name="q6" value="c" /> Only a periapical radiograph</label>
+          <label><input type="radio" name="q6" value="d" /> A new CBCT</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q7">
+        <h3>7. In a randomized crossover clinical study of complete-arch implant interim restorations, milled PMMA vs 3D-printed resin showed:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q7" value="a" /> More fractures with milled</label>
+          <label><input type="radio" name="q7" value="b" /> Fewer mechanical complications with milled (10% vs 45%), similar passive fit</label>
+          <label><input type="radio" name="q7" value="c" /> No difference in anything</label>
+          <label><input type="radio" name="q7" value="d" /> Printed resin had better color stability only</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q8">
+        <h3>8. For an in-office printed complete-arch interim, which choice is best supported by the 2026 in vitro build-angle study?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q8" value="a" /> 90° build with a palatal bar</label>
+          <label><input type="radio" name="q8" value="b" /> 45° build</label>
+          <label><input type="radio" name="q8" value="c" /> 0° build with no intra-arch bar, using a validated printer–resin combination and IFU post-cure</label>
+          <label><input type="radio" name="q8" value="d" /> Any angle — it doesn&#x27;t matter</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q9">
+        <h3>9. A reverse scan (scanning the interim prosthesis or a jig on analogs outside the mouth) is only reliable when:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q9" value="a" /> The interim fits passively</label>
+          <label><input type="radio" name="q9" value="b" /> The interim is cracked</label>
+          <label><input type="radio" name="q9" value="c" /> The patient is a bruxer</label>
+          <label><input type="radio" name="q9" value="d" /> It is done on surgery day</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q10">
+        <h3>10. Which statement about verifying passive fit is best supported?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q10" value="a" /> The one-screw test alone is objective</label>
+          <label><input type="radio" name="q10" value="b" /> No single clinical method is objective; combine methods such as a jig, one-screw and screw-resistance tests and radiographs</label>
+          <label><input type="radio" name="q10" value="c" /> Radiographs alone prove passivity</label>
+          <label><input type="radio" name="q10" value="d" /> Verification is unnecessary with digital impressions</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q11">
+        <h3>11. For zirconia full-arch fixed prostheses, the most common complication in Bidra 2017 was:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q11" value="a" /> Framework fracture</label>
+          <label><input type="radio" name="q11" value="b" /> Chipping of veneering porcelain — monolithic or gingival-only veneering looked promising</label>
+          <label><input type="radio" name="q11" value="c" /> Screw loosening</label>
+          <label><input type="radio" name="q11" value="d" /> Implant failure</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q12">
+        <h3>12. Surgery day, IV sedation: the intraoral scan won&#x27;t stitch after 40 minutes and the printer job fails, needing 90 more minutes. Best decision:</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q12" value="a" /> Keep rescanning and reprint</label>
+          <label><input type="radio" name="q12" value="b" /> Extend sedation until the print is done</label>
+          <label><input type="radio" name="q12" value="c" /> Switch to the Week 4 direct pickup with the verified denture and bite index (or a relieved removable interim) and capture positions at a scheduled visit</label>
+          <label><input type="radio" name="q12" value="d" /> Send the patient home with no prosthesis and no plan</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="btn-row">
+        <button type="button" class="btn btn-primary" id="grade-quiz">Grade quiz</button>
+        <button type="button" class="btn btn-ghost" id="reset-quiz">Reset</button>
+        <a class="btn btn-secondary" href="study-sheet.html">Study sheet</a>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p><a href="index.html">Back to Week 5 module</a> · <a href="../index.html">Home</a></p>
+  </footer>
+
+  <script>
+    window.AOX_QUIZ = {
+  "storageKey": "aox-week5-quiz",
+  "answers": {
+    "q1": {
+      "correct": "b",
+      "explain": "The approved teeth drive the implant plan, the provisional and the final. Errors in phase A records (vertical, arrangement) travel all the way to the final."
+    },
+    "q2": {
+      "correct": "b",
+      "explain": "Joda 2017 found three RCTs, none on multi-unit FDPs; for single implant crowns the full digital route was faster. Full-arch evidence is younger."
+    },
+    "q3": {
+      "correct": "b",
+      "explain": "The scanner stitches small images. Without teeth to lock onto, cross-arch error builds — exactly what a one-piece rigid prosthesis feels. Technique and protocol matter (Wismeijer 2018)."
+    },
+    "q4": {
+      "correct": "a",
+      "explain": "Papaspyridakos 2023: mean 88 ± 24 µm, with no significant maxilla vs mandible difference (85 vs 92 µm)."
+    },
+    "q5": {
+      "correct": "b",
+      "explain": "Pozzi 2025 (PG more accurate in 10 of 13 studies) and Altalla 2026 (better distance and angular trueness and precision). Pozzi still recommends a rigid prototype try-in."
+    },
+    "q6": {
+      "correct": "b",
+      "explain": "PG captures positions only; soft tissue, opposing and bite come from scans and are merged."
+    },
+    "q7": {
+      "correct": "b",
+      "explain": "Vasquez-Ramos 2026: 10% vs 45% mechanical complications; passive fit and color similar; quality of life improved with both."
+    },
+    "q8": {
+      "correct": "c",
+      "explain": "Sonderegger 2026: 0° without a bar was most accurate for that system; 45° and 90° couldn't be recommended. Tahayeri 2018 showed print settings change accuracy."
+    },
+    "q9": {
+      "correct": "a",
+      "explain": "Rosmaninho 2024 notes the reverse method isn't recommended when the interim lacks passive fit — it copies whatever error the prosthesis has."
+    },
+    "q10": {
+      "correct": "b",
+      "explain": "Kan 1999 concluded none of the methods is objective alone. Asavanant 2025 also found milled verification devices outperformed printed ones."
+    },
+    "q11": {
+      "correct": "b",
+      "explain": "Short-term failure was 1.4%; 14.7% had veneering porcelain chipping, which is why monolithic or gingival-only veneered designs are favored."
+    },
+    "q12": {
+      "correct": "c",
+      "explain": "The analog backup is always in the room. A digital workflow never extends a sedation window."
+    }
+  },
+  "messages": {
+    "high": "Digitally fluent on paper — next up, Week 6: hygiene, complications and first-case readiness.",
+    "mid": "Solid. Revisit capture methods, printed vs milled provisionals, verification and final materials, then retry.",
+    "low": "Review the Week 5 module and study sheet, then retake. Records, captured positions and verification protect the final."
+  }
+};
+  </script>
+  <script src="../js/quiz.js"></script>
+</body>
+</html>
