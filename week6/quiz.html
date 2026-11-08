@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>Week 6 Quiz · All-on-X Mastery</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../index.html">
+        <strong>All-on-X Mastery</strong>
+        <span>Week 6 · Quiz</span>
+      </a>
+      <nav class="header-nav" aria-label="Primary">
+        <a href="index.html">Module</a>
+        <a href="study-sheet.html">Sheet</a>
+        <a href="quiz.html" aria-current="page">Quiz</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="eyebrow">12 questions · instant feedback</span>
+      <h1>Week 6 knowledge check</h1>
+      <p>Select one answer per question, then grade. Correct choices highlight in green with explanations.</p>
+    </div>
+  </section>
+
+  <main class="wrap">
+    <div id="quiz-result" class="quiz-result" role="status">
+      <div>Your score</div>
+      <div class="score-big" id="score-big">0 / 12</div>
+      <p id="score-msg" style="margin:0;color:var(--slate-300)"></p>
+    </div>
+
+    <form id="quiz-form" onsubmit="return false;">
+      <div class="quiz-q" id="q1">
+        <h3>1. In a systematic review of fixed complete implant prostheses followed at least 5 years, roughly what share were free of any complication at 10 years?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q1" value="a" /> About 90%</label>
+          <label><input type="radio" name="q1" value="b" /> About 50%</label>
+          <label><input type="radio" name="q1" value="c" /> About 9%</label>
+          <label><input type="radio" name="q1" value="d" /> None were followed that long</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q2">
+        <h3>2. Which was the most common prosthesis-related technical complication in that review?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q2" value="a" /> Screw fracture</label>
+          <label><input type="radio" name="q2" value="b" /> Chipping or fracture of the veneering material</label>
+          <label><input type="radio" name="q2" value="c" /> Implant fracture</label>
+          <label><input type="radio" name="q2" value="d" /> Framework fracture</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q3">
+        <h3>3. What did the ACP-led review conclude about recall for implant-borne restorations?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q3" value="a" /> Recall is optional once integrated</label>
+          <label><input type="radio" name="q3" value="b" /> Patients need lifelong professional recall for biological and mechanical maintenance, customized to each patient</label>
+          <label><input type="radio" name="q3" value="c" /> Annual radiographs replace clinical exams</label>
+          <label><input type="radio" name="q3" value="d" /> Only removable prostheses need recall</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q4">
+        <h3>4. When should baseline radiographs and probing be recorded?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q4" value="a" /> Only if problems arise</label>
+          <label><input type="radio" name="q4" value="b" /> At the first recall after 1 year</label>
+          <label><input type="radio" name="q4" value="c" /> After the implant-supported prosthesis is completed</label>
+          <label><input type="radio" name="q4" value="d" /> Before surgery only</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q5">
+        <h3>5. A meta-analysis on peri-implant maintenance therapy suggested what minimum recall interval?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q5" value="a" /> Every 2 weeks</label>
+          <label><input type="radio" name="q5" value="b" /> 5 to 6 months, tailored to risk</label>
+          <label><input type="radio" name="q5" value="c" /> Every 2 years</label>
+          <label><input type="radio" name="q5" value="d" /> Only when symptomatic</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q6">
+        <h3>6. Bleeding on gentle probing at an implant, no suppuration, and no bone loss compared with baseline. Diagnosis?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q6" value="a" /> Peri-implant health</label>
+          <label><input type="radio" name="q6" value="b" /> Peri-implant mucositis</label>
+          <label><input type="radio" name="q6" value="c" /> Peri-implantitis</label>
+          <label><input type="radio" name="q6" value="d" /> Implant failure</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q7">
+        <h3>7. No baseline radiograph exists. Which finding set indicates peri-implantitis under the 2017 case definitions?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q7" value="a" /> Probing depth 4 mm, no bleeding</label>
+          <label><input type="radio" name="q7" value="b" /> Bone level ≥3 mm with bleeding on probing and probing depths ≥6 mm</label>
+          <label><input type="radio" name="q7" value="c" /> Any redness of the mucosa</label>
+          <label><input type="radio" name="q7" value="d" /> Keratinized mucosa under 2 mm</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q8">
+        <h3>8. Which statement about peri-implant mucositis is supported by the 2017 World Workshop review?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q8" value="a" /> It is irreversible</label>
+          <label><input type="radio" name="q8" value="b" /> It is caused by biofilm and is reversible at the biomarker level once biofilm control is restored</label>
+          <label><input type="radio" name="q8" value="c" /> It never progresses</label>
+          <label><input type="radio" name="q8" value="d" /> It is caused mainly by occlusal overload</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q9">
+        <h3>9. In a 30-day RCT around implants, how did a water flosser compare with string floss for bleeding reduction?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q9" value="a" /> No difference</label>
+          <label><input type="radio" name="q9" value="b" /> 81.8% vs 33.3% of implants showed reduced bleeding</label>
+          <label><input type="radio" name="q9" value="c" /> String floss was better</label>
+          <label><input type="radio" name="q9" value="d" /> The trial measured bone loss, not bleeding</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q10">
+        <h3>10. Three weeks after surgery, a patient calls saying his provisional cracked and moves. Best response?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q10" value="a" /> Next routine opening in 10 days</label>
+          <label><input type="radio" name="q10" value="b" /> See him the same day; repair or replace so the implants stay splinted, and look for the cause such as clenching or a long cantilever</label>
+          <label><input type="radio" name="q10" value="c" /> Tell him to stop chewing and wait for the final</label>
+          <label><input type="radio" name="q10" value="d" /> Remove the provisional and leave him without teeth until integration</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q11">
+        <h3>11. In 471 mandibular All-on-4 patients followed 10–18 years, which was associated with later implant failure?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q11" value="a" /> Female gender</label>
+          <label><input type="radio" name="q11" value="b" /> A previous biological complication (HR 4.43)</label>
+          <label><input type="radio" name="q11" value="c" /> Use of a metal-ceramic prosthesis</label>
+          <label><input type="radio" name="q11" value="d" /> Age under 50</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+      <div class="quiz-q" id="q12">
+        <h3>12. Your proposed first case is a heavy smoker with advanced periodontitis history and a high smile line, the lab hand-off isn&#x27;t agreed, and the consent promises &quot;permanent teeth.&quot; Best decision?</h3>
+        <div class="quiz-options">
+          <label><input type="radio" name="q12" value="a" /> Proceed; the plan is good enough</label>
+          <label><input type="radio" name="q12" value="b" /> Proceed but skip the conversion</label>
+          <label><input type="radio" name="q12" value="c" /> Don&#x27;t make this case 1: pick a straightforward case, agree the lab hand-off, and fix the consent to cover lifelong maintenance</label>
+          <label><input type="radio" name="q12" value="d" /> Add two more implants and proceed</label>
+        </div>
+        <div class="quiz-explain"></div>
+      </div>
+
+      <div class="btn-row">
+        <button type="button" class="btn btn-primary" id="grade-quiz">Grade quiz</button>
+        <button type="button" class="btn btn-ghost" id="reset-quiz">Reset</button>
+        <a class="btn btn-secondary" href="study-sheet.html">Study sheet</a>
+      </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <p><a href="index.html">Back to Week 6 module</a> · <a href="../index.html">Home</a></p>
+  </footer>
+
+  <script>
+    window.AOX_QUIZ = {
+  "storageKey": "aox-week6-quiz",
+  "answers": {
+    "q1": {
+      "correct": "c",
+      "explain": "Papaspyridakos 2012: 29.3% complication-free at 5 years and 8.6% at 10 years. Most complications were repairable, but they cost time and money — which is why maintenance is part of the treatment."
+    },
+    "q2": {
+      "correct": "b",
+      "explain": "Veneer chipping/fracture: 33.3% at 5 years, 66.6% at 10. Screw fracture was the most common implant-related technical complication (10.4% / 20.8%)."
+    },
+    "q3": {
+      "correct": "b",
+      "explain": "Bidra 2016 (systematic review): minimal evidence on the exact interval, but a considerable body of evidence that lifelong, customized professional recall is needed."
+    },
+    "q4": {
+      "correct": "c",
+      "explain": "The 2017 World Workshop recommends baseline radiographic and probing measurements after completion of the prosthesis (Berglundh 2018). Later diagnoses compare against them."
+    },
+    "q5": {
+      "correct": "b",
+      "explain": "Monje 2016 suggested a minimum recall interval of 5–6 months, tailored to the patient's risk profile, and noted history of periodontitis increased disease risk."
+    },
+    "q6": {
+      "correct": "b",
+      "explain": "Mucositis = inflammation (bleeding within 30 s of gentle probing) with no additional bone loss after initial healing (Renvert 2018; Berglundh 2018)."
+    },
+    "q7": {
+      "correct": "b",
+      "explain": "Renvert 2018: without previous radiographs, radiographic bone level ≥3 mm plus BOP plus probing depths ≥6 mm is indicative of peri-implantitis."
+    },
+    "q8": {
+      "correct": "b",
+      "explain": "Heitz-Mayfield 2018: biofilm-induced mucositis is reversible once biofilm control is reinstituted (clinical signs may take longer than 3 weeks) and is considered the precursor to peri-implantitis."
+    },
+    "q9": {
+      "correct": "b",
+      "explain": "Magnuson 2013: 18/22 implants (81.8%) in the water-flosser group vs 6/18 (33.3%) with floss. Small trial with an industry-affiliated author — useful, not definitive."
+    },
+    "q10": {
+      "correct": "b",
+      "explain": "A fractured or mobile provisional during healing is urgent: the rigid splint protects the healing implants. Fix it quickly, then fix the cause."
+    },
+    "q11": {
+      "correct": "b",
+      "explain": "Maló 2019: previous biological complications were associated with implant failure; smoking and a failed neighboring implant were associated with bone loss over 3 mm. Prosthetic survival was 98.8%."
+    },
+    "q12": {
+      "correct": "c",
+      "explain": "The readiness checklist says any unchecked box means the case waits. Smoking and periodontitis history raise risk (Monje 2016; Maló 2019); move the date, not the standard."
+    }
+  },
+  "messages": {
+    "high": "Course complete on paper. Print the readiness checklist and use it for case 1.",
+    "mid": "Solid. Revisit the case definitions, recall interval and complication triage, then retry.",
+    "low": "Review the Week 6 module and study sheet, then retake. Maintenance and triage protect every arch you place."
+  }
+};
+  </script>
+  <script src="../js/quiz.js"></script>
+</body>
+</html>

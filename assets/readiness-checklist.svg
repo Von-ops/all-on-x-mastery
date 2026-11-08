@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 600" role="img" aria-labelledby="rc-title rc-desc">
+  <title id="rc-title">First full-arch case readiness checklist, drawn from Weeks 1 to 6</title>
+  <desc id="rc-desc">Six blocks, one per course week. Week 1 patient: right indication, red flags cleared, scored as a straightforward first case, informed consent including lifelong maintenance and cost. Week 2 plan: CBCT and records, restorative-driven plan, prosthetic space and reduction level, A-P spread and cantilever limit, written torque and ISQ thresholds, medical and sedation clearance. Week 3 surgery day: team briefed, tray checked, time-out, plan B written for low torque. Week 4 conversion: verified denture, duplicate, bite index, conversion kit, delivery checklist. Week 5 digital and lab: lab hand-off agreed, files and scan bodies confirmed, verification plan for the final. Week 6 aftercare: post-op calls and visits booked, baseline radiograph and probing at delivery, recall interval set, emergency path and referral contacts, a mentor reachable. Footer: if any box is unchecked, the case waits.</desc>
+  <rect width="720" height="600" fill="#f8fafc"/>
+  <g font-family="system-ui,sans-serif" fill="#0f172a">
+    <text x="360" y="30" text-anchor="middle" font-size="17" font-weight="700">Case 1 readiness — every box, every week</text>
+    <g font-size="11.5">
+      <rect x="16" y="48" width="220" height="234" rx="12" fill="#fff" stroke="#0f766e" stroke-width="2"/>
+      <text x="30" y="72" font-size="13" font-weight="700" fill="#0f766e">W1 · Patient</text>
+      <text x="30" y="98">☐ Right indication for fixed</text>
+      <text x="30" y="120">☐ Red flags cleared</text>
+      <text x="30" y="142">☐ Scored straightforward</text>
+      <text x="46" y="158" fill="#64748b" font-size="10">(a good first case, not a rescue)</text>
+      <text x="30" y="180">☐ Consent covers lifelong</text>
+      <text x="46" y="196">maintenance + repair costs</text>
+      <text x="30" y="218">☐ Realistic expectations</text>
+      <text x="30" y="240">☐ Smoking / perio history</text>
+      <text x="46" y="256">discussed as risk</text>
+
+      <rect x="250" y="48" width="220" height="234" rx="12" fill="#fff" stroke="#0284c7" stroke-width="2"/>
+      <text x="264" y="72" font-size="13" font-weight="700" fill="#075985">W2 · Plan</text>
+      <text x="264" y="98">☐ CBCT + records + photos</text>
+      <text x="264" y="120">☐ Teeth-first plan approved</text>
+      <text x="264" y="142">☐ Prosthetic space +</text>
+      <text x="280" y="158">reduction level set</text>
+      <text x="264" y="180">☐ A-P spread · cantilever mm</text>
+      <text x="264" y="202">☐ Torque / ISQ thresholds</text>
+      <text x="280" y="218">written down</text>
+      <text x="264" y="240">☐ Medical + sedation clear</text>
+      <text x="264" y="262">☐ Parts ordered + checked</text>
+
+      <rect x="484" y="48" width="220" height="234" rx="12" fill="#fff" stroke="#7c3aed" stroke-width="2"/>
+      <text x="498" y="72" font-size="13" font-weight="700" fill="#6d28d9">W3 · Surgery day</text>
+      <text x="498" y="98">☐ Team briefed on roles</text>
+      <text x="498" y="120">☐ Tray + MUAs + backups</text>
+      <text x="498" y="142">☐ Time-out script</text>
+      <text x="498" y="164">☐ Plan B for low torque</text>
+      <text x="498" y="186">☐ Sedation window agreed</text>
+      <text x="498" y="208">☐ Complications kit</text>
+      <text x="498" y="230">☐ Post-op meds + written</text>
+      <text x="514" y="246">instructions printed</text>
+
+      <rect x="16" y="298" width="220" height="214" rx="12" fill="#fff" stroke="#d97706" stroke-width="2"/>
+      <text x="30" y="322" font-size="13" font-weight="700" fill="#b45309">W4 · Conversion</text>
+      <text x="30" y="348">☐ Verified denture at VDO</text>
+      <text x="30" y="370">☐ Duplicate + bite index</text>
+      <text x="30" y="392">☐ Conversion tray stocked</text>
+      <text x="30" y="414">☐ Cylinders + isolation</text>
+      <text x="30" y="436">☐ Cantilever limit marked</text>
+      <text x="30" y="458">☐ Delivery: torque, x-ray,</text>
+      <text x="46" y="474">occlusion, seal channels</text>
+
+      <rect x="250" y="298" width="220" height="214" rx="12" fill="#fff" stroke="#16a34a" stroke-width="2"/>
+      <text x="264" y="322" font-size="13" font-weight="700" fill="#166534">W5 · Digital + lab</text>
+      <text x="264" y="348">☐ Lab hand-off agreed</text>
+      <text x="264" y="370">☐ Scan bodies + libraries</text>
+      <text x="264" y="392">☐ Who designs, how fast</text>
+      <text x="264" y="414">☐ Analog backup in room</text>
+      <text x="264" y="436">☐ Verification plan for</text>
+      <text x="280" y="452">the final (jig / prototype)</text>
+      <text x="264" y="474">☐ Lab phone number</text>
+
+      <rect x="484" y="298" width="220" height="214" rx="12" fill="#fff" stroke="#be123c" stroke-width="2"/>
+      <text x="498" y="322" font-size="13" font-weight="700" fill="#9f1239">W6 · Aftercare</text>
+      <text x="498" y="348">☐ Next-day call + visits</text>
+      <text x="498" y="370">☐ Baseline x-ray + probing</text>
+      <text x="514" y="386">at delivery of the final</text>
+      <text x="498" y="408">☐ Home-care kit + coaching</text>
+      <text x="498" y="430">☐ Recall interval booked</text>
+      <text x="498" y="452">☐ After-hours path +</text>
+      <text x="514" y="468">referral contacts</text>
+      <text x="498" y="490">☐ Mentor reachable</text>
+    </g>
+    <rect x="16" y="528" width="688" height="54" rx="10" fill="#0f172a"/>
+    <text x="360" y="551" text-anchor="middle" fill="#fff" font-size="13" font-weight="700">Any box unchecked? The case waits.</text>
+    <text x="360" y="570" text-anchor="middle" fill="#cbd5e1" font-size="11">A delayed surgery date costs a week. A rushed first case can cost the patient an arch.</text>
+  </g>
+</svg>

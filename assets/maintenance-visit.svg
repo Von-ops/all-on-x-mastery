@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="mv-title mv-desc">
+  <title id="mv-title">Full-arch maintenance recall visit, step by step</title>
+  <desc id="mv-desc">Six steps of a recall visit for a screw-retained full-arch prosthesis. 1 Ask: pain, food trapping, bad taste, looseness, chipping, clenching, home-care routine. 2 Look and probe gently around each implant with the prosthesis in place where access allows: bleeding, suppuration, swelling, tissue overgrowth. 3 Radiograph and compare with the baseline taken at delivery. 4 Remove the prosthesis when indicated (inflammation, poor access, mechanical signs, or on your scheduled interval): inspect the intaglio, multi-unit abutments and screws. 5 Clean the abutments and prosthesis, replace screws per IFU, reseat passively and torque per IFU, reseal channels. 6 Check occlusion and the night guard, reinforce home care with the aids that fit this patient, and book the next recall. Footer: health equals no bleeding or suppuration and no further bone loss after initial healing.</desc>
+  <defs>
+    <filter id="mv-soft" x="-5%" y="-5%" width="110%" height="110%"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.12"/></filter>
+    <marker id="mv-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#334155"/></marker>
+  </defs>
+  <rect width="720" height="560" fill="#f8fafc"/>
+  <g font-family="system-ui,sans-serif" fill="#0f172a">
+    <text x="360" y="30" text-anchor="middle" font-size="17" font-weight="700">The full-arch recall visit — same order every time</text>
+    <g font-size="12">
+      <rect x="20" y="52" width="216" height="200" rx="12" fill="#fff" stroke="#0f766e" stroke-width="2" filter="url(#mv-soft)"/>
+      <circle cx="44" cy="78" r="14" fill="#0f766e"/><text x="44" y="83" text-anchor="middle" fill="#fff" font-weight="800">1</text>
+      <text x="66" y="83" font-size="14" font-weight="700">Ask</text>
+      <text x="36" y="112">☐ Pain, bad taste, swelling</text>
+      <text x="36" y="136">☐ Food trapping under bridge</text>
+      <text x="36" y="160">☐ Clicking / looseness</text>
+      <text x="36" y="184">☐ Chips, worn teeth</text>
+      <text x="36" y="208">☐ Clenching; night guard use</text>
+      <text x="36" y="232">☐ What home care they do</text>
+
+      <rect x="252" y="52" width="216" height="200" rx="12" fill="#fff" stroke="#0284c7" stroke-width="2" filter="url(#mv-soft)"/>
+      <circle cx="276" cy="78" r="14" fill="#0284c7"/><text x="276" y="83" text-anchor="middle" fill="#fff" font-weight="800">2</text>
+      <text x="298" y="83" font-size="14" font-weight="700">Look + probe</text>
+      <text x="268" y="112">☐ Gentle probing where</text><text x="284" y="128" fill="#64748b" font-size="10">access allows, prosthesis in</text>
+      <text x="268" y="154">☐ Bleeding · suppuration</text>
+      <text x="268" y="178">☐ Redness · swelling</text>
+      <text x="268" y="202">☐ Tissue overgrowth under</text><text x="284" y="218" fill="#64748b" font-size="10">the intaglio</text>
+
+      <rect x="484" y="52" width="216" height="200" rx="12" fill="#fff" stroke="#7c3aed" stroke-width="2" filter="url(#mv-soft)"/>
+      <circle cx="508" cy="78" r="14" fill="#7c3aed"/><text x="508" y="83" text-anchor="middle" fill="#fff" font-weight="800">3</text>
+      <text x="530" y="83" font-size="14" font-weight="700">Radiograph</text>
+      <text x="500" y="112">☐ Compare with baseline</text><text x="516" y="128" fill="#64748b" font-size="10">taken at delivery</text>
+      <text x="500" y="154">☐ Bone level per implant</text>
+      <text x="500" y="178">☐ Seating at every</text><text x="516" y="194" fill="#64748b" font-size="10">MUA–prosthesis interface</text>
+      <text x="500" y="220">☐ Interval per risk</text>
+
+      <rect x="20" y="276" width="216" height="200" rx="12" fill="#fff" stroke="#d97706" stroke-width="2" filter="url(#mv-soft)"/>
+      <circle cx="44" cy="302" r="14" fill="#d97706"/><text x="44" y="307" text-anchor="middle" fill="#fff" font-weight="800">4</text>
+      <text x="66" y="307" font-size="14" font-weight="700">Remove if indicated</text>
+      <text x="36" y="336">☐ Inflammation or poor access</text>
+      <text x="36" y="360">☐ Mechanical warning signs</text>
+      <text x="36" y="384">☐ Your scheduled interval</text>
+      <text x="36" y="408">☐ Inspect intaglio, MUAs,</text><text x="52" y="424">screws, connectors</text>
+
+      <rect x="252" y="276" width="216" height="200" rx="12" fill="#fff" stroke="#16a34a" stroke-width="2" filter="url(#mv-soft)"/>
+      <circle cx="276" cy="302" r="14" fill="#16a34a"/><text x="276" y="307" text-anchor="middle" fill="#fff" font-weight="800">5</text>
+      <text x="298" y="307" font-size="14" font-weight="700">Clean + reseat</text>
+      <text x="268" y="336">☐ Clean MUAs + prosthesis</text><text x="284" y="352" fill="#64748b" font-size="10">instruments per implant IFU</text>
+      <text x="268" y="378">☐ New screws per IFU</text>
+      <text x="268" y="402">☐ Passive seat · x-ray</text>
+      <text x="268" y="426">☐ Torque per IFU · reseal</text>
+
+      <rect x="484" y="276" width="216" height="200" rx="12" fill="#fff" stroke="#be123c" stroke-width="2" filter="url(#mv-soft)"/>
+      <circle cx="508" cy="302" r="14" fill="#be123c"/><text x="508" y="307" text-anchor="middle" fill="#fff" font-weight="800">6</text>
+      <text x="530" y="307" font-size="14" font-weight="700">Close the loop</text>
+      <text x="500" y="336">☐ Occlusion + night guard</text>
+      <text x="500" y="360">☐ Re-coach home care</text><text x="516" y="376" fill="#64748b" font-size="10">brush · interdental · water</text><text x="516" y="390" fill="#64748b" font-size="10">flosser · threader floss</text>
+      <text x="500" y="416">☐ Record findings</text>
+      <text x="500" y="440">☐ Book next recall</text>
+    </g>
+    <rect x="20" y="496" width="680" height="46" rx="10" fill="#0f172a"/>
+    <text x="360" y="516" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">Health = no bleeding on gentle probing, no suppuration, no further bone loss after initial healing</text>
+    <text x="360" y="533" text-anchor="middle" fill="#cbd5e1" font-size="11">Berglundh 2018 · Renvert 2018 · lifelong recall: Bidra 2016</text>
+  </g>
+</svg>

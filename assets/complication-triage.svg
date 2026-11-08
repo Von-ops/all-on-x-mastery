@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="ct-title ct-desc">
+  <title id="ct-title">Full-arch complication triage</title>
+  <desc id="ct-desc">A triage chart for a patient calling or presenting with a full-arch problem. First question: is anything urgent — swelling with fever or spreading infection, uncontrolled bleeding, numbness that is new or worsening, or a provisional that is broken or loose during the healing phase? If yes, see the patient the same day and refer when it is beyond your scope. Otherwise sort into three lanes. Biological: bleeding, suppuration, swelling, tissue overgrowth, bone loss — diagnose health, mucositis or peri-implantitis, treat mucositis with biofilm control, and treat or refer peri-implantitis. Mechanical: loose or fractured screw, chipped or fractured teeth, fractured provisional or framework, worn teeth — remove, find the cause such as misfit, occlusion or parafunction, repair and correct. Patient-related: speech, esthetics, food trapping, hygiene trouble, sore spots — adjust contours or occlusion and re-coach. Footer: every complication gets a written cause, not just a fix.</desc>
+  <defs>
+    <filter id="ct-soft" x="-5%" y="-5%" width="110%" height="110%"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.12"/></filter>
+    <marker id="ct-arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#334155"/></marker>
+  </defs>
+  <rect width="720" height="560" fill="#f8fafc"/>
+  <g font-family="system-ui,sans-serif" fill="#0f172a">
+    <text x="360" y="28" text-anchor="middle" font-size="16" font-weight="700">Something's wrong with the arch — triage before you fix</text>
+    <rect x="130" y="46" width="460" height="92" rx="12" fill="#be123c" filter="url(#ct-soft)"/>
+    <text x="360" y="70" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">Urgent? See same day · refer if beyond scope</text>
+    <text x="360" y="92" text-anchor="middle" fill="#ffe4e6" font-size="11">Spreading swelling / fever · uncontrolled bleeding · new or worsening numbness</text>
+    <text x="360" y="110" text-anchor="middle" fill="#ffe4e6" font-size="11">Provisional broken or loose during healing (unsplinted implants at risk)</text>
+    <text x="360" y="128" text-anchor="middle" fill="#ffe4e6" font-size="11">Sinus symptoms after maxillary surgery</text>
+    <line x1="360" y1="138" x2="360" y2="166" stroke="#334155" stroke-width="2" marker-end="url(#ct-arrow)"/>
+    <text x="370" y="158" fill="#334155" font-size="11" font-weight="700">Not urgent → sort the lane</text>
+    <line x1="120" y1="172" x2="600" y2="172" stroke="#334155" stroke-width="2"/>
+    <line x1="120" y1="172" x2="120" y2="194" stroke="#334155" stroke-width="2" marker-end="url(#ct-arrow)"/>
+    <line x1="360" y1="172" x2="360" y2="194" stroke="#334155" stroke-width="2" marker-end="url(#ct-arrow)"/>
+    <line x1="600" y1="172" x2="600" y2="194" stroke="#334155" stroke-width="2" marker-end="url(#ct-arrow)"/>
+    <g font-size="11.5">
+      <rect x="16" y="196" width="216" height="272" rx="12" fill="#fff" stroke="#0f766e" stroke-width="2" filter="url(#ct-soft)"/>
+      <text x="124" y="222" text-anchor="middle" font-size="14" font-weight="700" fill="#0f766e">Biological</text>
+      <text x="30" y="248" fill="#64748b">Signs</text>
+      <text x="30" y="266">Bleeding · suppuration</text>
+      <text x="30" y="284">Swelling · overgrowth</text>
+      <text x="30" y="302">Bone loss on x-ray</text>
+      <text x="30" y="330" fill="#64748b">Do</text>
+      <text x="30" y="348">Diagnose: health /</text>
+      <text x="30" y="366">mucositis / peri-implantitis</text>
+      <text x="30" y="384">Mucositis: remove biofilm,</text>
+      <text x="30" y="402">fix access, re-coach</text>
+      <text x="30" y="420">Peri-implantitis: non-surgical</text>
+      <text x="30" y="438">first, then treat or refer</text>
+
+      <rect x="252" y="196" width="216" height="272" rx="12" fill="#fff" stroke="#d97706" stroke-width="2" filter="url(#ct-soft)"/>
+      <text x="360" y="222" text-anchor="middle" font-size="14" font-weight="700" fill="#b45309">Mechanical</text>
+      <text x="266" y="248" fill="#64748b">Signs</text>
+      <text x="266" y="266">Loose / broken screw</text>
+      <text x="266" y="284">Chipped or fractured teeth</text>
+      <text x="266" y="302">Cracked provisional / frame</text>
+      <text x="266" y="320">Rapid wear</text>
+      <text x="266" y="348" fill="#64748b">Do</text>
+      <text x="266" y="366">Remove · inspect · x-ray</text>
+      <text x="266" y="384">Find the cause: misfit,</text>
+      <text x="266" y="402">occlusion, cantilever,</text>
+      <text x="266" y="420">parafunction</text>
+      <text x="266" y="438">Repair + correct the cause</text>
+
+      <rect x="488" y="196" width="216" height="272" rx="12" fill="#fff" stroke="#7c3aed" stroke-width="2" filter="url(#ct-soft)"/>
+      <text x="596" y="222" text-anchor="middle" font-size="14" font-weight="700" fill="#6d28d9">Patient-related</text>
+      <text x="502" y="248" fill="#64748b">Signs</text>
+      <text x="502" y="266">Speech (s, f, v sounds)</text>
+      <text x="502" y="284">Esthetics, lip support</text>
+      <text x="502" y="302">Food or air trapping</text>
+      <text x="502" y="320">Can't clean · sore spots</text>
+      <text x="502" y="348" fill="#64748b">Do</text>
+      <text x="502" y="366">Adjust contours / occlusion</text>
+      <text x="502" y="384">on the provisional first</text>
+      <text x="502" y="402">Re-coach aids that fit</text>
+      <text x="502" y="420">Carry fixes to the final</text>
+    </g>
+    <rect x="16" y="486" width="688" height="56" rx="10" fill="#0f172a"/>
+    <text x="360" y="508" text-anchor="middle" fill="#fff" font-size="12.5" font-weight="700">Every complication gets a written cause, not just a fix</text>
+    <text x="360" y="527" text-anchor="middle" fill="#cbd5e1" font-size="11">Complications build over time with fatigue and stress (Papaspyridakos 2012) · peri-implant care: EFP S3 guideline (Herrera 2023)</text>
+  </g>
+</svg>
