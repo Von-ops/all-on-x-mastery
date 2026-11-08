@@ -1,6 +1,6 @@
-# All-on-X Mastery — Weeks 1–5
+# All-on-X Mastery — Weeks 1–6
 
-Personal study site for **Kevon Rennie**: foundations & case selection (Week 1), surgical planning & armamentarium (Week 2) surgery-day protocol (Week 3), Smart Denture Conversion 2.0 (Week 4) and digital workflow & same-day prosthesis (Week 5) for full-arch immediate load (aligned with Pikos Full Arch All-on-XYZ Level 2 + SmartOnX SDC 2.0 concepts).
+Personal study site for **Kevon Rennie**: foundations & case selection (Week 1), surgical planning & armamentarium (Week 2) surgery-day protocol (Week 3), Smart Denture Conversion 2.0 (Week 4) digital workflow & same-day prosthesis (Week 5) and hygiene, complications & first-case readiness (Week 6) for full-arch immediate load (aligned with Pikos Full Arch All-on-XYZ Level 2 + SmartOnX SDC 2.0 concepts).
 
 **Not** a substitute for manufacturer IFUs, CE accreditation, or live mentorship.
 
